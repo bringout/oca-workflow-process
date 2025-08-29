@@ -1,0 +1,188 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_sign
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid ""
+"<i class=\"fa fa-check\"/>\n"
+"                        Accept &amp; Sign"
+msgstr ""
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid ""
+"<i class=\"fa fa-check\"/>\n"
+"                Accept &amp; Sign"
+msgstr ""
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid ""
+"<i class=\"fa fa-comment\"/>\n"
+"                        Feedback"
+msgstr ""
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid "<span>Accepted on the behalf of:</span>"
+msgstr "<span>Prihvaćeno od strane:</span>"
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid "<span>By signing this proposal, I agree to the following terms:</span>"
+msgstr "<span>Potpisom ove ponude, slažem se sa sljedećim uslovima:</span>"
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid "<span>For an amount of:</span>"
+msgstr "<span>Za iznos od:</span>"
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid "<span>With payment terms:</span>"
+msgstr "<span>Sa uslovima plaćanja:</span>"
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.report_purchaseorder_document
+msgid "<strong>Signature</strong>"
+msgstr "<strong>Potpis</strong>"
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid ""
+"<strong>Thank You!</strong><br/>\n"
+"                        Order has been confirmed."
+msgstr ""
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid "Close"
+msgstr "Zatvori"
+
+#. module: purchase_sign
+#: model:ir.model,name:purchase_sign.model_res_company
+msgid "Companies"
+msgstr "Kompanije"
+
+#. module: purchase_sign
+#. odoo-python
+#: code:addons/purchase_sign/controllers/main.py:0
+#: code:addons/purchase_sign/tests/test_purchase_sign.py:0
+#, python-format
+msgid "Invalid order."
+msgstr "Neispravna narudžba."
+
+#. module: purchase_sign
+#. odoo-python
+#: code:addons/purchase_sign/tests/test_purchase_sign.py:0
+#, python-format
+msgid "Invalid signature data"
+msgstr "Nevažeći podaci o potpisu"
+
+#. module: purchase_sign
+#. odoo-python
+#: code:addons/purchase_sign/controllers/main.py:0
+#, python-format
+msgid "Invalid signature data."
+msgstr "Podaci o potpisu nisu važeći."
+
+#. module: purchase_sign
+#: model:ir.model.fields,field_description:purchase_sign.field_purchase_order__require_signature
+#: model_terms:ir.ui.view,arch_db:purchase_sign.res_config_settings_view_form_purchase
+msgid "Online Signature"
+msgstr "Mrežni potpis"
+
+#. module: purchase_sign
+#. odoo-python
+#: code:addons/purchase_sign/controllers/main.py:0
+#, python-format
+msgid "Order signed by %s"
+msgstr "Prod.narudžbe potpisane od %s"
+
+#. module: purchase_sign
+#: model:ir.model,name:purchase_sign.model_res_config_settings
+msgid "Procurement purchase grouping settings"
+msgstr "Postavke grupisanja nabavke"
+
+#. module: purchase_sign
+#: model:ir.model.fields,field_description:purchase_sign.field_res_company__purchase_portal_confirmation_sign
+#: model:ir.model.fields,field_description:purchase_sign.field_res_config_settings__purchase_portal_confirmation_sign
+msgid "Purchase Online Signature"
+msgstr "Online potpis za nabavku"
+
+#. module: purchase_sign
+#: model:ir.model,name:purchase_sign.model_purchase_order
+msgid "Purchase Order"
+msgstr "Nalog za nabavu"
+
+#. module: purchase_sign
+#: model:ir.model.fields,help:purchase_sign.field_purchase_order__require_signature
+msgid ""
+"Request a online signature and/or payment to the customer in order to "
+"confirm orders automatically."
+msgstr ""
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.res_config_settings_view_form_purchase
+msgid "Request an online signature to confirm orders"
+msgstr "Zatraži online potpis za potvrdu narudžbe."
+
+#. module: purchase_sign
+#: model:ir.model.fields,field_description:purchase_sign.field_purchase_order__signature
+#: model_terms:ir.ui.view,arch_db:purchase_sign.purchase_order_portal_content
+msgid "Signature"
+msgstr "Potpis"
+
+#. module: purchase_sign
+#. odoo-python
+#: code:addons/purchase_sign/tests/test_purchase_sign.py:0
+#, python-format
+msgid "Signature is missing"
+msgstr "Potpis nedostaje"
+
+#. module: purchase_sign
+#. odoo-python
+#: code:addons/purchase_sign/controllers/main.py:0
+#, python-format
+msgid "Signature is missing."
+msgstr "Nedostaje potpis."
+
+#. module: purchase_sign
+#: model:ir.model.fields,field_description:purchase_sign.field_purchase_order__signed_by
+msgid "Signed By"
+msgstr "Potpisao"
+
+#. module: purchase_sign
+#: model:ir.model.fields,field_description:purchase_sign.field_purchase_order__signed_on
+msgid "Signed On"
+msgstr "Potpisano"
+
+#. module: purchase_sign
+#. odoo-python
+#: code:addons/purchase_sign/controllers/main.py:0
+#: code:addons/purchase_sign/tests/test_purchase_sign.py:0
+#, python-format
+msgid "The order is not in a state requiring vendor signature."
+msgstr "Narudžba nije u stanju koje zahtijeva potpis dobavljača."
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
+msgid "Validate Order"
+msgstr "Provjeri valjanost narudžbe"
+
+#. module: purchase_sign
+#: model_terms:ir.ui.view,arch_db:purchase_sign.purchase_order_view_form_inherit
+msgid "Vendor Signature"
+msgstr "Potpis dobavljača"

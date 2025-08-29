@@ -1,0 +1,120 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_request_tier_validation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__can_review
+msgid "Can Review"
+msgstr "Može Ovjeriti"
+
+#. module: purchase_request_tier_validation
+#: model_terms:ir.ui.view,arch_db:purchase_request_tier_validation.view_purchase_request_form_inherit_tier
+msgid "Confirm"
+msgstr "Potvrdi"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__has_comment
+msgid "Has Comment"
+msgstr "Ima komentar"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__is_reevaluation_required
+msgid "Is Reevaluation Required"
+msgstr "Potrebna ponovna evaluacija"
+
+#. module: purchase_request_tier_validation
+#: model_terms:ir.ui.view,arch_db:purchase_request_tier_validation.view_purchase_request_filter
+msgid "My Purchases to review"
+msgstr "Moje nabavke za pregled"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__need_validation
+msgid "Need Validation"
+msgstr "Potrebna ovjera"
+
+#. module: purchase_request_tier_validation
+#: model_terms:ir.ui.view,arch_db:purchase_request_tier_validation.view_purchase_request_filter
+msgid "Need actions"
+msgstr "Potrebne radnje"
+
+#. module: purchase_request_tier_validation
+#: model_terms:ir.ui.view,arch_db:purchase_request_tier_validation.view_purchase_request_filter
+msgid "Needs my Review"
+msgstr "Potrebna moja ovjera"
+
+#. module: purchase_request_tier_validation
+#: model:tier.definition,name:purchase_request_tier_validation.purchase_request_default_tier_definition
+msgid "New Tier Validation"
+msgstr "Nova validacija nivoa"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__next_review
+msgid "Next Review"
+msgstr "Sljedeća ovjera"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model,name:purchase_request_tier_validation.model_purchase_request
+msgid "Purchase Request"
+msgstr "Zahtjev za nabavu"
+
+#. module: purchase_request_tier_validation
+#: model_terms:ir.ui.view,arch_db:purchase_request_tier_validation.view_purchase_request_filter
+msgid "Purchase Requests validated and ready to be confirmed"
+msgstr "Zahtjevi za nabavku validirani i spremni za potvrdu"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__rejected
+msgid "Rejected"
+msgstr "Odbijeno"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__rejected_message
+msgid "Rejected Message"
+msgstr "Poruka uz odbijanje"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__reviewer_ids
+msgid "Reviewers"
+msgstr "Ovejritelji"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model,name:purchase_request_tier_validation.model_tier_definition
+msgid "Tier Definition"
+msgstr "Definicija granice"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__to_validate_message
+msgid "To Validate Message"
+msgstr "Poruka za ovjeru"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__validated
+#: model_terms:ir.ui.view,arch_db:purchase_request_tier_validation.view_purchase_request_filter
+msgid "Validated"
+msgstr "Odobreno"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__validated_message
+msgid "Validated Message"
+msgstr "Poruka za ovjereno"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__validation_status
+msgid "Validation Status"
+msgstr "Status ovjeravanja"
+
+#. module: purchase_request_tier_validation
+#: model:ir.model.fields,field_description:purchase_request_tier_validation.field_purchase_request__review_ids
+msgid "Validations"
+msgstr "Ovjeravanja"

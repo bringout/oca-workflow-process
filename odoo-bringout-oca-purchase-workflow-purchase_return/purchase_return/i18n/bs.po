@@ -1,0 +1,1282 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_return
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_return
+#: model:ir.actions.report,print_report_name:purchase_return.report_purchase_return_order
+msgid "'Purchase Return - %s' % (object.name)"
+msgstr "'Povrat nabavke - %s' % (object.name)"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_qty_received_template
+#: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_template
+msgid "-&gt;"
+msgstr "-&gt;"
+
+#. module: purchase_return
+#: model:mail.template,body_html:purchase_return.email_template_edi_purchase_return
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Dear <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
+"        </t>\n"
+"        <br><br>\n"
+"        Here is in attachment Return Order <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
+"        </t>\n"
+"        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br><br>\n"
+"        If you have any questions, please do not hesitate to contact us.\n"
+"        <br><br>\n"
+"        Best regards,\n"
+"    </p>\n"
+"</div>"
+msgstr ""
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid ""
+"<span class=\"o_form_label\" attrs=\"{'invisible': [('state','not in',('draft','sent'))]}\">Draft </span>\n"
+"                        <span class=\"o_form_label\" attrs=\"{'invisible': [('state','in',('draft','sent'))]}\">Purchase Return Order </span>"
+msgstr ""
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Međuzbroj</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Amount</strong>"
+msgstr "<strong>Iznos</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Date Req.</strong>"
+msgstr "<strong>Datum zaht.</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Description</strong>"
+msgstr "<strong>Opis</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Order Date:</strong>"
+msgstr "<strong>Datum naloga:</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Purchase Representative:</strong>"
+msgstr "<strong>Referent nabave:</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Qty</strong>"
+msgstr "<strong>Kol</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Shipping address:</strong>"
+msgstr "<strong>Adresa za isporuku:</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Podukupno</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Taxes</strong>"
+msgstr "<strong>Porezi</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_template
+msgid "<strong>The ordered quantity has been updated.</strong>"
+msgstr "<strong>Naručene količine su izmjenjene.</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_qty_received_template
+msgid "<strong>The received quantity has been updated.</strong>"
+msgstr "<strong>Primljena količina je ažurirana.</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Total</strong>"
+msgstr "<strong>Ukupno</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Unit Price</strong>"
+msgstr "<strong>Cijena</strong>"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "<strong>Your Order Reference:</strong>"
+msgstr "<strong>Referenca narudžbe:</strong>"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__access_warning
+msgid "Access warning"
+msgstr "Upozorenje pristupa"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_needaction
+msgid "Action Needed"
+msgstr "Potrebna akcija"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_ids
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Dekoracija iznimke aktivnosti"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_state
+msgid "Activity State"
+msgstr "Status aktivnosti"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ikona tipa aktivnosti"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Add a note"
+msgstr "Dodaj bilješku"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Add a product"
+msgstr "Dodaj artikal"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Add a section"
+msgstr "Dodaj odlomak"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__account_analytic_id
+msgid "Analytic Account"
+msgstr "Analitički konto"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Approve Order"
+msgstr "Odobri narudžbu"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_attachment_count
+msgid "Attachment Count"
+msgstr "Broj priloga"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_move_form_inherit_repair_vendor_refund
+msgid "Auto-Complete Return Order"
+msgstr "Automatski dovrši nalog za povrat"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_account_bank_statement_line__purchase_return_id
+#: model:ir.model.fields,help:purchase_return.field_account_move__purchase_return_id
+#: model:ir.model.fields,help:purchase_return.field_account_payment__purchase_return_id
+msgid "Auto-complete from a past purchase return order."
+msgstr "Automatsko popunjavanje iz prošlog naloga za povrat nabavke."
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__invoice_count
+msgid "Bill Count"
+msgstr "Broj ul.računa"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__invoice_lines
+msgid "Bill Lines"
+msgstr "Stavke ul.računa"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_template
+msgid "Billed Quantity:"
+msgstr "Fakturisana količina:"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__invoice_status
+msgid "Billing Status"
+msgstr "Status fakturisanja"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__invoice_ids
+msgid "Bills"
+msgstr "Ulazni računi"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+msgid "Bills Received"
+msgstr "Primljeni ul.računi"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__cancel
+msgid "Cancelled"
+msgstr "Otkazan"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid ""
+"Cancelled Purchase Return Order\n"
+"                #"
+msgstr ""
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order_line.py:0
+#, python-format
+msgid "Cannot delete a purchase order line which is in state '%s'."
+msgstr "Ne mogu izbrisati stavku narudžbenice koja ima status '%s'."
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__product_uom_category_id
+msgid "Category"
+msgstr "Kategorija"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__company_id
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__company_id
+msgid "Company"
+msgstr "Preduzeće"
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order.py:0
+#, python-format
+msgid "Compose Email"
+msgstr "Kreiranje email-a"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Confirm Return Order"
+msgstr "Potvrdi nalog za povrat"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__date_approve
+msgid "Confirmation Date"
+msgstr "Datum potvrde"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order_line__product_uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr ""
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Create Refund"
+msgstr "Povrat"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__create_uid
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__create_date
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__currency_id
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__access_url
+msgid "Customer Portal URL"
+msgstr "URL portala kupca"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Define your terms and conditions ..."
+msgstr "Definišite vaša pravila i uslove ..."
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__date_planned
+msgid "Delivery Date"
+msgstr "Datum dostave"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order_line__date_planned
+msgid ""
+"Delivery date expected from vendor. This date respectively defaults to "
+"vendor pricelist lead time then today's date."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__date_planned
+msgid ""
+"Delivery date to return to the vendor. This date is used to determine "
+"expected shipment of products."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__date_order
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order_line__date_order
+msgid ""
+"Depicts the date within which the Quotation should be confirmed and "
+"converted into a purchase order."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__name
+msgid "Description"
+msgstr "Opis"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__display_name
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__display_type
+msgid "Display Type"
+msgstr "Vrsta prikaza"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__draft
+msgid "Draft"
+msgstr "U pripremi"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Drafts"
+msgstr "Nacrti"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__dest_address_id
+msgid "Drop Ship Address"
+msgstr "Adresa za direktnu isporuku (Drop Ship)"
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order_line.py:0
+#, python-format
+msgid "Extra line with %s "
+msgstr "Dodatna stavka sa %s "
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__fiscal_position_id
+msgid "Fiscal Position"
+msgstr "Fiskalna pozicija"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_follower_ids
+msgid "Followers"
+msgstr "Pratioci"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Pratioci (Partneri)"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Font awesome ikona npr. fa-tasks"
+
+#. module: purchase_return
+#: model:ir.model.constraint,message:purchase_return.constraint_purchase_return_order_line_non_accountable_null_fields
+msgid "Forbidden values on non-accountable purchase return order line"
+msgstr "Zabranjene vrijednosti na neobračunskoj stavci naloga za povrat nabavke"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__invoice_status__invoiced
+msgid "Fully Refunded"
+msgstr "Potpuno refundirano"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Future Activities"
+msgstr "Buduće aktivnosti"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Group By"
+msgstr "Grupiši po"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__has_message
+msgid "Has Message"
+msgstr "Ima poruku"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_search
+msgid "Hide cancelled lines"
+msgstr "Sakri otkazane stavke"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__id
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_exception_icon
+msgid "Icon"
+msgstr "Ikona"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ikona za prikaz iznimki."
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order.py:0
+#, python-format
+msgid "In order to delete a purchase order, you must cancel it first."
+msgstr "Da bi ste obrisali nabavnu narudžbu, prvo je morate otkazati."
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__incoterm_id
+msgid "Incoterm"
+msgstr "Incoterm"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__incoterm_id
+msgid ""
+"International Commercial Terms are a series of predefined commercial terms "
+"used in international transactions."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_is_follower
+msgid "Is Follower"
+msgstr "Pratilac"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__date_planned
+msgid "Issue Date"
+msgstr "Datum izdavanja"
+
+#. module: purchase_return
+#: model:ir.model,name:purchase_return.model_account_move
+msgid "Journal Entry"
+msgstr "Žurnal"
+
+#. module: purchase_return
+#: model:ir.model,name:purchase_return.model_account_move_line
+msgid "Journal Item"
+msgstr "Stavka žurnala"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_product_category__property_account_vendor_return_categ_id
+#: model:ir.model.fields,help:purchase_return.field_product_product__property_account_vendor_return_id
+#: model:ir.model.fields,help:purchase_return.field_product_template__property_account_vendor_return_id
+msgid ""
+"Keep this field empty to use the default value from the product category."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order____last_update
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__write_uid
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__write_date
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Late"
+msgstr "Kasni"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Late Activities"
+msgstr "Aktivnosti u kašnjenju"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Lock"
+msgstr "Zaključaj"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__done
+msgid "Locked"
+msgstr "Zaključano"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Glavna zakačka"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_form2
+msgid "Manual Invoices"
+msgstr "Ručno fakturisanje"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_has_error
+msgid "Message Delivery error"
+msgstr "Greška pri isporuci poruke"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_ids
+msgid "Messages"
+msgstr "Poruke"
+
+#. module: purchase_return
+#: model:ir.model.constraint,message:purchase_return.constraint_purchase_return_order_line_accountable_required_fields
+msgid "Missing required fields on accountable purchase return order line."
+msgstr "Nedostaju obavezna polja na obračunskoj stavci naloga za povrat nabavke."
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Rok za moju aktivnost"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+msgid "My Orders"
+msgstr "Moje narudžbe"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "My Purchase Returns"
+msgstr "Moji povrati nabavke"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Name, TIN, Email, or Reference"
+msgstr "Ime, TIN, e-pošta ili referenca"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Krajnji rok za sljedeću aktivnost"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_summary
+msgid "Next Activity Summary"
+msgstr "Pregled sljedeće aktivnosti"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tip sljedeće aktivnosti"
+
+#. module: purchase_return
+#: model_terms:ir.actions.act_window,help:purchase_return.purchase_return_form_action
+msgid "No purchase order found. Let's create one!"
+msgstr "Nije pronađen nalog za narudžbu. Stvorimo ga!"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order_line__display_type__line_note
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Note"
+msgstr "Zabilješka"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Notes"
+msgstr "Zabilješke"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__invoice_status__no
+msgid "Nothing to Refund"
+msgstr "Ništa za refundirati"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Broj akcija"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_has_error_counter
+msgid "Number of errors"
+msgstr "Broj grešaka"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Broj poruka koje zahtijevaju aktivnost"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Broj poruka sa greškama pri isporuci"
+
+#. module: purchase_return
+#: model_terms:ir.actions.act_window,help:purchase_return.purchase_return_form_action
+msgid ""
+"Once you ordered your products to your supplier, confirm your request for "
+"quotation and it will turn into a purchase order."
+msgstr ""
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Order"
+msgstr "Nalog"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__date_order
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Order Date"
+msgstr "Datum naloga"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__date_order
+msgid "Order Deadline"
+msgstr "Krajnji rok narudžbe"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__order_line
+msgid "Order Lines"
+msgstr "Stavke naloga"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__name
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__order_id
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_search
+msgid "Order Reference"
+msgstr "Referenca narudžbe"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_template
+msgid "Ordered Quantity:"
+msgstr "Naručena količina:"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Other Information"
+msgstr "Ostale informacije"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__partner_id
+msgid "Partner"
+msgstr "Partner"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__payment_term_id
+msgid "Payment Terms"
+msgstr "Uslovi plaćanja"
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order.py:0
+#, python-format
+msgid ""
+"Please define an accounting purchase journal for the company %(scn)s "
+"(%(sci)s)."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__access_url
+msgid "Portal Access URL"
+msgstr "URL za pristup portalu"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Print Return"
+msgstr "Ispiši povrat"
+
+#. module: purchase_return
+#: model:ir.model,name:purchase_return.model_product_template
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__product_id
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__product_id
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_search
+msgid "Product"
+msgstr "Artikal"
+
+#. module: purchase_return
+#: model:ir.model,name:purchase_return.model_product_category
+msgid "Product Category"
+msgstr "Kategorija proizvoda"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Products"
+msgstr "Artikli"
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order.py:0
+#, python-format
+msgid "Purchase Order"
+msgstr "Nalog za nabavu"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_form2
+msgid "Purchase Order Line"
+msgstr "Stavka naloga za nabavu"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__purchase
+msgid "Purchase Order Return"
+msgstr "Povrat narudžbenice"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__user_id
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Purchase Representative"
+msgstr "Referent nabavke"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid ""
+"Purchase Return\n"
+"                Order #"
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.actions.report,name:purchase_return.report_purchase_return_order
+#: model:ir.model,name:purchase_return.model_purchase_return_order
+#: model:ir.model.fields,field_description:purchase_return.field_account_bank_statement_line__purchase_return_id
+#: model:ir.model.fields,field_description:purchase_return.field_account_move__purchase_return_id
+#: model:ir.model.fields,field_description:purchase_return.field_account_move_line__purchase_return_order_id
+#: model:ir.model.fields,field_description:purchase_return.field_account_payment__purchase_return_id
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_graph
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_pivot
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_activity
+msgid "Purchase Return Order"
+msgstr "Nalog za povrat nabavke"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid ""
+"Purchase Return Order\n"
+"                #"
+msgstr ""
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "Purchase Return Order #"
+msgstr "Nalog za povrat nabavke #"
+
+#. module: purchase_return
+#: model:ir.model,name:purchase_return.model_purchase_return_order_line
+#: model:ir.model.fields,field_description:purchase_return.field_account_move_line__purchase_return_line_id
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Purchase Return Order Line"
+msgstr "Stavka naloga za povrat nabavke"
+
+#. module: purchase_return
+#: model:mail.template,name:purchase_return.email_template_edi_purchase_return
+msgid "Purchase Return Order: Send"
+msgstr "Nalog za povrat nabavke: Pošalji"
+
+#. module: purchase_return
+#: model:ir.actions.act_window,name:purchase_return.purchase_return_form_action
+#: model:ir.ui.menu,name:purchase_return.menu_purchase_return_form_action
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Purchase Return Orders"
+msgstr "Nalozi za povrat nabavke"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_product_category__property_account_vendor_return_categ_id
+#: model:ir.model.fields,field_description:purchase_return.field_product_product__property_account_vendor_return_id
+#: model:ir.model.fields,field_description:purchase_return.field_product_template__property_account_vendor_return_id
+msgid "Purchase Returns Account"
+msgstr "Konto za povrate nabavke"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+msgid "Purchase orders that have been invoiced."
+msgstr "Narudžbenice koje su fakturisane."
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+msgid "Purchase orders that include lines not invoiced."
+msgstr "Narudžbenice koje uključuju nefakturisane stavke"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__dest_address_id
+msgid ""
+"Put an address if you want to return directly from the customer to the "
+"vendor. Otherwise, keep empty to deliver from your own company."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__product_qty
+msgid "Quantity"
+msgstr "Količina"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Quantity:"
+msgstr "Količina:"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__currency_rate
+msgid "Rate Currency"
+msgstr "Valuta kursa"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__currency_rate
+msgid "Ratio between the purchase order currency and the company currency"
+msgstr "Omjer između valute naloga za nabavu i valute tvrtke"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Re-Send by Email"
+msgstr "Ponovno pošalji e-mailom"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_qty_received_template
+#: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_template
+msgid "Received Quantity:"
+msgstr "Primljena količina:"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_tree
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_tree
+msgid "Reference"
+msgstr "Referenca"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__origin
+msgid ""
+"Reference of the document that generated this purchase order request (e.g. a"
+" sales order)"
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__partner_ref
+msgid ""
+"Reference of the sales order or bid sent by the vendor. It's used to do the "
+"matching when you receive the products as this reference is usually written "
+"on the delivery order sent by your vendor."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__refund_only
+msgid "Refund only"
+msgstr "Samo povrat novca"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Refunded"
+msgstr "Refundirano"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__qty_invoiced
+msgid "Refunded Qty"
+msgstr "Refundirana kol."
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Refunded Quantity"
+msgstr "Refundirana količina"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Refunds and Outgoing Shipments"
+msgstr "Povrati novca i odlazne pošiljke"
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order.py:0
+#, python-format
+msgid "Request for Quotation"
+msgstr "Zahtjev za ponudu"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_user_id
+msgid "Responsible User"
+msgstr "Odgovorni korisnik"
+
+#. module: purchase_return
+#: model:mail.message.subtype,name:purchase_return.mt_return_approved
+msgid "Return Approved"
+msgstr "Povrat odobren"
+
+#. module: purchase_return
+#: model:mail.message.subtype,name:purchase_return.mt_return_confirmed
+msgid "Return Confirmed"
+msgstr "Povrat potvrđen"
+
+#. module: purchase_return
+#: model:mail.message.subtype,name:purchase_return.mt_return_done
+msgid "Return Done"
+msgstr "Povrat završen"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.product_template_form_view
+msgid "Returns"
+msgstr "Povratnice"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+msgid "Search Purchase Order"
+msgstr "Pretraži nabavnu narudžbu"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Search Purchase Return Order"
+msgstr "Pretraga naloga za povrat nabavke"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_search
+msgid "Search Return Purchase Order"
+msgstr "Pretraga naloga za povrat nabavke"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order_line__display_type__line_section
+msgid "Section"
+msgstr "Odjel"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Section Name (eg. Products, Services)"
+msgstr "Naziv sekcije (npr: Proizvodi, Usluge...)"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__access_token
+msgid "Security Token"
+msgstr "Sigurnosni token"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_move_form_inherit_repair_vendor_refund
+msgid "Select a purchase return order"
+msgstr "Odaberite nalog za povrat nabavke"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Send Return PO by Email"
+msgstr "Pošalji nalog za povrat nabavke e-poštom"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Send by Email"
+msgstr "Pošalji email-om"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__sent
+msgid "Sent"
+msgstr "Poslano"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__sequence
+msgid "Sequence Line"
+msgstr "Sekvencijalna stavka"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Set to Draft"
+msgstr "Postavi u pripremu"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Show all records which has next action date is before today"
+msgstr "Prikaži sve zapise koji imaju datum sljedeće akcije prije danas"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__origin
+msgid "Source Document"
+msgstr "Izvorni dokument"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__state
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__state
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_search
+msgid "Status"
+msgstr "Status"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__price_subtotal
+msgid "Subtotal"
+msgstr "Podukupno"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__price_tax
+msgid "Tax"
+msgstr "Porez"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__amount_tax
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__taxes_id
+#: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
+msgid "Taxes"
+msgstr "Porezi"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order_line__display_type
+msgid "Technical field for UX purpose."
+msgstr "Tehničko polje zbog UX-a"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__notes
+msgid "Terms and Conditions"
+msgstr "Odredbe i uslovi"
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order.py:0
+#, python-format
+msgid ""
+"There is no invoiceable line. If a product has a control policy based on "
+"received quantity, please make sure that a quantity has been received."
+msgstr ""
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/account_move.py:0
+#, python-format
+msgid "This vendor bill has been created from: %s"
+msgstr "Ovaj ulazni račun kreirao je: %s"
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/account_move.py:0
+#, python-format
+msgid "This vendor bill has been modified from: %s"
+msgstr "Ovaj ulazni račun promijenio je: %s"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__to_approve
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "To Approve"
+msgstr "Za odobriti"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__qty_to_invoice
+msgid "To Invoice Quantity"
+msgstr "Količina za fakturiranje"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Today Activities"
+msgstr "Današnje aktivnosti"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__amount_total
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__price_total
+msgid "Total"
+msgstr "Ukupno"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__product_uom_qty
+msgid "Total Quantity"
+msgstr "Ukupna količina"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_tree
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_tree
+msgid "Total Untaxed amount"
+msgstr "Ukupan iznos bez poreza"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_tree
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_tree
+msgid "Total amount"
+msgstr "Ukupni iznos"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__product_type
+msgid "Type"
+msgstr "Tip"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Vrsta aktivnosti iznimke na zapisu."
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order.py:0
+#, python-format
+msgid ""
+"Unable to cancel this purchase order return. You must first cancel the "
+"related vendor refunds."
+msgstr ""
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__price_unit
+msgid "Unit Price"
+msgstr "Cijena"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Unit Price:"
+msgstr "Cijena:"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__product_uom
+msgid "Unit of Measure"
+msgstr "Jedinica mjere"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Unlock"
+msgstr "Otključaj"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_tree
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_tree
+msgid "Untaxed"
+msgstr "Neoporezovano"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__amount_untaxed
+msgid "Untaxed Amount"
+msgstr "Iznos bez PDV"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "UoM"
+msgstr "JMJ"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__partner_id
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_tree
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Vendor"
+msgstr "Dobavljač"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__partner_ref
+msgid "Vendor Reference"
+msgstr "Referenca dobavljača"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
+msgid "Vendor Refunds"
+msgstr "Povrati novca dobavljaču"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Waiting"
+msgstr "Na čekanju"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+msgid "Waiting Bills"
+msgstr "Čeka se ul.račun"
+
+#. module: purchase_return
+#: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__invoice_status__to_invoice
+msgid "Waiting Refunds"
+msgstr "Čekanje na povrat novca"
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order_line.py:0
+#, python-format
+msgid "Warning for %s"
+msgstr "Upozorenje za %s"
+
+#. module: purchase_return
+#: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_view_search
+#: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
+msgid "Warnings"
+msgstr "Upozorenja"
+
+#. module: purchase_return
+#: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__website_message_ids
+msgid "Website Messages"
+msgstr "Poruke sa website-a"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__website_message_ids
+msgid "Website communication history"
+msgstr "Povijest komunikacije Web stranice"
+
+#. module: purchase_return
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order__partner_id
+#: model:ir.model.fields,help:purchase_return.field_purchase_return_order_line__partner_id
+msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
+msgstr "Dobavljača možete pronaći po imenu, TIN-u, e-pošti ili internoj referenci."
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order_line.py:0
+#, python-format
+msgid ""
+"You cannot change the type of a purchase return order line. Instead you "
+"should delete the current line and create a new line of the proper type."
+msgstr ""
+
+#. module: purchase_return
+#. odoo-python
+#: code:addons/purchase_return/models/purchase_return_order.py:0
+#, python-format
+msgid ""
+"Your purchase return contains products from company %(product_company)s whereas your purchase return belongs to company %(quote_company)s. \n"
+"Please change the company of your order or remove the products from other companies (%(bad_products)s)."
+msgstr ""
+
+#. module: purchase_return
+#: model:mail.template,subject:purchase_return.email_template_edi_purchase_return
+msgid ""
+"{{ object.company_id.name }} Return Order (Ref {{ object.name or 'n/a' }})"
+msgstr ""
+
+#. module: purchase_return
+#: model:mail.template,report_name:purchase_return.email_template_edi_purchase_return
+msgid "{{(object.name or '').replace('/','_')}}"
+msgstr "{{(object.name or '').replace('/','_')}}"

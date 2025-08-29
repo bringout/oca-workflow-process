@@ -1,0 +1,227 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_picking_status_notification
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__active
+msgid "Active"
+msgstr "Aktivan"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__allow_notify_draft
+msgid "Allow Notify DRAFT"
+msgstr "Dozvoli obavještenje NACRT"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__allow_notify_waiting
+msgid "Allow Notify WAITING ANOTHER OPERATION"
+msgstr "Dozvoli obavještenje ČEKA DRUGU OPERACIJU"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__allow_notify_cancel
+msgid "Allow notify CANCEL"
+msgstr "Dozvoli obavještenje OTKAZANO"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__allow_notify_done
+msgid "Allow notify DONE"
+msgstr "Dozvoli obavještenje ZAVRŠENO"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__allow_notify_assigned
+msgid "Allow notify READY"
+msgstr "Dozvoli obavještenje SPREMNO"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__allow_notify_confirmed
+msgid "Allow notify WAITING"
+msgstr "Dozvoli obavještenje ČEKA"
+
+#. module: stock_picking_status_notification
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_tree
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__message
+msgid "Custom Message"
+msgstr "Prilagođena poruka"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,help:stock_picking_status_notification.field_stock_picking_notification_template__message
+msgid ""
+"Custom message to be used instead of the default one. Leave blank to use the"
+" default message"
+msgstr ""
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: stock_picking_status_notification
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_tree
+msgid "Done"
+msgstr "Gotovo"
+
+#. module: stock_picking_status_notification
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_tree
+msgid "Draft"
+msgstr "U pripremi"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__filename
+msgid "Filename"
+msgstr "Naziv datoteke"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: stock_picking_status_notification
+#: model_terms:ir.actions.act_window,help:stock_picking_status_notification.action_stock_picking_notification_template
+msgid "No template found. Let's create one!"
+msgstr "Nije pronađen template. Napravimo jedan!"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__notification_sound_file
+msgid "Notification Sound"
+msgstr "Zvuk obavještenja"
+
+#. module: stock_picking_status_notification
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
+msgid "Notification States"
+msgstr "Stanja obavještenja"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,help:stock_picking_status_notification.field_stock_picking_notification_template__source_document_regex
+msgid ""
+"Notification will be sent if source document name matches the specified "
+"regex pattern. Leave blank to match any source"
+msgstr ""
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__user_ids
+msgid "Notified Users"
+msgstr "Obaviješteni korisnici"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__picking_type_id
+msgid "Operation Type"
+msgstr "Tip operacije"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,help:stock_picking_status_notification.field_stock_picking_notification_template__picking_type_id
+msgid "Operation types for which the notification will be triggered"
+msgstr "Tipovi operacija za koje će se aktivirati obavještenje"
+
+#. module: stock_picking_status_notification
+#: model:ir.model,name:stock_picking_status_notification.model_stock_picking_notification_template
+msgid "Picking Notification Template"
+msgstr "Template obavještenja preuzimanja"
+
+#. module: stock_picking_status_notification
+#: model:ir.actions.act_window,name:stock_picking_status_notification.action_stock_picking_notification_template
+#: model:ir.ui.menu,name:stock_picking_status_notification.menu_picking_notification_templates
+msgid "Picking Notifications"
+msgstr "Obavještenja preuzimanja"
+
+#. module: stock_picking_status_notification
+#. odoo-python
+#: code:addons/stock_picking_status_notification/models/stock_picking_notification_template.py:0
+#, python-format
+msgid "Picking changed status to '%(state)s'."
+msgstr "Preuzimanje je promijenilo status na '%(state)s'."
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__sequence
+msgid "Priority"
+msgstr "Prioritet"
+
+#. module: stock_picking_status_notification
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_tree
+msgid "Ready"
+msgstr "Spremno"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,help:stock_picking_status_notification.field_stock_picking_notification_template__notification_sound_file
+msgid ""
+"Select the sound file that will be used for notifications. This setting "
+"allows you to customize the notification sound played when certain actions "
+"occur, such as when a stock picking status is updated."
+msgstr ""
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__source_document_regex
+msgid "Source Document Pattern"
+msgstr "Obrazac izvornog dokumenta"
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,help:stock_picking_status_notification.field_stock_picking__to_web_notify
+msgid ""
+"Technical field for storing the “to notify” attribute, which is used to "
+"retrieve all records for this attribute and to send a notification."
+msgstr ""
+
+#. module: stock_picking_status_notification
+#: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking__to_web_notify
+msgid "To Web Notify"
+msgstr "Za web obavještenje"
+
+#. module: stock_picking_status_notification
+#: model:ir.model,name:stock_picking_status_notification.model_stock_picking
+msgid "Transfer"
+msgstr "Prijenos"
+
+#. module: stock_picking_status_notification
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_tree
+msgid "Waiting"
+msgstr "Na čekanju"
+
+#. module: stock_picking_status_notification
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
+#: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_tree
+msgid "Waiting Another Operation"
+msgstr "Čeka drugi korak"

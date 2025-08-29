@@ -1,0 +1,258 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_advance_payment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: purchase_advance_payment
+#: model:ir.model,name:purchase_advance_payment.model_account_voucher_wizard_purchase
+msgid "Account Voucher Wizard Purchase"
+msgstr "Account Voucher Wizard Purchase"
+
+#. module: purchase_advance_payment
+#: model:ir.actions.act_window,name:purchase_advance_payment.action_view_account_voucher_wizard
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Advance Payment"
+msgstr "Avansno plaćanje"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__advance_payment_status
+msgid "Advance Payment Status"
+msgstr "Status avansnog plaćanja"
+
+#. module: purchase_advance_payment
+#: model:ir.actions.act_window,name:purchase_advance_payment.action_account_advance_payments_payable
+#: model:ir.ui.menu,name:purchase_advance_payment.menu_account_advance_payments_payable
+msgid "Advance Payments"
+msgstr "Advance Payments"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_kpis_tree
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_view_tree
+msgid "Amount Residual"
+msgstr "Amount Residual"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__amount_total
+msgid "Amount Total"
+msgstr "Ukupni iznos"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__amount_advance
+msgid "Amount advanced"
+msgstr "Iznos avansa"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Amount in Order Currency"
+msgstr "Iznos u valuti naloga"
+
+#. module: purchase_advance_payment
+#. odoo-python
+#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
+#, python-format
+msgid "Amount of advance is greater than residual amount on purchase"
+msgstr "Amount of advance is greater than residual amount on purchase"
+
+#. module: purchase_advance_payment
+#. odoo-python
+#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
+#, python-format
+msgid "Amount of advance must be positive."
+msgstr "Iznos avansa mora biti pozitivan."
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_res_config_settings__auto_post_purchase_advance_payments
+msgid "Auto Post Purchase Advance Payments"
+msgstr "Auto Post Purchase Advance Payments"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__available_payment_method_line_ids
+msgid "Available Payment Method Line"
+msgstr "Available Payment Method Line"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Cancel"
+msgstr "Otkaži"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__currency_amount
+msgid "Curr. amount"
+msgstr "Iznos u valuti"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__currency_id
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__date
+msgid "Date"
+msgstr "Datum"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__id
+msgid "ID"
+msgstr "ID"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
+msgid ""
+"If enabled, advance payments created from POs are automatically posted."
+msgstr ""
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__journal_id
+msgid "Journal"
+msgstr "Vrsta naloga"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__journal_currency_id
+msgid "Journal Currency"
+msgstr "Dnevnik valute"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Make advance payment"
+msgstr "Napravi avansno plaćanje"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__not_paid
+msgid "Not Paid"
+msgstr "Nije plaćeno"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
+msgid "Not Reconciled"
+msgstr "Not Reconciled"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
+msgid "Not Sent"
+msgstr "Not Sent"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__order_id
+msgid "Order"
+msgstr "Nalog"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
+msgid "Order Due Amount"
+msgstr "Dospjeli iznos ponude"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__paid
+msgid "Paid"
+msgstr "Plaćeno"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__partial
+msgid "Partially Paid"
+msgstr "Djelimično plaćeno"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
+msgid "Pay purchase advanced"
+msgstr "Pay purchase advanced"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_method_line_id
+msgid "Payment Method"
+msgstr "Metoda plaćanja"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_supplier_payment_tree
+msgid "Payment Sent?"
+msgstr "Payment Sent?"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
+msgid "Payment advances"
+msgstr "Payment advances"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__payment_line_ids
+msgid "Payment move lines"
+msgstr "Payment move lines"
+
+#. module: purchase_advance_payment
+#: model:ir.model,name:purchase_advance_payment.model_account_payment
+msgid "Payments"
+msgstr "Plaćanja"
+
+#. module: purchase_advance_payment
+#: model:ir.model,name:purchase_advance_payment.model_res_config_settings
+msgid "Procurement purchase grouping settings"
+msgstr "Procurement purchase grouping settings"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_payment__purchase_id
+msgid "Purchase"
+msgstr "Nabavke"
+
+#. module: purchase_advance_payment
+#: model:ir.model,name:purchase_advance_payment.model_purchase_order
+msgid "Purchase Order"
+msgstr "Nalog za nabavu"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__account_payment_ids
+msgid "Purchase Payment"
+msgstr "Purchase Payment"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_ref
+msgid "Ref."
+msgstr "Ref."
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__amount_residual
+msgid "Residual amount"
+msgstr "Dospjeli iznos"
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
+msgid "Vendor Advance Payments"
+msgstr "Vendor Advance Payments"

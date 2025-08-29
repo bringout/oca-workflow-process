@@ -1,0 +1,195 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_valuation_layer_usage
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__company_id
+msgid "Company"
+msgstr "Preduzeće"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__dest_stock_valuation_layer_id
+msgid "Destination Stock Valuation Layer"
+msgstr "Odredišni sloj vrednovanja zaliha"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__id
+msgid "ID"
+msgstr "ID"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_form
+msgid "Incoming Usage"
+msgstr "Dolazna upotreba"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__incoming_usage_quantity
+msgid "Incoming Usage quantity"
+msgstr "Količina dolazne upotrebe"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__incoming_usage_value
+msgid "Incoming Usage value"
+msgstr "Vrijednost dolazne upotrebe"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__incoming_usage_ids
+msgid "Incoming Valuation Usage"
+msgstr "Dolazna upotreba vrednovanja"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__product_id
+msgid "Product"
+msgstr "Artikal"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_usage_tree
+msgid "Quantity"
+msgstr "Količina"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model,name:stock_valuation_layer_usage.model_stock_move
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_move_id
+msgid "Stock Move"
+msgstr "Skladišno kretanje"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model,name:stock_valuation_layer_usage.model_stock_valuation_layer
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_valuation_layer_id
+msgid "Stock Valuation Layer"
+msgstr "Sloj vrednovanja zaliha"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model,name:stock_valuation_layer_usage.model_stock_valuation_layer_usage
+msgid "Stock Valuation Layer Usage"
+msgstr "Upotreba sloja vrednovanja zaliha"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_usage_pivot
+msgid "Stock Valuation Layer Usage Analysis"
+msgstr "Analiza upotrebe sloja vrednovanja zaliha"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.actions.act_window,name:stock_valuation_layer_usage.stock_valuation_layer_usage_action
+#: model:ir.ui.menu,name:stock_valuation_layer_usage.stock_valuation_layer_usage_menu
+msgid "Stock Valuation Layer Usages"
+msgstr "Upotrebe sloja vrednovanja zaliha"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_move_id
+msgid "Stock move that took the quantities and value from the layer"
+msgstr "Potez zaliha koji je uzeo količine i vrijednost iz sloja"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__quantity
+msgid "Taken Quantity"
+msgstr "Uzeta količina"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__value
+msgid "Taken Value"
+msgstr "Uzeta vrijednost"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer__incoming_usage_ids
+#: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer__usage_ids
+msgid ""
+"Trace on what stock moves has the stock valuation been used in, including "
+"the quantities taken."
+msgstr ""
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_move__layer_usage_ids
+msgid ""
+"Trace what valuation layers have been used by this move, including the "
+"quantities taken."
+msgstr ""
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_form
+msgid "Usage"
+msgstr "Upotreba"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__usage_quantity
+msgid "Usage Quantity"
+msgstr "Količina upotrebe"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__usage_value
+msgid "Usage Value"
+msgstr "Vrijednost upotrebe"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_move__layer_usage_ids
+msgid "Valuation Layer Usage"
+msgstr "Upotreba sloja vrednovanja"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer_usage__dest_stock_valuation_layer_id
+#: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_valuation_layer_id
+msgid "Valuation Layer that was used"
+msgstr "Sloj vrednovanja koji je korišten"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.view_move_form_inherit
+msgid "Valuation Layers"
+msgstr "Slojevi vrednovanja"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__usage_ids
+msgid "Valuation Usage"
+msgstr "Upotreba vrednovanja"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_usage_tree
+msgid "Value"
+msgstr "Vrijednost"
+
+#. module: stock_valuation_layer_usage
+#. odoo-python
+#: code:addons/stock_valuation_layer_usage/models/stock_valuation_layer_usage.py:0
+#, python-format
+msgid "You can't user same layer as origin and destination"
+msgstr "Ne možete koristiti isti sloj kao izvor i odredište"

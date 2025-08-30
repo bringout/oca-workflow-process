@@ -49,8 +49,8 @@
 - **odoo-bringout-oca-stock-logistics-warehouse-stock_picking_show_linked**
 - **odoo-bringout-oca-stock-logistics-warehouse-stock_picking_volume**
 - **odoo-bringout-oca-stock-logistics-warehouse-stock_picking_volume_packaging**
-- **odoo-bringout-oca-stock-logistics-warehouse-stock_production_lot_quantity_tree**
 - **odoo-bringout-oca-stock-logistics-warehouse-stock_product_qty_by_packaging**
+- **odoo-bringout-oca-stock-logistics-warehouse-stock_production_lot_quantity_tree**
 - **odoo-bringout-oca-stock-logistics-warehouse-stock_pull_list**
 - **odoo-bringout-oca-stock-logistics-warehouse-stock_putaway_product_template**
 - **odoo-bringout-oca-stock-logistics-warehouse-stock_quant_cost_info**
@@ -168,8 +168,8 @@
 - **odoo-bringout-oca-stock-logistics-workflow-stock_picking_type_bypass_reservation**
 - **odoo-bringout-oca-stock-logistics-workflow-stock_picking_warn_message**
 - **odoo-bringout-oca-stock-logistics-workflow-stock_procurement_customer**
-- **odoo-bringout-oca-stock-logistics-workflow-stock_production_lot_active**
 - **odoo-bringout-oca-stock-logistics-workflow-stock_product_set**
+- **odoo-bringout-oca-stock-logistics-workflow-stock_production_lot_active**
 - **odoo-bringout-oca-stock-logistics-workflow-stock_putaway_hook**
 - **odoo-bringout-oca-stock-logistics-workflow-stock_quant_package_dimension**
 - **odoo-bringout-oca-stock-logistics-workflow-stock_quant_package_dimension_total_weight_from_packaging**

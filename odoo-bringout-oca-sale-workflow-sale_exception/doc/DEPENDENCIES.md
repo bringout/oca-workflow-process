@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale](../../odoo-bringout-oca-ocb-sale)
-- [base_exception](../../odoo-bringout-oca-server-tools-base_exception)
+- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
+- [base_exception](../../../../../oca-technical/odoo-bringout-oca-server-tools-base_exception)

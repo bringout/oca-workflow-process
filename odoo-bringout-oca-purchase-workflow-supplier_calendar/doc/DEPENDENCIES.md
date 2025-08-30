@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [purchase_stock](../../odoo-bringout-oca-ocb-purchase_stock)
-- [resource](../../odoo-bringout-oca-ocb-resource)
+- [purchase_stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-purchase_stock)
+- [resource](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-resource)

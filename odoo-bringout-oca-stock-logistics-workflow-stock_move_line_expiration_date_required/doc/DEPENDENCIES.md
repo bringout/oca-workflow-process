@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [product_expiry](../../odoo-bringout-oca-ocb-product_expiry)
+- [product_expiry](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-product_expiry)

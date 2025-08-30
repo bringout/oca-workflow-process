@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [delivery](../../odoo-bringout-oca-ocb-delivery)
+- [delivery](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-delivery)

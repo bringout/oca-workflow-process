@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [base_time_window](../../odoo-bringout-oca-server-tools-base_time_window)
+- [base_time_window](../../../../../oca-technical/odoo-bringout-oca-server-tools-base_time_window)
 - partner_tz
-- [stock](../../odoo-bringout-oca-ocb-stock)
+- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)

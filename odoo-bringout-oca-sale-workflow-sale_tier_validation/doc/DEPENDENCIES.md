@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale](../../odoo-bringout-oca-ocb-sale)
-- [base_tier_validation](../../odoo-bringout-oca-server-ux-base_tier_validation)
+- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
+- [base_tier_validation](../../../../../oca-technical/odoo-bringout-oca-server-ux-base_tier_validation)

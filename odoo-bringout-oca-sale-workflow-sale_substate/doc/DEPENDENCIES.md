@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [base_substate](../../odoo-bringout-oca-server-ux-base_substate)
-- [sale_management](../../odoo-bringout-oca-ocb-sale_management)
+- [base_substate](../../../../../oca-technical/odoo-bringout-oca-server-ux-base_substate)
+- [sale_management](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_management)

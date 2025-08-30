@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [base_view_inheritance_extension](../../odoo-bringout-oca-server-tools-base_view_inheritance_extension)
+- [base_view_inheritance_extension](../../../../../oca-technical/odoo-bringout-oca-server-tools-base_view_inheritance_extension)
 - product_assortment
-- [stock](../../odoo-bringout-oca-ocb-stock)
+- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)

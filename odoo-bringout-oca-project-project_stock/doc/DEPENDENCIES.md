@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [project](../../odoo-bringout-oca-ocb-project)
-- [stock](../../odoo-bringout-oca-ocb-stock)
+- [project](../../../../../oca-ocb-project/odoo-bringout-oca-ocb-project)
+- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock](../../odoo-bringout-oca-ocb-stock)
-- [web_notify](../../odoo-bringout-oca-web-web_notify)
+- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)
+- [web_notify](../../../../../oca-technical/odoo-bringout-oca-web-web_notify)

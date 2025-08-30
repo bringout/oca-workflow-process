@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale](../../odoo-bringout-oca-ocb-sale)
-- [web_notify](../../odoo-bringout-oca-web-web_notify)
+- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
+- [web_notify](../../../../../oca-technical/odoo-bringout-oca-web-web_notify)

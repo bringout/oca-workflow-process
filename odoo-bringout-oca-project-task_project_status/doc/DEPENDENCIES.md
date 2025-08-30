@@ -3,4 +3,4 @@
 This addon depends on:
 
 - base
-- [project](../../odoo-bringout-oca-ocb-project)
+- [project](../../../../../oca-ocb-project/odoo-bringout-oca-ocb-project)

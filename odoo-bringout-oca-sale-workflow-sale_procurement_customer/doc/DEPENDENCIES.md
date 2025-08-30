@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale_stock](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_stock)
-- [stock_procurement_customer](../../../../odoo-bringout-oca-stock-logistics-workflow-stock_procurement_customer)
+- [sale_stock](https://github.com/bringout/oca-ocb-sale)
+- [stock_procurement_customer](https://github.com/bringout/oca-workflow-process)

@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [purchase_work_acceptance](../../../../odoo-bringout-oca-purchase-workflow-purchase_work_acceptance)
+- [purchase_work_acceptance](https://github.com/bringout/oca-workflow-process)

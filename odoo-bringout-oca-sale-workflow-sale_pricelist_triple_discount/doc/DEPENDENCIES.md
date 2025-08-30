@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [sale_triple_discount](../../../../odoo-bringout-oca-sale-workflow-sale_triple_discount)
+- [sale_triple_discount](https://github.com/bringout/oca-workflow-process)

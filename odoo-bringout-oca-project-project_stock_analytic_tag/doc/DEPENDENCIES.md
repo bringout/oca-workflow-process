@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [project_stock](../../../../odoo-bringout-oca-project-project_stock)
-- [account_analytic_tag](../../../../../oca-financial/odoo-bringout-oca-account-analytic-account_analytic_tag)
+- [project_stock](https://github.com/bringout/oca-workflow-process)
+- [account_analytic_tag](https://github.com/bringout/oca-financial)

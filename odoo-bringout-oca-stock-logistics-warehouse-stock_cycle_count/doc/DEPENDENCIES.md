@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [stock_account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-stock_account)
-- [stock_inventory_discrepancy](../../../../odoo-bringout-oca-stock-logistics-warehouse-stock_inventory_discrepancy)
-- [stock_inventory](../../../../odoo-bringout-oca-stock-logistics-warehouse-stock_inventory)
+- [stock_account](https://github.com/bringout/oca-ocb-accounting)
+- [stock_inventory_discrepancy](https://github.com/bringout/oca-workflow-process)
+- [stock_inventory](https://github.com/bringout/oca-workflow-process)

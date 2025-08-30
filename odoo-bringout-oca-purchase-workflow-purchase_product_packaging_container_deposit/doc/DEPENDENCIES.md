@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [purchase_stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-purchase_stock)
+- [purchase_stock](https://github.com/bringout/oca-ocb-warehouse)
 - product_packaging_container_deposit

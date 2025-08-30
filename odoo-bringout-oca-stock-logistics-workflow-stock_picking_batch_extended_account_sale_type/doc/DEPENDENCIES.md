@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_picking_batch_extended_account](../../../../odoo-bringout-oca-stock-logistics-workflow-stock_picking_batch_extended_account)
-- [sale_order_type](../../../../odoo-bringout-oca-sale-workflow-sale_order_type)
+- [stock_picking_batch_extended_account](https://github.com/bringout/oca-workflow-process)
+- [sale_order_type](https://github.com/bringout/oca-workflow-process)

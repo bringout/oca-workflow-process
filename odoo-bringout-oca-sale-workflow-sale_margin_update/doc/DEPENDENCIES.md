@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
-- [sales_team](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sales_team)
-- [sale_margin](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_margin)
+- [sale](https://github.com/bringout/oca-ocb-sale)
+- [sales_team](https://github.com/bringout/oca-ocb-sale)
+- [sale_margin](https://github.com/bringout/oca-ocb-sale)

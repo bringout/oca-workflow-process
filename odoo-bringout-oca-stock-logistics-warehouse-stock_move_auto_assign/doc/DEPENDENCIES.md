@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)
-- [queue_job](../../../../../oca-technical/odoo-bringout-oca-queue-queue_job)
+- [stock](https://github.com/bringout/oca-ocb-warehouse)
+- [queue_job](https://github.com/bringout/oca-technical)

@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [stock_available](../../../../../oca-technical/odoo-bringout-oca-stock-logistics-availability-stock_available)
+- [stock_available](https://github.com/bringout/oca-technical)

@@ -3,4 +3,4 @@
 This addon depends on:
 
 - product_dimension
-- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)
+- [stock](https://github.com/bringout/oca-ocb-warehouse)

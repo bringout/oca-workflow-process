@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_packaging_calculator](../../../../odoo-bringout-oca-stock-logistics-warehouse-stock_packaging_calculator)
+- [stock_packaging_calculator](https://github.com/bringout/oca-workflow-process)
 - product_packaging_level

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale_stock](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_stock)
-- [sale_order_product_recommendation](../../../../odoo-bringout-oca-sale-workflow-sale_order_product_recommendation)
+- [sale_stock](https://github.com/bringout/oca-ocb-sale)
+- [sale_order_product_recommendation](https://github.com/bringout/oca-workflow-process)

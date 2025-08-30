@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [purchase_stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-purchase_stock)
-- [confirmation_wizard](../../../../../oca-technical/odoo-bringout-oca-server-ux-confirmation_wizard)
+- [purchase_stock](https://github.com/bringout/oca-ocb-warehouse)
+- [confirmation_wizard](https://github.com/bringout/oca-technical)

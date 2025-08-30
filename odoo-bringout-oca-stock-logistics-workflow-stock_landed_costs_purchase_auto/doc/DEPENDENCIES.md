@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_landed_costs](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock_landed_costs)
-- [purchase_stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-purchase_stock)
+- [stock_landed_costs](https://github.com/bringout/oca-ocb-warehouse)
+- [purchase_stock](https://github.com/bringout/oca-ocb-warehouse)

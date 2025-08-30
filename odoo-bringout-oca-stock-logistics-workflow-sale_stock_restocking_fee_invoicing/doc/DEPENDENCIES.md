@@ -2,8 +2,8 @@
 
 This addon depends on:
 
-- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
-- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)
-- [sale_stock](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_stock)
-- [stock_account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-stock_account)
-- [stock_picking_kind](../../../../odoo-bringout-oca-stock-logistics-workflow-stock_picking_kind)
+- [sale](https://github.com/bringout/oca-ocb-sale)
+- [stock](https://github.com/bringout/oca-ocb-warehouse)
+- [sale_stock](https://github.com/bringout/oca-ocb-sale)
+- [stock_account](https://github.com/bringout/oca-ocb-accounting)
+- [stock_picking_kind](https://github.com/bringout/oca-workflow-process)

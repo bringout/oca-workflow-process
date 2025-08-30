@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [purchase_exception](../../../../odoo-bringout-oca-purchase-workflow-purchase_exception)
+- [purchase_exception](https://github.com/bringout/oca-workflow-process)

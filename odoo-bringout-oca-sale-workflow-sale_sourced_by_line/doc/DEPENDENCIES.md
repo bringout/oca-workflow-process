@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [sale_procurement_group_by_line](../../../../odoo-bringout-oca-sale-workflow-sale_procurement_group_by_line)
+- [sale_procurement_group_by_line](https://github.com/bringout/oca-workflow-process)

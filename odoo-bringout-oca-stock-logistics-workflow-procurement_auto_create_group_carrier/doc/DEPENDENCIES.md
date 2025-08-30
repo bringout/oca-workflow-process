@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [delivery_procurement_group_carrier](../../../../odoo-bringout-oca-stock-logistics-workflow-delivery_procurement_group_carrier)
-- [procurement_auto_create_group](../../../../odoo-bringout-oca-stock-logistics-warehouse-procurement_auto_create_group)
+- [delivery_procurement_group_carrier](https://github.com/bringout/oca-workflow-process)
+- [procurement_auto_create_group](https://github.com/bringout/oca-workflow-process)

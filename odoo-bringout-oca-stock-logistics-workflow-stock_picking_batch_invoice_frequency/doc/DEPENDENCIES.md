@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_picking_batch](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock_picking_batch)
-- [sale_invoice_frequency](../../../../odoo-bringout-oca-sale-workflow-sale_invoice_frequency)
+- [stock_picking_batch](https://github.com/bringout/oca-ocb-warehouse)
+- [sale_invoice_frequency](https://github.com/bringout/oca-workflow-process)

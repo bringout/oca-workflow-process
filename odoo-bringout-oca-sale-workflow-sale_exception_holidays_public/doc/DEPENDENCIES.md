@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale_exception](../../../../odoo-bringout-oca-sale-workflow-sale_exception)
-- [hr_holidays_public](../../../../../oca-technical/odoo-bringout-oca-hr-holidays-hr_holidays_public)
+- [sale_exception](https://github.com/bringout/oca-workflow-process)
+- [hr_holidays_public](https://github.com/bringout/oca-technical)

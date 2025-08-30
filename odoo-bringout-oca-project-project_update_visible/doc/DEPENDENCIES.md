@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [sale_timesheet](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_timesheet)
+- [sale_timesheet](https://github.com/bringout/oca-ocb-sale)

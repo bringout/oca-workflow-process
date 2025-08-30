@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [purchase_requisition](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-purchase_requisition)
-- [base_tier_validation](../../../../../oca-technical/odoo-bringout-oca-server-ux-base_tier_validation)
+- [purchase_requisition](https://github.com/bringout/oca-ocb-core)
+- [base_tier_validation](https://github.com/bringout/oca-technical)

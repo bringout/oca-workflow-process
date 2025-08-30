@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_picking_batch](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock_picking_batch)
-- [delivery](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-delivery)
+- [stock_picking_batch](https://github.com/bringout/oca-ocb-warehouse)
+- [delivery](https://github.com/bringout/oca-ocb-warehouse)

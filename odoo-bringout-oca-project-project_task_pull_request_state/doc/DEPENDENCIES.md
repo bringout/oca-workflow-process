@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [project_task_pull_request](../../../../odoo-bringout-oca-project-project_task_pull_request)
+- [project_task_pull_request](https://github.com/bringout/oca-workflow-process)

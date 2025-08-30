@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [account](../../../../../oca-ocb-accounting/odoo-bringout-oca-ocb-account)
-- [purchase_stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-purchase_stock)
+- [account](https://github.com/bringout/oca-ocb-accounting)
+- [purchase_stock](https://github.com/bringout/oca-ocb-warehouse)

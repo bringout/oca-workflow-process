@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [stock_location_pending_move](../../../../odoo-bringout-oca-stock-logistics-warehouse-stock_location_pending_move)
+- [stock_location_pending_move](https://github.com/bringout/oca-workflow-process)
 - stock_release_channel

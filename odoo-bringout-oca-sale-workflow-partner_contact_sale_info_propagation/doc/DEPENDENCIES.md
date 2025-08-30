@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [sales_team](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sales_team)
+- [sales_team](https://github.com/bringout/oca-ocb-sale)

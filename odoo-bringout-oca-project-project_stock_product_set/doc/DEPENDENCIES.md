@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [project_stock](../../../../odoo-bringout-oca-project-project_stock)
+- [project_stock](https://github.com/bringout/oca-workflow-process)
 - product_set

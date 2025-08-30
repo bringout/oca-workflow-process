@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [crm](../../../../../oca-ocb-crm/odoo-bringout-oca-ocb-crm)
-- [sale_management](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale_management)
+- [crm](https://github.com/bringout/oca-ocb-crm)
+- [sale_management](https://github.com/bringout/oca-ocb-sale)

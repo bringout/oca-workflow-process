@@ -2,8 +2,8 @@
 
 This addon depends on:
 
-- [sale](https://github.com/bringout/oca-ocb-sale/tree/de00eb97dbc73b96112477e8671cd8ab774267d5/odoo-bringout-oca-ocb-sale)
-- [stock](https://github.com/bringout/oca-ocb-warehouse/tree/9b14fcb23c7ebeb2f1d8695642aaa941064d4d00/odoo-bringout-oca-ocb-stock)
-- [sale_stock](https://github.com/bringout/oca-ocb-sale/tree/de00eb97dbc73b96112477e8671cd8ab774267d5/odoo-bringout-oca-ocb-sale_stock)
-- [stock_account](https://github.com/bringout/oca-ocb-accounting/tree/1c86482d8238e19ed78579629f21cd46d51a058e/odoo-bringout-oca-ocb-stock_account)
+- [sale](https://github.com/bringout/oca-ocb-sale/tree/cfc4dbeb59ab3594bd1aa8f3bb16a1ee00557b4d/odoo-bringout-oca-ocb-sale)
+- [stock](https://github.com/bringout/oca-ocb-warehouse/tree/ffbc26923f1cbb52ea57b79a3bc1781623af2ae9/odoo-bringout-oca-ocb-stock)
+- [sale_stock](https://github.com/bringout/oca-ocb-sale/tree/cfc4dbeb59ab3594bd1aa8f3bb16a1ee00557b4d/odoo-bringout-oca-ocb-sale_stock)
+- [stock_account](https://github.com/bringout/oca-ocb-accounting/tree/6e99f2e941ecad12aceb9b1f887fbe526940de95/odoo-bringout-oca-ocb-stock_account)
 - [stock_picking_kind](https://github.com/bringout/oca-workflow-process)

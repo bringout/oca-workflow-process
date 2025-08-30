@@ -1,1 +1,0 @@
-This module allows to add a dedicated task description that will be shown to portal users. 

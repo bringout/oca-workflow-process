@@ -1,3 +1,0 @@
-# Configuration
-
-Refer to Odoo settings for project_administrator_restricted_visibility. Configure related models, access rights, and options as needed.

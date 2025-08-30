@@ -1,1 +1,0 @@
-Sometimes you need to provide a separate task description for portal users. Eg original description contains some confidential information or is simply too technical for a client. 

@@ -85,9 +85,11 @@ msgstr "Skladišno kretanje"
 
 #. module: stock_move_packaging_qty
 #. odoo-python
-#: code:addons/stock_move_packaging_qty/models/stock_move.py:0
+#: code:addons/stock_move_packaging_qty/models/stock_move.py
 #, python-format
 msgid ""
 "There are %d move lines involved. Please set their product packaging done "
 "qty directly."
 msgstr ""
+"Ima %d move linija uključenih. Molimo postavite njihovu količinu završene "
+"ambalaže proizvoda direktno."

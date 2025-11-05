@@ -25,10 +25,7 @@ msgstr "Template proizvoda"
 
 #. module: stock_picking_product_link
 #. odoo-python
-#: code:addons/stock_picking_product_link/models/stock_picking.py:0
-#: code:addons/stock_picking_product_link/models/stock_picking.py:0
-#: model:ir.model.fields,field_description:stock_picking_product_link.field_stock_picking__product_ids
-#: model_terms:ir.ui.view,arch_db:stock_picking_product_link.view_picking_form
+#: code:addons/stock_picking_product_link/models/stock_picking.py
 #, python-format
 msgid "Products"
 msgstr "Artikli"
@@ -42,6 +39,10 @@ msgid ""
 "where the                     amount displayed is higher than the amount of "
 "products you see                     when clicking on this button."
 msgstr ""
+"Ovo prikazuje količinu proizvoda (varijanti) u transferu zaliha. Ako nemate "
+"omogućene varijante proizvoda, ali ih je neko drugi omogućio, postoji "
+"rijedak slučaj gdje je prikazana količina veća od broja proizvoda koje "
+"vidite kada kliknete na ovo dugme."
 
 #. module: stock_picking_product_link
 #: model:ir.model.fields,help:stock_picking_product_link.field_stock_picking__product_count
@@ -49,6 +50,8 @@ msgid ""
 "This displays the amount of products (variants) in the stock transfer.\n"
 "            The amount of product templates may be lower."
 msgstr ""
+"Ovo prikazuje količinu proizvoda (varijanti) u transferu zaliha.\n"
+"            Broj template proizvoda može biti manji."
 
 #. module: stock_picking_product_link
 #: model:ir.model,name:stock_picking_product_link.model_stock_picking

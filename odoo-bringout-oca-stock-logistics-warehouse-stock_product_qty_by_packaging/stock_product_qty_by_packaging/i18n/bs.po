@@ -20,8 +20,6 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 
 #. module: stock_product_qty_by_packaging
 #: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_move__product_qty_by_packaging_display
-#: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_move_line__product_qty_by_packaging_display
-#: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_quant__product_qty_by_packaging_display
 msgid "Qty by packaging"
 msgstr "Količina po pakovanju"
 

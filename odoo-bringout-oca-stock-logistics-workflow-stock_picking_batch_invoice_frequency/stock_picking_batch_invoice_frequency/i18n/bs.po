@@ -15,13 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: stock_picking_batch_invoice_frecuency
-#: model:ir.model.fields,field_description:stock_picking_batch_invoice_frecuency.field_sale_invoice_frequency__automatic_batch_invoicing
+#. module: stock_picking_batch_invoice_frequency
+#: model:ir.model.fields,field_description:stock_picking_batch_invoice_frequency.field_sale_invoice_frequency__automatic_batch_invoicing
 msgid "Automatic Batch Invoicing"
 msgstr "Automatsko batch fakturisanje"
 
-#. module: stock_picking_batch_invoice_frecuency
-#: model:ir.model,name:stock_picking_batch_invoice_frecuency.model_stock_picking_batch
+#. module: stock_picking_batch_invoice_frequency
+#: model:ir.model,name:stock_picking_batch_invoice_frequency.model_stock_picking_batch
 msgid "Batch Transfer"
 msgstr "Skupni prijenos"
 
@@ -32,12 +32,21 @@ msgid ""
 " when validate them."
 msgstr ""
 
-#. module: stock_picking_batch_invoice_frecuency
-#: model:ir.model,name:stock_picking_batch_invoice_frecuency.model_sale_invoice_frequency
+#. module: stock_picking_batch_invoice_frequency
+#: model:ir.model,name:stock_picking_batch_invoice_frequency.model_sale_invoice_frequency
 msgid "Invoicing frequency for Customers"
-msgstr "Frekvencija fakturisanja za kupce"
+msgstr "Invoicing frequency for Kupacs"
 
-#. module: stock_picking_batch_invoice_frecuency
-#: model:ir.model,name:stock_picking_batch_invoice_frecuency.model_stock_picking
+#. module: stock_picking_batch_invoice_frequency
+#: model:ir.model,name:stock_picking_batch_invoice_frequency.model_stock_picking
 msgid "Transfer"
 msgstr "Prijenos"
+
+#. module: stock_picking_batch_invoice_frequency
+#: model:ir.model.fields,help:stock_picking_batch_invoice_frequency.field_sale_invoice_frequency__automatic_batch_invoicing
+msgid ""
+"If checked, the invoices will be created and posted in stock picking batches"
+" when validated."
+msgstr ""
+"Ako je označeno, fakture će biti kreirane i proknjižene u stock picking "
+"batch-evima kada su validovani."

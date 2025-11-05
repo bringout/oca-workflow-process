@@ -31,24 +31,41 @@ msgid ""
 "                on the location\n"
 "        "
 msgstr ""
+"\n"
+"            Kontroliše da li lokacija može sadržavati proizvode bez paketa.\n"
+"\n"
+"            Opcije:\n"
+"              * False (nije postavljeno): Bez ograničenja, lokacija može sadržavati proizvode\n"
+"                sa i bez paketa\n"
+"              * Forbidden: Lokacija ne može imati proizvode koji su dio paketa\n"
+"              * Mandatory and unique: Lokacija ne može imati proizvode koji nisu\n"
+"                dio paketa i ne možete imati više od jednog paketa na lokaciji\n"
+"              * Mandatory and not unique: Lokacija ne može imati proizvode\n"
+"                koji nisu dio paketa i možete skladištiti više paketa\n"
+"                na lokaciji\n"
+"        "
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py:0
+#: code:addons/stock_location_package_restriction/models/stock_location.py
 #, python-format
 msgid ""
 "A package is mandatory on the location {location}.\n"
 "You cannot move the product(s) {product} without a package."
 msgstr ""
+"Paket je obavezan na lokaciji {location}.\n"
+"Ne možete premjestiti proizvod(e) {product} bez paketa."
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py:0
+#: code:addons/stock_location_package_restriction/models/stock_location.py
 #, python-format
 msgid ""
 "A package is not allowed on the location {location}.You cannot move the "
 "product(s) {product} with a package."
 msgstr ""
+"Paket nije dozvoljen na lokaciji {location}. Ne možete premjestiti "
+"proizvod(e) {product} s paketom."
 
 #. module: stock_location_package_restriction
 #: model:ir.model.fields,field_description:stock_location_package_restriction.field_stock_location__has_package_restriction_violation
@@ -62,7 +79,7 @@ msgstr "Lokacije inventure"
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py:0
+#: code:addons/stock_location_package_restriction/models/stock_location.py
 #, python-format
 msgid "Only one package is allowed on the location {location}."
 msgstr "Only one package is allowed on the location {location}."
@@ -89,30 +106,36 @@ msgstr "Skladišno kretanje"
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py:0
+#: code:addons/stock_location_package_restriction/models/stock_location.py
 #, python-format
 msgid ""
 "This location should only contain a single package but it contains the "
 "package(s): {packages}"
 msgstr ""
+"Ova lokacija treba da sadrži samo jedan paket, ali sadrži paket(e): "
+"{packages}"
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py:0
+#: code:addons/stock_location_package_restriction/models/stock_location.py
 #, python-format
 msgid ""
 "This location should only contain items in a package but it contains the "
 "items of product(s): {products}"
 msgstr ""
+"Ova lokacija treba da sadrži samo stavke u paketu, ali sadrži stavke "
+"proizvoda: {products}"
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py:0
+#: code:addons/stock_location_package_restriction/models/stock_location.py
 #, python-format
 msgid ""
 "This location should only contain items without package but it contains the "
 "package(s): {packages}"
 msgstr ""
+"Ova lokacija treba da sadrži samo stavke bez paketa, ali sadrži paket(e): "
+"{packages}"
 
 #. module: stock_location_package_restriction
 #: model_terms:ir.ui.view,arch_db:stock_location_package_restriction.stock_location_search_view

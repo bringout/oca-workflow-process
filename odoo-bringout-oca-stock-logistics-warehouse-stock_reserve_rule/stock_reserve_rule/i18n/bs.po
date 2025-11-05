@@ -35,7 +35,6 @@ msgstr "Primijeni ovo pravilo samo ako je tip operacije poteza isti."
 
 #. module: stock_reserve_rule
 #: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_form
-#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_search
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -46,13 +45,11 @@ msgstr "Preduzeće"
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__create_uid
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__create_date
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -68,16 +65,17 @@ msgid ""
 "Empty Bins: take goods from a location only if the bin is empty afterwards.\n"
 "Full Packaging: take goods from a location only if the location quantity matches a packaging quantity (do not open boxes)."
 msgstr ""
+"Definira da li i kako se roba uzima iz lokacija. Zadano: uzmi prve s konfiguriranom strategijom uklanjanja (FIFO, FEFO, ...).\n"
+"Prazni kontejneri: uzmi robu iz lokacije samo ako je kontejner prazan nakon toga.\n"
+"Puno pakiranje: uzmi robu iz lokacije samo ako količina lokacije odgovara količini pakiranja (ne otvaraj kutije)."
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__name
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__name
 msgid "Description"
 msgstr "Opis"
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__display_name
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -86,6 +84,8 @@ msgstr "Prikazani naziv"
 msgid ""
 "Domain based on Stock Moves, to define if the rule is applicable or not."
 msgstr ""
+"Domena bazirana na potezima zaliha, za definiranje da li je pravilo "
+"primjenjivo ili nije."
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields.selection,name:stock_reserve_rule.selection__stock_reserve_rule_removal__removal_strategy__empty_bin
@@ -97,6 +97,7 @@ msgstr "Prazni kontejneri"
 msgid ""
 "Filter Quants allowed to be reserved for this location and sub-locations."
 msgstr ""
+"Filtriraj količine dozvoljene za rezervaciju za ovu lokaciju i podlokacije."
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields.selection,name:stock_reserve_rule.selection__stock_reserve_rule_removal__removal_strategy__packaging
@@ -110,31 +111,26 @@ msgstr "Čudne čarape"
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__id
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__id
 msgid "ID"
 msgstr "ID"
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule____last_update
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__write_uid
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__write_date
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__location_id
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__location_id
 msgid "Location"
 msgstr "Lokacija"
 
@@ -180,22 +176,22 @@ msgstr "Pravila uklanjanja"
 
 #. module: stock_reserve_rule
 #. odoo-python
-#: code:addons/stock_reserve_rule/models/stock_reserve_rule.py:0
+#: code:addons/stock_reserve_rule/models/stock_reserve_rule.py
 #, python-format
 msgid ""
 "Removal rule '%(removal_name)s' location has to be a child of the rule "
 "location '%(child_rule)s'."
 msgstr ""
+"Lokacija pravila uklanjanja '%(removal_name)s' mora biti dijete lokacije "
+"pravila '%(child_rule)s'."
 
 #. module: stock_reserve_rule
 #: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_form
-#: model_terms:ir.ui.view,arch_db:stock_reserve_rule.view_stock_reserve_rule_search
 msgid "Reservation Rule"
 msgstr "Pravilo rezervacije"
 
 #. module: stock_reserve_rule
 #: model:ir.actions.act_window,name:stock_reserve_rule.action_stock_reserve_rule
-#: model:ir.ui.menu,name:stock_reserve_rule.menu_stock_reserve_rule
 msgid "Reservation Rules"
 msgstr "Pravila rezervacije"
 
@@ -231,7 +227,6 @@ msgstr "Pravilo se primjenjuje samo u ovoj lokaciji i podlokacijama."
 
 #. module: stock_reserve_rule
 #: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule__sequence
-#: model:ir.model.fields,field_description:stock_reserve_rule.field_stock_reserve_rule_removal__sequence
 msgid "Sequence"
 msgstr "Sekvenca"
 

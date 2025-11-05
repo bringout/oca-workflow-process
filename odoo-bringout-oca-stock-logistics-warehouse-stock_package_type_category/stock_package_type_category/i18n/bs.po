@@ -75,7 +75,6 @@ msgstr "Naziv:"
 
 #. module: stock_package_type_category
 #: model:ir.actions.act_window,name:stock_package_type_category.stock_package_type_category_act_window
-#: model:ir.ui.menu,name:stock_package_type_category.stock_package_type_category_menu
 msgid "Package Type Categories"
 msgstr "Kategorije tipova paketa"
 

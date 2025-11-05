@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "(No description provided.)"
 msgstr "(Opis nije naveden.)"
@@ -27,6 +27,10 @@ msgid ""
 "specific.\" aria-label=\"Values set here are company-specific.\" "
 "groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za preduzeće.\" aria-label=\"Vrijednosti postavljene ovdje su"
+" specifične za preduzeće.\" groups=\"base.group_multi_company\" "
+"role=\"img\"/>"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
@@ -55,8 +59,6 @@ msgstr "Prag prihvatljive varijance količine inventara"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_inventory__inventory_accuracy
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_move_line__line_accuracy
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_location_accuracy
 msgid "Accuracy"
 msgstr "Preciznost"
 
@@ -67,7 +69,6 @@ msgstr "Izvještaj preciznosti"
 
 #. module: stock_cycle_count
 #: model:ir.actions.act_window,name:stock_cycle_count.act_accuracy_stats
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_location_form
 msgid "Accuracy Stats"
 msgstr "Statistike preciznosti"
 
@@ -76,6 +77,7 @@ msgstr "Statistike preciznosti"
 msgid "Action Needed"
 msgstr "Potrebna akcija"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__active
 msgid "Active"
@@ -87,13 +89,16 @@ msgid ""
 "Allows to start with a pre-filled counted quantity for each lines or with "
 "all counted quantities set to zero."
 msgstr ""
+"Omogućava početak sa unaprijed popunjenom prebrojanom količinom za svaku "
+"liniju ili sa svim prebrojanim količinama postavljenim na nulu."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_inventory.py:0
+#: code:addons/stock_cycle_count/models/stock_inventory.py
 #, python-format
 msgid "An adjustment linked to a cycle count should exclude the sublocations."
-msgstr "Prilagodba povezana sa cikličnim brojenjem treba isključiti podlokacije."
+msgstr ""
+"Prilagodba povezana sa cikličnim brojenjem treba isključiti podlokacije."
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_rule_form_view
@@ -107,10 +112,6 @@ msgstr "Primjeni ovo pravilo u:"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__responsible_id
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_inventory__responsible_id
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.report_cyclecount
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Assigned to"
 msgstr "Dodjeljeno"
 
@@ -126,7 +127,6 @@ msgstr "Broj priloga"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_res_company__auto_start_inventory_from_cycle_count
-#: model:ir.model.fields,field_description:stock_cycle_count.field_res_config_settings__auto_start_inventory_from_cycle_count
 msgid "Auto Start Inventory Adjustment from Cycle Count"
 msgstr "Automatski pokreni prilagodbu inventara iz cikličnog brojenja"
 
@@ -135,14 +135,15 @@ msgstr "Automatski pokreni prilagodbu inventara iz cikličnog brojenja"
 msgid "Automatic Required Date"
 msgstr "Automatski potreban datum"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__cancelled
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Cancelled"
 msgstr "Otkazan"
 
@@ -151,6 +152,7 @@ msgstr "Otkazan"
 msgid "Companies"
 msgstr "Kompanije"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__company_id
 msgid "Company"
@@ -166,6 +168,7 @@ msgstr "Izračunaj pravila cikličnog brojenja"
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
 msgid "Confirm"
@@ -191,15 +194,15 @@ msgstr "Prebrojano"
 msgid "Counts per period"
 msgstr "Brojanja po periodu"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__create_uid
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__create_date
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -210,10 +213,6 @@ msgstr "Valuta"
 
 #. module: stock_cycle_count
 #: model:ir.actions.report,name:stock_cycle_count.action_report_stock_cycle_count
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.res_config_settings_view_form_cycle_adjustment
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_location_form
 msgid "Cycle Count"
 msgstr "Ciklično brojanje"
 
@@ -229,7 +228,6 @@ msgstr "Preciznost cikličnog brojenja"
 
 #. module: stock_cycle_count
 #: model:ir.actions.server,name:stock_cycle_count.ir_cron_compute_cycle_count_action_ir_actions_server
-#: model:ir.cron,cron_name:stock_cycle_count.ir_cron_compute_cycle_count_action
 msgid "Cycle Count Planner Computation"
 msgstr "Kalkulacija planera cikličnog brojenja"
 
@@ -240,7 +238,6 @@ msgstr "Horizont planiranja cikličnog brojenja (u danima)"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_warehouse__cycle_count_rule_ids
-#: model:ir.ui.menu,name:stock_cycle_count.menu_stock_cycle_count_rule
 msgid "Cycle Count Rules"
 msgstr "Pravila cikličnog brojenja"
 
@@ -250,6 +247,8 @@ msgid ""
 "Cycle Count Rules\n"
 "                    applied in this Warehouse:"
 msgstr ""
+"Pravila cikličnog brojenja\n"
+"                    primijenjena u ovom skladištu:"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_warehouse__cycle_count_planning_horizon
@@ -257,6 +256,8 @@ msgid ""
 "Cycle Count planning horizon in days. Only the counts inside the horizon "
 "will be created."
 msgstr ""
+"Horizont planiranja cikličnog brojenja u danima. Samo brojanja unutar "
+"horizonta će biti kreirana."
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_warehouse_form
@@ -320,13 +321,11 @@ msgstr "Zadani način brojanja količine"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__res_company__inventory_adjustment_counted_quantities__counted
-#: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_inventory__prefill_counted_quantity__counted
 msgid "Default to stock on hand"
 msgstr "Zadano na stanje na skladištu"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__res_company__inventory_adjustment_counted_quantities__zero
-#: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_inventory__prefill_counted_quantity__zero
 msgid "Default to zero"
 msgstr "Zadano na nulu"
 
@@ -341,43 +340,48 @@ msgid ""
 "Define whether this location will trigger a zero-confirmation validation "
 "when a rule for its warehouse is defined to perform zero-confirmations."
 msgstr ""
+"Definiše da li će ova lokacija pokrenuti validaciju nulte potvrde kada je "
+"pravilo za njeno skladište definirano da izvršava nulte potvrde."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_location__zero_confirmation_disabled
 msgid "Disable Zero Confirmations"
 msgstr "Onemogući nulte potvrde"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__display_name
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__done
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Done"
 msgstr "Izvršeno"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid ""
 "Ensures that at least a defined number of counts in a given period will be "
 "run."
 msgstr ""
+"Osigurava da se pokrene najmanje definirani broj brojanja u zadatom periodu."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "Error found determining the frequency of periodic cycle count rule. %s"
-msgstr "Greška pronađena pri određivanju frekvencije pravila periodičnog cikličnog brojenja. %s"
+msgstr ""
+"Greška pronađena pri određivanju frekvencije pravila periodičnog cikličnog "
+"brojenja. %s"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "Error found when comparing turnover with the rule threshold. %s"
 msgstr "Greška pronađena pri poređenju prometa sa pragom pravila. %s"
@@ -389,20 +393,23 @@ msgstr "Isključi iz cikličnog brojenja"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__open
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Execution"
 msgstr "Izvršavanje"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_follower_ids
 msgid "Followers"
 msgstr "Pratioci"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_partner_ids
+#, fuzzy
 msgid "Followers (Partners)"
 msgstr "Pratioci"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Group By..."
@@ -415,30 +422,31 @@ msgstr "Ima poruku"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__id
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__id
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__message_needaction
+#, fuzzy
 msgid "If checked, new messages require your attention."
 msgstr "Ako je označeno nove poruke će zahtjevati vašu pažnju."
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__message_has_error
+#, fuzzy
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno nove poruke će zahtjevati vašu pažnju."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_res_company__auto_start_inventory_from_cycle_count
-#: model:ir.model.fields,help:stock_cycle_count.field_res_company__inventory_adjustment_counted_quantities
-#: model:ir.model.fields,help:stock_cycle_count.field_res_config_settings__auto_start_inventory_from_cycle_count
-#: model:ir.model.fields,help:stock_cycle_count.field_res_config_settings__inventory_adjustment_counted_quantities
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.res_config_settings_view_form_cycle_adjustment
 msgid ""
 "If enabled, confirming a Cycle Count will start the related Inventory "
 "Adjustment."
 msgstr ""
+"Ako je omogućeno, potvrđivanje cikličnog brojenja će pokrenuti pridruženu "
+"prilagodbu inventara."
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_rule_form_view
@@ -447,6 +455,9 @@ msgid ""
 "                        going to the locations form and checking the box\n"
 "                        \"Exclude from Cycle Count\"."
 msgstr ""
+"U oba slučaja možete isključiti specifične lokacije\n"
+"                        idući na formu lokacija i označavanjem kućice\n"
+"                        \"Isključi iz cikličnog brojenja\"."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_warehouse__counts_for_accuracy_qty
@@ -460,7 +471,6 @@ msgstr "Skladište"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_location__loc_accuracy
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.view_inventory_pivot
 msgid "Inventory Accuracy"
 msgstr "Preciznost inventara"
 
@@ -476,7 +486,6 @@ msgstr "Inventurisanje"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_res_company__inventory_adjustment_counted_quantities
-#: model:ir.model.fields,field_description:stock_cycle_count.field_res_config_settings__inventory_adjustment_counted_quantities
 msgid "Inventory Adjustment Counted quantities from Cycle Count"
 msgstr "Prebrojane količine prilagodbe inventara iz cikličnog brojenja"
 
@@ -505,34 +514,34 @@ msgstr "Evolucija preciznosti inventara"
 msgid "Inventory adjustments associated"
 msgstr "Pridružene prilagodbe inventara"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_is_follower
+#, fuzzy
 msgid "Is Follower"
 msgstr "Pratioci"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count____last_update
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__write_uid
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__write_date
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__location_id
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.report_cyclecount
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Location"
 msgstr "Lokacija"
 
@@ -556,6 +565,7 @@ msgstr "Ručni potreban datum"
 msgid "Message Delivery error"
 msgstr "Greška pri isporuci poruke"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_ids
 msgid "Messages"
@@ -563,7 +573,7 @@ msgstr "Poruke"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "Minimum Accuracy"
 msgstr "Minimalna preciznost"
@@ -578,9 +588,9 @@ msgstr "Prag minimalne preciznosti"
 msgid "My Adjustments"
 msgstr "Moje prilagodbe"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__name
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__name
 msgid "Name"
 msgstr "Ime"
 
@@ -616,12 +626,14 @@ msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid ""
 "Perform an Inventory Adjustment every time a location in the warehouse runs "
 "out of stock in order to confirm it is truly empty."
 msgstr ""
+"Izvršiti prilagodbu inventara svaki put kada lokacija u skladištu ostane bez"
+" zaliha da bi se potvrdilo da je stvarno prazna."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count_rule__periodic_count_period
@@ -630,14 +642,13 @@ msgstr "Period u danima"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "Periodic"
 msgstr "Periodično"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__draft
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Planned"
 msgstr "Planiran"
 
@@ -653,8 +664,6 @@ msgstr "Količine"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__date_deadline
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.report_cyclecount
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "Required Date"
 msgstr "Potreban datum"
 
@@ -665,21 +674,25 @@ msgstr "Opis pravila"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid ""
 "Schedules a count every time the accuracy of a location goes under a given "
 "threshold."
 msgstr ""
+"Zakazuje brojanje svaki put kada preciznost lokacije padne ispod zadatog "
+"praga."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid ""
 "Schedules a count every time the total turnover of a location exceeds the "
 "threshold. This considers every product going into/out of the location"
 msgstr ""
+"Zakazuje brojanje svaki put kada ukupni promet lokacije premašuje prag. Ovo "
+"uzima u obzir svaki proizvod koji ulazi/izlazi iz lokacije"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
@@ -706,9 +719,9 @@ msgstr "Postavlja zadane prebrojane količine u prilagodbi inventara"
 msgid "Specific responsible of Inventory Adjustment."
 msgstr "Specifičan odgovorni za prilagodbu inventara."
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__state
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
 msgid "State"
 msgstr "Status"
 
@@ -719,7 +732,6 @@ msgstr "Status"
 
 #. module: stock_cycle_count
 #: model:ir.actions.act_window,name:stock_cycle_count.action_stock_cycle_count
-#: model:ir.model.fields,field_description:stock_cycle_count.field_stock_inventory__cycle_count_id
 msgid "Stock Cycle Count"
 msgstr "Ciklično brojanje skladišta"
 
@@ -738,6 +750,7 @@ msgstr "Ciklična brojenja skladišta"
 msgid "Stock Cycle Counts Rules"
 msgstr "Pravila cikličnog brojenja skladišta"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_stock_move
 msgid "Stock Move"
@@ -745,32 +758,35 @@ msgstr "Skladišni prenos"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_inventory.py:0
+#: code:addons/stock_cycle_count/models/stock_inventory.py
 #, python-format
 msgid ""
 "The Inventory Adjustment is inconsistent with the Cycle Count:\n"
 "%(message)s"
 msgstr ""
+"Prilagodba inventara je nedosljedna sa cikličnim brojenjem:\n"
+"%(message)s"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_inventory.py:0
+#: code:addons/stock_cycle_count/models/stock_inventory.py
 #, python-format
 msgid "The adjustment should be done for all products in the location."
 msgstr "Prilagodba treba biti učinjena za sve proizvode u lokaciji."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_inventory.py:0
+#: code:addons/stock_cycle_count/models/stock_inventory.py
 #, python-format
 msgid ""
 "The company of the adjustment does not match with the company in the cycle "
 "count."
 msgstr ""
+"Kompanija prilagodbe se ne poklapa sa kompanijom u cikličnom brojenju."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_inventory.py:0
+#: code:addons/stock_cycle_count/models/stock_inventory.py
 #, python-format
 msgid "The location in the inventory does not match with the cycle count."
 msgstr "Lokacija u inventaru se ne poklapa sa cikličnim brojenjem."
@@ -792,7 +808,7 @@ msgstr "Tip pravila"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "Value Turnover"
 msgstr "Vrijednost prometa"
@@ -807,8 +823,10 @@ msgstr "Skladište"
 msgid "Warehouses where applied"
 msgstr "Skladišta gdje se primjenjuje"
 
+# taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__website_message_ids
+#, fuzzy
 msgid "Website Messages"
 msgstr "Poruke"
 
@@ -824,45 +842,48 @@ msgid ""
 "                        warehouses or specific zones. A zone it is\n"
 "                        understood as a location and all its children."
 msgstr ""
+"Možete primijeniti pravila cikličnog brojenja u cijelim\n"
+"                        skladištima ili specifičnim zonama. Zona se\n"
+"                        razumijeva kao lokacija i sva njena djeca."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count.py
 #, python-format
 msgid "You can only confirm cycle counts in state 'Planned'."
 msgstr "Možete potvrditi ciklična brojenja samo u stanju 'Planirano'."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "You can only have one zero confirmation rule per warehouse."
 msgstr "Možete imati samo jedno pravilo nulte potvrde po skladištu."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "You cannot define a negative or null number of counts per period."
 msgstr "Ne možete definirati negativan ili nul broj brojanja po periodu."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "You cannot define a negative period."
 msgstr "Ne možete definirati negativan period."
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "Zero Confirmation"
 msgstr "Nulta potvrda"
 
 #. module: stock_cycle_count
 #. odoo-python
-#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py:0
+#: code:addons/stock_cycle_count/models/stock_cycle_count_rule.py
 #, python-format
 msgid "Zero confirmation rules can only have one warehouse assigned."
 msgstr "Pravila nulte potvrde mogu imati samo jedno skladište dodijeljeno."
@@ -874,6 +895,5 @@ msgstr "Zone gdje se primjenjuje"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_form_view
-#: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_rule_form_view
 msgid "cycle counts test:"
 msgstr "test cikličnog brojenja:"

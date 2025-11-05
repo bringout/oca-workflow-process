@@ -13,16 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: stock_picking_customer_ref
 #: model_terms:ir.ui.view,arch_db:stock_picking_customer_ref.view_picking_internal_search_inh_customerinfo
 msgid "Client order reference"
 msgstr "Referenca narudžbe kupca"
 
+# taken from hr.po
 #. module: stock_picking_customer_ref
 #: model:ir.model.fields,field_description:stock_picking_customer_ref.field_stock_picking__client_order_ref
 msgid "Customer Reference"
 msgstr "Referenca kupca"
 
+# taken from hr.po
 #. module: stock_picking_customer_ref
 #: model:ir.model,name:stock_picking_customer_ref.model_stock_picking
 msgid "Transfer"

@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: stock_split_picking_dimension
 #. odoo-python
-#: code:addons/stock_split_picking_dimension/exceptions.py:0
+#: code:addons/stock_split_picking_dimension/exceptions.py
 #, python-format
 msgid "At least one dimension must be set"
 msgstr "Barem jedna dimenzija mora biti postavljena"
@@ -67,7 +67,7 @@ msgstr "Podijeli paketiranje"
 
 #. module: stock_split_picking_dimension
 #. odoo-python
-#: code:addons/stock_split_picking_dimension/exceptions.py:0
+#: code:addons/stock_split_picking_dimension/exceptions.py
 #, python-format
 msgid "Value of '%(field_label)s' must be positive"
 msgstr "Vrijednost '%(field_label)s' mora biti pozitivna"

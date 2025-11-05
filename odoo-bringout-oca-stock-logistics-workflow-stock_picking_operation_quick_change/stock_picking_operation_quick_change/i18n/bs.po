@@ -31,7 +31,8 @@ msgstr "Primijeni"
 #. module: stock_picking_operation_quick_change
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
 msgid "Cancel"
-msgstr "označite ovaj box ako želite provjeriti dostupnost odabranih picking-a."
+msgstr ""
+"označite ovaj box ako želite provjeriti dostupnost odabranih picking-a."
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__change_all
@@ -54,11 +55,14 @@ msgid ""
 "Change the destination location.\n"
 "                    <br/>"
 msgstr ""
+"Promijenite odredišnu lokaciju.\n"
+"                    <br/>"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,help:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__change_all
 msgid "Check if you want change all operations without filter by old location"
-msgstr "Check if you want change all operations without filter by old location"
+msgstr ""
+"Check if you want change all operations without filter by old location"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__create_uid
@@ -127,12 +131,14 @@ msgstr "Zalihe Izbor Operation Wizard"
 
 #. module: stock_picking_operation_quick_change
 #. odoo-python
-#: code:addons/stock_picking_operation_quick_change/wizards/stock_picking_wizard.py:0
+#: code:addons/stock_picking_operation_quick_change/wizards/stock_picking_wizard.py
 #, python-format
 msgid ""
 "You can not change operations destination location if picking state is not "
 "in %s"
 msgstr ""
+"Ne možete promijeniti odredišnu lokaciju operacija ako stanje skladišnice "
+"nije u %s."
 
 #. module: stock_picking_operation_quick_change
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view

@@ -30,13 +30,12 @@ msgstr "Povezani dokument"
 
 #. module: stock_quant_reservation_info
 #: model_terms:ir.ui.view,arch_db:stock_quant_reservation_info.view_stock_quant_tree_reserved_quantity
-#: model_terms:ir.ui.view,arch_db:stock_quant_reservation_info.view_stock_quant_tree_reserved_quantity_editable
 msgid "Reserved Moves"
 msgstr "Rezervirani premiještaji"
 
 #. module: stock_quant_reservation_info
 #. odoo-python
-#: code:addons/stock_quant_reservation_info/models/stock_quant.py:0
+#: code:addons/stock_quant_reservation_info/models/stock_quant.py
 #, python-format
 msgid "Reserved Moves for: %(product_name)s"
 msgstr "Rezervirani premiještaji za: %(product_name)s"

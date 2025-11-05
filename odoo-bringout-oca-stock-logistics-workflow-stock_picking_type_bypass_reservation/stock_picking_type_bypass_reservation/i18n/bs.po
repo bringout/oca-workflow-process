@@ -20,6 +20,9 @@ msgid ""
 "reveal the uncovered demand in the system. It can be used to easily filter "
 "this operations"
 msgstr ""
+"Detaljne operacije sa ovom oznakom imaju prisilno rezerviranu količinu da "
+"otkriju nepokrivenu potražnju u sistemu. Može se koristiti za lako "
+"filtriranje ovih operacija"
 
 #. module: stock_picking_type_bypass_reservation
 #: model:ir.model.fields,help:stock_picking_type_bypass_reservation.field_stock_picking_type__bypass_reservation
@@ -27,10 +30,11 @@ msgid ""
 "If checked, products from this Picking Type will always be reserved even if you don't have enough stock (available stock will be reserved as usual).\n"
 "Note: Pickings will be reserved on Confirmation even if you don't have checked the option"
 msgstr ""
+"Ako je označeno, proizvodi iz ovog tipa preuzimanja će uvijek biti rezervirani čak i ako nemate dovoljno zaliha (dostupne zalihe će biti rezervirane kao i obično).\n"
+"Napomena: Preuzimanja će biti rezervirana pri potvrdi čak i ako nemate označenu opciju"
 
 #. module: stock_picking_type_bypass_reservation
 #: model:ir.model.fields,field_description:stock_picking_type_bypass_reservation.field_stock_move_line__bypassed_reservation
-#: model_terms:ir.ui.view,arch_db:stock_picking_type_bypass_reservation.stock_move_line_view_search
 msgid "Phantom reservation"
 msgstr "Fantomska rezervacija"
 

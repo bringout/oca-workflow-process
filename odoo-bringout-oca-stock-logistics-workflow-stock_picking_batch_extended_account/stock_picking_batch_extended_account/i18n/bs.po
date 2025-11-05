@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: stock_picking_batch_extended_account
 #: model:ir.model.fields,field_description:stock_picking_batch_extended_account.field_res_partner__batch_picking_auto_invoice
-#: model:ir.model.fields,field_description:stock_picking_batch_extended_account.field_res_users__batch_picking_auto_invoice
 msgid "Batch Picking Auto Invoice"
 msgstr "Batch picking automatska faktura"
 
@@ -36,7 +35,7 @@ msgstr "Ne"
 
 #. module: stock_picking_batch_extended_account
 #. odoo-python
-#: code:addons/stock_picking_batch_extended_account/models/stock_batch_picking.py:0
+#: code:addons/stock_picking_batch_extended_account/models/stock_batch_picking.py
 #, python-format
 msgid "Nothing to print."
 msgstr "Nema ništa za štampanje."

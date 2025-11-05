@@ -20,13 +20,11 @@ msgstr "Aktivan"
 
 #. module: stock_grn
 #: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_type_form
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_type_search
 msgid "Archived"
 msgstr "Arhivirano"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__carrier_id
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_search
 msgid "Carrier"
 msgstr "Prevoznik"
 
@@ -52,13 +50,11 @@ msgstr "Broj pobranja GRN-a"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__create_uid
-#: model:ir.model.fields,field_description:stock_grn.field_stock_grn_type__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__create_date
-#: model:ir.model.fields,field_description:stock_grn.field_stock_grn_type__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -74,7 +70,6 @@ msgstr "Opis"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__display_name
-#: model:ir.model.fields,field_description:stock_grn.field_stock_grn_type__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -85,10 +80,6 @@ msgstr "Od"
 
 #. module: stock_grn
 #: model:ir.actions.act_window,name:stock_grn.action_picking_tree_grn
-#: model_terms:ir.ui.view,arch_db:stock_grn.stock_move_tree_view
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_form
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_search
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_picking_withgrn_tree
 msgid "GRN"
 msgstr "GRN"
 
@@ -109,20 +100,16 @@ msgstr "Tipovi GRN-a"
 
 #. module: stock_grn
 #: model:ir.model,name:stock_grn.model_stock_grn
-#: model:ir.model.fields,field_description:stock_grn.field_stock_move__grn_id
-#: model:ir.model.fields,field_description:stock_grn.field_stock_picking__grn_id
 msgid "Goods Received Note"
 msgstr "Obavještenje o primljenoj robi"
 
 #. module: stock_grn
 #: model:ir.actions.act_window,name:stock_grn.action_grn_type_view
-#: model:ir.ui.menu,name:stock_grn.menu_stock_grn_type
 msgid "Goods Received Note Types"
 msgstr "Tipovi obavještenja o primljenoj robi"
 
 #. module: stock_grn
 #: model:ir.actions.act_window,name:stock_grn.action_grn_view
-#: model:ir.ui.menu,name:stock_grn.menu_stock_grn
 msgid "Goods Received Notes"
 msgstr "Obavještenja o primljenoj robi"
 
@@ -143,7 +130,6 @@ msgstr "Ima GRN"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__id
-#: model:ir.model.fields,field_description:stock_grn.field_stock_grn_type__id
 msgid "ID"
 msgstr "ID"
 
@@ -154,26 +140,21 @@ msgstr "Dolazeće isporuke"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn____last_update
-#: model:ir.model.fields,field_description:stock_grn.field_stock_grn_type____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__write_uid
-#: model:ir.model.fields,field_description:stock_grn.field_stock_grn_type__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__write_date
-#: model:ir.model.fields,field_description:stock_grn.field_stock_grn_type__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__name
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_search
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_type_search
 msgid "Name"
 msgstr "Naziv:"
 
@@ -184,7 +165,6 @@ msgstr "Nema dokumenata. Kreirajmo jedan!"
 
 #. module: stock_grn
 #: model_terms:ir.ui.view,arch_db:stock_grn.stock_move_search_view
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_picking_withgrn_search
 msgid "Not Received (GRN)"
 msgstr "Nije primljeno (GRN)"
 
@@ -205,7 +185,6 @@ msgstr "Količina paleta"
 
 #. module: stock_grn
 #: model_terms:ir.ui.view,arch_db:stock_grn.stock_move_search_view
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_picking_withgrn_search
 msgid "Received (GRN)"
 msgstr "Primljeno (GRN)"
 
@@ -221,13 +200,11 @@ msgstr "Skladišno kretanje"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__supplier_id
-#: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_search
 msgid "Supplier"
 msgstr "Dobavljač"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__delivery_note_supplier_number
-#: model:ir.model.fields,field_description:stock_grn.field_stock_picking__delivery_note_supplier_number
 msgid "Supplier delivery note number"
 msgstr "Broj dobavljačeve otpremnice"
 
@@ -244,7 +221,8 @@ msgstr "Prijenos"
 #. module: stock_grn
 #: model_terms:ir.actions.act_window,help:stock_grn.action_picking_tree_grn
 msgid "Transfers allow you to move products from one location to another."
-msgstr "Transferi omogućavaju da pomjerite artikle sa jedne lokacije na drugu."
+msgstr ""
+"Transferi omogućavaju da pomjerite artikle sa jedne lokacije na drugu."
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn_type__name

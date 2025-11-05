@@ -28,16 +28,19 @@ msgstr "Sve (aktivne/neaktivne)"
 msgid "Archived"
 msgstr "Arhivirano"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__company_id
 msgid "Company"
 msgstr "Kompanija"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__create_date
 msgid "Created on"
@@ -50,13 +53,11 @@ msgstr "Datum (od)"
 
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
-#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_tree
 msgid "Date From"
 msgstr "Datum od"
 
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
-#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_tree
 msgid "Date To"
 msgstr "Datum do"
 
@@ -65,14 +66,16 @@ msgstr "Datum do"
 msgid "Demand Planning"
 msgstr "Planiranje potražnje"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_duration
-#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_form
+#, fuzzy
 msgid "Duration"
 msgstr "Lokacija"
 
@@ -111,24 +114,27 @@ msgstr "Grupiši po"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__location_id
-#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Location"
 msgstr "Lokacija"
 
@@ -137,12 +143,13 @@ msgstr "Lokacija"
 msgid "Not Expired"
 msgstr "Nije isteklo"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__product_id
-#: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Product"
 msgstr "Proizvod"
 
+# taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__product_uom_qty
 msgid "Quantity"
@@ -180,18 +187,19 @@ msgstr "Linija procjene potražnje skladišta"
 
 #. module: stock_demand_estimate
 #: model:ir.actions.act_window,name:stock_demand_estimate.stock_demand_estimate_action
-#: model:ir.ui.menu,name:stock_demand_estimate.stock_demand_estimate_menu
 msgid "Stock Demand Estimates"
 msgstr "Procjene potražnje skladišta"
 
 #. module: stock_demand_estimate
 #. odoo-python
-#: code:addons/stock_demand_estimate/models/stock_demand_estimate.py:0
+#: code:addons/stock_demand_estimate/models/stock_demand_estimate.py
 #, python-format
 msgid ""
 "The requested operation cannot be processed because of a programming error "
 "setting the `product_qty` field instead of the `product_uom_qty`."
 msgstr ""
+"Tražena operacija se ne može obraditi zbog greške programiranja koja "
+"postavlja polje `product_qty` umjesto polja `product_uom_qty`."
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__manual_date_to

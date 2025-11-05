@@ -19,6 +19,8 @@ msgid ""
 "Check this if you want user to fill in the GRN field for pickings of this "
 "type."
 msgstr ""
+"Označiti ovo ako želite da korisnik popuni GRN polje za picking-ove ovog "
+"tipa."
 
 #. module: stock_picking_grn_mandatory
 #: model_terms:ir.ui.view,arch_db:stock_picking_grn_mandatory.stock_picking_type_form_view
@@ -37,7 +39,7 @@ msgstr "Vrsta dokumenta"
 
 #. module: stock_picking_grn_mandatory
 #. odoo-python
-#: code:addons/stock_picking_grn_mandatory/models/stock_picking.py:0
+#: code:addons/stock_picking_grn_mandatory/models/stock_picking.py
 #, python-format
 msgid "The picking must be linked to a Goods Received Note"
 msgstr "Picking mora biti povezan sa nalogom za primku robe"

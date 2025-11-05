@@ -19,6 +19,8 @@ msgid ""
 "<i class=\"fa fa-info-circle\"/>\n"
 "                        &amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-info-circle\"/>\n"
+"                        &amp;nbsp;"
 
 #. module: stock_picking_warn_message
 #: model_terms:ir.ui.view,arch_db:stock_picking_warn_message.view_picking_form
@@ -26,6 +28,8 @@ msgid ""
 "<i class=\"fa fa-warning\"/>\n"
 "                        &amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-warning\"/>\n"
+"                        &amp;nbsp;"
 
 #. module: stock_picking_warn_message
 #: model:ir.model.fields,field_description:stock_picking_warn_message.field_stock_picking__picking_warn

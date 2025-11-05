@@ -20,7 +20,6 @@ msgstr "<strong>Sekundarna kol.</strong>"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move__product_uom_qty
-#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_reservation__product_uom_qty
 msgid "Demand"
 msgstr "Zahtjevajte"
 
@@ -46,26 +45,21 @@ msgstr "Varijanta proizvoda"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_product_product__secondary_unit_qty_available
-#: model:ir.model.fields,field_description:stock_secondary_unit.field_product_template__secondary_unit_qty_available
-#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_product_secondary_unit_mixin__secondary_unit_qty_available
 msgid "Quantity On Hand (2Unit)"
 msgstr "Količina na stanju (2.jedinica)"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move__secondary_uom_id
-#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__secondary_uom_id
 msgid "Second unit"
 msgstr "Druga jedinica"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_product_product__stock_secondary_uom_id
-#: model:ir.model.fields,field_description:stock_secondary_unit.field_product_template__stock_secondary_uom_id
 msgid "Second unit for inventory"
 msgstr "Druga jedinica za inventuru"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move__secondary_uom_qty
-#: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__secondary_uom_qty
 msgid "Secondary Qty"
 msgstr "Sekundarna kol."
 
@@ -86,7 +80,6 @@ msgstr "Mješavina sekundarne jedinice proizvoda zaliha"
 
 #. module: stock_secondary_unit
 #: model:ir.model.fields,help:stock_secondary_unit.field_stock_move__product_uom_qty
-#: model:ir.model.fields,help:stock_secondary_unit.field_stock_reservation__product_uom_qty
 msgid ""
 "This is the quantity of products from an inventory point of view. For moves "
 "in the state 'done', this is the quantity of products that were actually "
@@ -95,3 +88,8 @@ msgid ""
 "this quantity on assigned moves affects the product reservation, and should "
 "be done with care."
 msgstr ""
+"Ovo je količina proizvoda iz perspektive inventara. Za kretanja u stanju "
+"'završeno' to je količina proizvoda koja je zaista premještena. Za druga "
+"kretanja to je količina planirana za premještanje. Smanjenje ove količine ne"
+" generiše zaostalu narudžbu. Promjena ove količine na dodijeljenim "
+"kretanjima utiče na rezervaciju proizvoda i treba je raditi oprezno."

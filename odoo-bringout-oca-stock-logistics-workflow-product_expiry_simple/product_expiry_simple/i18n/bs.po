@@ -19,6 +19,8 @@ msgid ""
 "<span class=\"badge badge-danger\" attrs=\"{'invisible': [('expired', '=', "
 "False)]}\">Expired</span>"
 msgstr ""
+"<span class=\"badge badge-danger\" attrs=\"{'invisible': [('expired', '=', "
+"False)]}\">Expired</span>"
 
 #. module: product_expiry_simple
 #: model_terms:ir.ui.view,arch_db:product_expiry_simple.view_production_lot_form
@@ -26,23 +28,16 @@ msgid ""
 "<span class=\"badge text-bg-danger\" attrs=\"{'invisible': [('expired', '=',"
 " False)]}\">Expired</span>"
 msgstr ""
+"<span class=\"badge text-bg-danger\" attrs=\"{'invisible': [('expired', '=',"
+" False)]}\">Expired</span>"
 
 #. module: product_expiry_simple
 #: model:ir.model.fields,field_description:product_expiry_simple.field_stock_lot__expired
-#: model:ir.model.fields,field_description:product_expiry_simple.field_stock_quant__expired
-#: model_terms:ir.ui.view,arch_db:product_expiry_simple.quant_search_view
-#: model_terms:ir.ui.view,arch_db:product_expiry_simple.search_product_lot_filter
 msgid "Expired"
 msgstr "Istekao"
 
 #. module: product_expiry_simple
 #: model:ir.model.fields,field_description:product_expiry_simple.field_stock_assign_serial__serial_expiry_date
-#: model:ir.model.fields,field_description:product_expiry_simple.field_stock_lot__expiry_date
-#: model:ir.model.fields,field_description:product_expiry_simple.field_stock_move__serial_expiry_date
-#: model:ir.model.fields,field_description:product_expiry_simple.field_stock_move_line__expiry_date
-#: model:ir.model.fields,field_description:product_expiry_simple.field_stock_quant__expiry_date
-#: model_terms:ir.ui.view,arch_db:product_expiry_simple.quant_search_view
-#: model_terms:ir.ui.view,arch_db:product_expiry_simple.search_product_lot_filter
 msgid "Expiry Date"
 msgstr "Datum isteka"
 
@@ -53,7 +48,6 @@ msgstr "Lot/Serijski"
 
 #. module: product_expiry_simple
 #: model_terms:ir.ui.view,arch_db:product_expiry_simple.quant_search_view
-#: model_terms:ir.ui.view,arch_db:product_expiry_simple.search_product_lot_filter
 msgid "Not Expired"
 msgstr "Datum upozorenja je dosegnut."
 
@@ -69,21 +63,25 @@ msgstr "Artikal"
 
 #. module: product_expiry_simple
 #. odoo-python
-#: code:addons/product_expiry_simple/models/stock_lot.py:0
+#: code:addons/product_expiry_simple/models/stock_lot.py
 #, python-format
 msgid ""
 "Product %(product)s doesn't use expiry dates, but an expiry date is set on "
 "lot %(lot)s."
 msgstr ""
+"Product %(product)s doesn't use expiry dates, but an expiry date is set on "
+"lot %(lot)s."
 
 #. module: product_expiry_simple
 #. odoo-python
-#: code:addons/product_expiry_simple/models/stock_lot.py:0
+#: code:addons/product_expiry_simple/models/stock_lot.py
 #, python-format
 msgid ""
 "Product %(product)s uses expiry dates, but expiry date is missing on lot "
 "%(lot)s."
 msgstr ""
+"Product %(product)s uses expiry dates, but expiry date is missing on lot "
+"%(lot)s."
 
 #. module: product_expiry_simple
 #: model:ir.model,name:product_expiry_simple.model_stock_move_line
@@ -117,25 +115,23 @@ msgstr "Prijenos"
 
 #. module: product_expiry_simple
 #: model:ir.model.fields,field_description:product_expiry_simple.field_product_product__use_expiry_date
-#: model:ir.model.fields,field_description:product_expiry_simple.field_product_template__use_expiry_date
-#: model:ir.model.fields,field_description:product_expiry_simple.field_stock_assign_serial__product_use_expiry_date
-#: model:ir.model.fields,field_description:product_expiry_simple.field_stock_lot__use_expiry_date
-#: model:ir.model.fields,field_description:product_expiry_simple.field_stock_move__product_use_expiry_date
 msgid "Use Expiry Date"
 msgstr "Koristi datum isteka"
 
 #. module: product_expiry_simple
 #. odoo-python
-#: code:addons/product_expiry_simple/models/product_template.py:0
+#: code:addons/product_expiry_simple/models/product_template.py
 #, python-format
 msgid ""
 "You cannot set 'Use Expiry Date' on product '%s' because it is not tracked "
 "by lot nor by serial number."
 msgstr ""
+"You cannot set 'Use Expiry Date' on product '%s' because it is not tracked "
+"by lot nor by serial number."
 
 #. module: product_expiry_simple
 #. odoo-python
-#: code:addons/product_expiry_simple/models/stock_lot.py:0
+#: code:addons/product_expiry_simple/models/stock_lot.py
 #, python-format
 msgid "[%(date)s ⚠] %(lot)s"
 msgstr "[%(date)s ⚠] %(lot)s"

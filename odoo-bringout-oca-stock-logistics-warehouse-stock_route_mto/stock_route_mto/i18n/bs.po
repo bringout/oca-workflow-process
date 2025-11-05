@@ -29,9 +29,10 @@ msgid ""
 "Is a MTO (Make to Order) route. Check this if you want to identifythis route"
 " as an MTO one."
 msgstr ""
+"Je MTO (Napravi po narudžbi) ruta. Označite ovo ako želite identificirati "
+"ovu rutu kao MTO."
 
 #. module: stock_route_mto
 #: model_terms:ir.ui.view,arch_db:stock_route_mto.stock_route_search_view
-#: model_terms:ir.ui.view,arch_db:stock_route_mto.stock_route_tree_view
 msgid "MTO"
 msgstr "MTO"

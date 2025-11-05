@@ -20,7 +20,6 @@ msgstr "Aktivan"
 
 #. module: stock_production_lot_active
 #: model_terms:ir.ui.view,arch_db:stock_production_lot_active.stock_production_lot_form_view
-#: model_terms:ir.ui.view,arch_db:stock_production_lot_active.stock_production_lot_search_view
 msgid "Archived"
 msgstr "Arhivirano"
 

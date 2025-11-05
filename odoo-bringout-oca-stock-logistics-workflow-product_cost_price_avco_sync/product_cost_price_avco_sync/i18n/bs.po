@@ -15,12 +15,14 @@ msgstr ""
 
 #. module: product_cost_price_avco_sync
 #. odoo-python
-#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py:0
+#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py
 #, python-format
 msgid ""
 "More than one stock move line to assign the new stock valuation layer "
 "quantity"
 msgstr ""
+"Više od jedne linije kretanja zaliha za dodjelu nove količine sloja "
+"vrednovanja zaliha"
 
 #. module: product_cost_price_avco_sync
 #: model:ir.model,name:product_cost_price_avco_sync.model_stock_move_line
@@ -39,12 +41,14 @@ msgstr "Sloj vrednovanja zaliha"
 
 #. module: product_cost_price_avco_sync
 #. odoo-python
-#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py:0
+#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py
 #, python-format
 msgid ""
 "The AVCO sync can't be completed, as there's some endless dependency in the "
 "data needed to process it."
 msgstr ""
+"AVCO sinhronizacija ne može biti završena, jer postoji beskonačna ovisnost u"
+" podacima potrebnim za njenu obradu."
 
 #. module: product_cost_price_avco_sync
 #: model:ir.model,name:product_cost_price_avco_sync.model_stock_picking

@@ -25,12 +25,13 @@ msgstr "Lokacije inventure"
 
 #. module: stock_location_lockdown
 #. odoo-python
-#: code:addons/stock_location_lockdown/models/stock_location.py:0
+#: code:addons/stock_location_lockdown/models/stock_location.py
 #, python-format
 msgid ""
 "It is impossible to prohibit this location from                    receiving"
 " products as it already contains some."
 msgstr ""
+"Nije moguće zabraniti da ova lokacija prima proizvode jer ih već sadrži."
 
 #. module: stock_location_lockdown
 #: model:ir.model,name:stock_location_lockdown.model_stock_quant
@@ -39,12 +40,14 @@ msgstr "Količine"
 
 #. module: stock_location_lockdown
 #. odoo-python
-#: code:addons/stock_location_lockdown/models/stock_quant.py:0
+#: code:addons/stock_location_lockdown/models/stock_quant.py
 #, python-format
 msgid ""
 "The location %(location)s is blocked and can not be used for moving the "
 "product %(product)s"
 msgstr ""
+"Lokacija %(location)s je blokirana i ne može se koristiti za premještanje "
+"proizvoda %(product)s"
 
 #. module: stock_location_lockdown
 #: model:ir.model.fields,help:stock_location_lockdown.field_stock_location__block_stock_entrance
@@ -52,3 +55,5 @@ msgid ""
 "if this box is checked, putting stock on this location won't be allowed. "
 "Usually used for a virtual location that has childrens."
 msgstr ""
+"ako je ovo polje označeno, stavljanje zaliha na ovu lokaciju neće biti "
+"dozvoljeno. Obično se koristi za virtuelnu lokaciju koja ima podlokacije."

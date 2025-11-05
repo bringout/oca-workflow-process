@@ -15,102 +15,106 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: stock_picking_batch_group_field
-#. odoo-python
-#: code:addons/stock_picking_batch_group_field/wizard/stock_picking_to_batch.py:0
+#. module: stock_picking_to_batch_group_fields
+#: code:addons/stock_picking_to_batch_group_fields/wizard/stock_picking_to_batch.py
 #, python-format
 msgid ""
 "All selected pickings are already in a batch picking or are in a wrong "
 "state."
 msgstr ""
+"Svi odabrani picking-ovi su već u batch picking-u ili su u pogrešnom stanju."
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model,name:stock_picking_batch_group_field.model_stock_picking_batch_creator_group_field
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model,name:stock_picking_to_batch_group_fields.model_stock_picking_batch_creator_group_field
 msgid "Batch Picking Creator Group Field"
-msgstr "Polje grupe kreatora batch preuzimanja"
+msgstr "Polje grupe kreatora batch picking-a"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model,name:stock_picking_batch_group_field.model_stock_picking_to_batch
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model,name:stock_picking_to_batch_group_fields.model_stock_picking_to_batch
 msgid "Batch Transfer Lines"
 msgstr "Stavke skupnog prijenosa"
 
-#. module: stock_picking_batch_group_field
-#: model_terms:ir.ui.view,arch_db:stock_picking_batch_group_field.stock_picking_to_batch_form_inherit
+#. module: stock_picking_to_batch_group_fields
+#: model_terms:ir.ui.view,arch_db:stock_picking_to_batch_group_fields.stock_picking_to_batch_form_inherit
 msgid "Create multiple batch picking grouped by..."
-msgstr "Kreiraj više batch preuzimanja grupiranih po..."
+msgstr "Kreiraj više batch picking-a grupiranih po..."
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__create_uid
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__create_date
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__display_name
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__field_id
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__field_id
 msgid "Field to group"
 msgstr "Polje za grupiranje"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_to_batch__group_field_ids
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_to_batch__group_field_ids
 msgid "Group by field"
-msgstr "Grupiraj po polju"
+msgstr "Grupiši po polju"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,help:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__sequence
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,help:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__sequence
 msgid "Group by picking field"
-msgstr "Grupiraj po polju preuzimanja"
+msgstr "Grupiši po polju picking-a"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_to_batch__batch_by_group
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_to_batch__batch_by_group
 msgid "Grouped by fields"
-msgstr "Grupirana po poljima"
+msgstr "Grupirano po poljima"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__id
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__id
 msgid "ID"
 msgstr "ID"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,help:stock_picking_batch_group_field.field_stock_picking_to_batch__group_field_ids
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,help:stock_picking_to_batch_group_fields.field_stock_picking_to_batch__group_field_ids
 msgid ""
 "If set any, multiple batch picking will be created, one per group field"
 msgstr ""
+"Ako je postavljeno, više batch picking-a će biti kreirano, jedan po grupi "
+"polja"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,help:stock_picking_batch_group_field.field_stock_picking_to_batch__batch_by_group
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,help:stock_picking_to_batch_group_fields.field_stock_picking_to_batch__batch_by_group
 msgid "If set, multiple batch picking will be created, one per group field"
-msgstr "Ako je postavljeno, više batch preuzimanja će biti kreirano, jedno po polju grupe"
+msgstr ""
+"Ako je postavljeno, više batch picking-a će biti kreirano, jedan po grupi "
+"polja"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field____last_update
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__write_uid
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažurirao"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__write_date
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__picking_to_batch_id
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__picking_to_batch_id
 msgid "Picking To Batch"
-msgstr "Preuzimanje za batch"
+msgstr "Picking u šaržu"
 
-#. module: stock_picking_batch_group_field
-#: model:ir.model.fields,field_description:stock_picking_batch_group_field.field_stock_picking_batch_creator_group_field__sequence
+#. module: stock_picking_to_batch_group_fields
+#: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Preostala odsustva"

@@ -18,6 +18,8 @@ msgstr ""
 msgid ""
 "Enable this option to restrict returning more quantities than delivered."
 msgstr ""
+"Omogućite ovu opciju da ograničite vraćanje više količina nego što je "
+"isporučeno."
 
 #. module: stock_picking_return_restricted_qty
 #: model:ir.model,name:stock_picking_return_restricted_qty.model_stock_picking_type
@@ -41,8 +43,7 @@ msgstr "Stavka povrata"
 
 #. module: stock_picking_return_restricted_qty
 #. odoo-python
-#: code:addons/stock_picking_return_restricted_qty/wizard/stock_picking_return.py:0
-#: code:addons/stock_picking_return_restricted_qty/wizard/stock_picking_return.py:0
+#: code:addons/stock_picking_return_restricted_qty/wizard/stock_picking_return.py
 #, python-format
 msgid "Return more quantities than delivered is not allowed."
 msgstr "Vraćanje više količina nego što je isporučeno nije dozvoljeno."

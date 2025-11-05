@@ -15,8 +15,6 @@ msgstr ""
 
 #. module: stock_picking_info_lot
 #: model:ir.model.fields,field_description:stock_picking_info_lot.field_product_product__lot_info_usage
-#: model:ir.model.fields,field_description:stock_picking_info_lot.field_product_template__lot_info_usage
-#: model:ir.model.fields,field_description:stock_picking_info_lot.field_stock_move_line__lot_info_usage
 msgid "Lot Information Usage"
 msgstr "Lot Information Usage"
 
@@ -27,7 +25,7 @@ msgstr "Lot/Serial Number Info"
 
 #. module: stock_picking_info_lot
 #. odoo-python
-#: code:addons/stock_picking_info_lot/models/stock_picking.py:0
+#: code:addons/stock_picking_info_lot/models/stock_picking.py
 #, python-format
 msgid "Missing Lot Info for Products %s."
 msgstr "Missing Lot Info for Products %s."

@@ -19,6 +19,8 @@ msgid ""
 "Check this if you want to group moves per priority when creatingpickings "
 "during move assignation."
 msgstr ""
+"Označiti ovo ako želite da grupišete move-ove po prioritetu kada kreirate "
+"picking-ove tokom alokacije move-a."
 
 #. module: stock_move_priority_picking_assign
 #: model:ir.model.fields,field_description:stock_move_priority_picking_assign.field_stock_picking_type__group_moves_per_priority

@@ -24,6 +24,8 @@ msgid ""
 "Packaging of the product, used for internal logisticstransfers, put-away "
 "rules, ..."
 msgstr ""
+"Pakovanje proizvoda, koristi se za interne logističke transfere, pravila "
+"odlaganja, ..."
 
 #. module: stock_quant_package_product_packaging
 #: model:ir.model,name:stock_quant_package_product_packaging.model_stock_move_line

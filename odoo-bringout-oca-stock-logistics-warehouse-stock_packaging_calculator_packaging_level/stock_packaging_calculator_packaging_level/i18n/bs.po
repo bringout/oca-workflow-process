@@ -36,7 +36,12 @@ msgstr "Zadnje mijenjano"
 msgid "Product"
 msgstr "Artikal"
 
-#. module: stock_packaging_calculator_packaging_type
-#: model:ir.model,name:stock_packaging_calculator_packaging_type.model_product_qty_by_packaging_mixin
+#. module: stock_packaging_calculator_packaging_level
+#: model:ir.model,name:stock_packaging_calculator_packaging_level.model_product_qty_by_packaging_mixin
 msgid "Product Qty By Packaging (Mixin)"
 msgstr "Količina proizvoda po ambalaži (Mixin)"
+
+#. module: stock_packaging_calculator_packaging_level
+#: model:ir.model,name:stock_packaging_calculator_packaging_level.model_product_product
+msgid "Product Variant"
+msgstr "Product Variant"

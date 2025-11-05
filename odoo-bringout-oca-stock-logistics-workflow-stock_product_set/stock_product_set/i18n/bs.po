@@ -20,7 +20,6 @@ msgstr "Dodaj set u preuzimanje"
 
 #. module: stock_product_set
 #: model_terms:ir.ui.view,arch_db:stock_product_set.product_set_add_from_picking_form_view
-#: model_terms:ir.ui.view,arch_db:stock_product_set.view_picking_form
 msgid "Add set"
 msgstr "Dodaj set"
 
@@ -96,7 +95,7 @@ msgstr "Količina"
 
 #. module: stock_product_set
 #. odoo-python
-#: code:addons/stock_product_set/wizard/stock_product_set_wizard.py:0
+#: code:addons/stock_product_set/wizard/stock_product_set_wizard.py
 #, python-format
 msgid "This set of products is restricted for this user."
 msgstr "Ovaj set proizvoda je ograničen za ovog korisnika."

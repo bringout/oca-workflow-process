@@ -25,16 +25,22 @@ msgid ""
 "        [being_emptied] The location is filled and the outgoing move(s) will empty the location\n"
 "        "
 msgstr ""
+"\n"
+"        Ovo prikazuje stanje popunjenosti lokacije.\n"
+"        Moguće vrijednosti:\n"
+"        [empty] Prazna lokacija\n"
+"        [filled] Popunjena lokacija\n"
+"        [being_filled] Lokacija je prazna i u toku je ulazno kretanje\n"
+"        [being_emptied] Lokacija je popunjena i izlazno kretanje će je isprazniti\n"
+"        "
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__being_emptied
-#: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_search_view
 msgid "Being Emptied"
 msgstr "Being Emptied"
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__being_filled
-#: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_search_view
 msgid "Being Filled"
 msgstr "Being Filled"
 
@@ -44,10 +50,11 @@ msgid ""
 "Don't compute the fill state for this location. Checking this onintensively "
 "used locations can improve performances."
 msgstr ""
+"Ne izračunavaj stanje popunjenosti za ovu lokaciju. Označavanje na "
+"intenzivno korištenim lokacijama može poboljšati performanse."
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__empty
-#: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_search_view
 msgid "Empty"
 msgstr "Prazno"
 
@@ -58,13 +65,11 @@ msgstr "Exclude From Fill State Computation"
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields,field_description:stock_location_fill_state.field_stock_location__fill_state
-#: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_form_view
 msgid "Fill State"
 msgstr "Fill State"
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__filled
-#: model_terms:ir.ui.view,arch_db:stock_location_fill_state.stock_location_search_view
 msgid "Filled"
 msgstr "Filled"
 

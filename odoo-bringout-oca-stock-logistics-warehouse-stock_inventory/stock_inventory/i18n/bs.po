@@ -70,12 +70,14 @@ msgstr "Otkazan"
 
 #. module: stock_inventory
 #. odoo-python
-#: code:addons/stock_inventory/models/stock_inventory.py:0
+#: code:addons/stock_inventory/models/stock_inventory.py
 #, python-format
 msgid ""
 "Cannot have more than one in-progress inventory adjustment affecting the "
 "same location or product at the same time."
 msgstr ""
+"Ne može imati više od jedne prilagodbe inventara u toku koja utiče na istu "
+"lokaciju ili proizvod u isto vrijeme."
 
 #. module: stock_inventory
 #: model:ir.model,name:stock_inventory.model_res_company
@@ -168,15 +170,17 @@ msgid ""
 "If enabled, it will only take into account the locations selected, and not "
 "their children."
 msgstr ""
+"Ako je omogućeno, uzet će u obzir samo odabrane lokacije, a ne njihovu "
+"djecu."
 
 #. module: stock_inventory
 #: model:ir.model.fields,help:stock_inventory.field_res_company__stock_inventory_auto_complete
-#: model:ir.model.fields,help:stock_inventory.field_res_config_settings__stock_inventory_auto_complete
-#: model_terms:ir.ui.view,arch_db:stock_inventory.res_config_settings_view_form
 msgid ""
 "If enabled, when all the quants prepared for the adjustment are done, the "
 "adjustment is automatically set to done."
 msgstr ""
+"Ako je omogućeno, kada su svi kvantovi pripremljeni za prilagodbu završeni, "
+"prilagodba se automatski postavlja na završeno."
 
 #. module: stock_inventory
 #: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__state__in_progress
@@ -185,13 +189,11 @@ msgstr "U Toku"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__stock_quant_ids
-#: model:ir.model.fields,field_description:stock_inventory.field_stock_move_line__inventory_adjustment_id
 msgid "Inventory Adjustment"
 msgstr "Inventurisanje"
 
 #. module: stock_inventory
 #: model:ir.actions.act_window,name:stock_inventory.action_view_inventory_group_form
-#: model:ir.model,name:stock_inventory.model_stock_inventory
 msgid "Inventory Adjustment Group"
 msgstr "Grupa prilagodbe inventara"
 
@@ -232,7 +234,6 @@ msgstr "Zadnje ažurirano"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__location_ids
-#: model_terms:ir.ui.view,arch_db:stock_inventory.view_inventory_group_form
 msgid "Locations"
 msgstr "Lokacije"
 
@@ -268,7 +269,7 @@ msgstr "Poruke"
 
 #. module: stock_inventory
 #. odoo-python
-#: code:addons/stock_inventory/models/stock_quant.py:0
+#: code:addons/stock_inventory/models/stock_quant.py
 #, python-format
 msgid "No move lines have been created"
 msgstr "Nisu kreirane linije pokreta"
@@ -310,7 +311,6 @@ msgstr "Artikal"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__category_id
-#: model:ir.model.fields.selection,name:stock_inventory.selection__stock_inventory__product_selection__category
 msgid "Product Category"
 msgstr "Kategorija proizvoda"
 
@@ -331,7 +331,6 @@ msgstr "Artikli"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_inventory__products_under_review_ids
-#: model_terms:ir.ui.view,arch_db:stock_inventory.stock_inventory_search_view
 msgid "Products Under Review"
 msgstr "Proizvodi u pregledu"
 
@@ -367,7 +366,6 @@ msgstr "Inventar skladišta"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_res_company__stock_inventory_auto_complete
-#: model:ir.model.fields,field_description:stock_inventory.field_res_config_settings__stock_inventory_auto_complete
 msgid "Stock Inventory Auto Complete"
 msgstr "Automatsko dopunjavanje inventara skladišta"
 
@@ -383,21 +381,25 @@ msgstr "Linije pokreta skladišta"
 
 #. module: stock_inventory
 #. odoo-python
-#: code:addons/stock_inventory/models/stock_inventory.py:0
+#: code:addons/stock_inventory/models/stock_inventory.py
 #, python-format
 msgid ""
 "There are active adjustments for the requested products: %(names)s. Blocking"
 " adjustments: %(blocking_names)s"
 msgstr ""
+"Postoje aktivne prilagodbe za tražene proizvode: %(names)s. Blokirajuće "
+"prilagodbe: %(blocking_names)s"
 
 #. module: stock_inventory
 #. odoo-python
-#: code:addons/stock_inventory/models/stock_inventory.py:0
+#: code:addons/stock_inventory/models/stock_inventory.py
 #, python-format
 msgid ""
 "There's already an Adjustment in Process using one requested Location: "
 "%(names)s. Blocking adjustments: %(blocking_names)s"
 msgstr ""
+"Već postoji prilagodba u obradi koja koristi jednu traženu lokaciju: "
+"%(names)s. Blokirajuće prilagodbe: %(blocking_names)s"
 
 #. module: stock_inventory
 #: model:ir.model.fields,help:stock_inventory.field_stock_inventory__owner_id
@@ -406,7 +408,6 @@ msgstr "Ovo je vlasnik prilagodbe inventara"
 
 #. module: stock_inventory
 #: model:ir.model.fields,field_description:stock_inventory.field_stock_quant__to_do
-#: model_terms:ir.ui.view,arch_db:stock_inventory.view_stock_quant_search_not_done
 msgid "To Do"
 msgstr "Za uraditi"
 
@@ -422,32 +423,36 @@ msgstr "Povijest komunikacije Web stranice"
 
 #. module: stock_inventory
 #. odoo-python
-#: code:addons/stock_inventory/models/stock_inventory.py:0
+#: code:addons/stock_inventory/models/stock_inventory.py
 #, python-format
 msgid ""
 "When 'Product Selection: Lot Serial Number' is selected you are only able to"
 " add one product."
 msgstr ""
+"Kada je odabran 'Odabir proizvoda: Serijski broj' možete dodati samo jedan "
+"proizvod."
 
 #. module: stock_inventory
 #. odoo-python
-#: code:addons/stock_inventory/models/stock_inventory.py:0
+#: code:addons/stock_inventory/models/stock_inventory.py
 #, python-format
 msgid ""
 "When 'Product Selection: One Product' is selected you are only able to add "
 "one product."
 msgstr ""
+"Kada je odabran 'Odabir proizvoda: Jedan proizvod' možete dodati samo jedan "
+"proizvod."
 
 #. module: stock_inventory
 #. odoo-python
-#: code:addons/stock_inventory/models/stock_inventory.py:0
+#: code:addons/stock_inventory/models/stock_inventory.py
 #, python-format
 msgid "You can only delete inventory adjustments groups in draft state."
 msgstr "Možete obrisati grupe prilagodbi inventara samo u stanju nacrta."
 
 #. module: stock_inventory
 #. odoo-python
-#: code:addons/stock_inventory/models/stock_inventory.py:0
+#: code:addons/stock_inventory/models/stock_inventory.py
 #, python-format
 msgid "You can't cancel this inventory %(display_name)s."
 msgstr "Ne možete otkazati ovaj inventar %(display_name)s."

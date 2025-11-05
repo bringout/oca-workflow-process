@@ -45,7 +45,7 @@ msgstr "Prikazani naziv"
 
 #. module: base_product_merge
 #. odoo-python
-#: code:addons/base_product_merge/wizard/base_product_merge.py:0
+#: code:addons/base_product_merge/wizard/base_product_merge.py
 #, python-format
 msgid "Error occurred while merging products."
 msgstr "Dogodila se greška prilikom spajanja proizvoda."
@@ -77,8 +77,6 @@ msgstr "Metod spajanja"
 
 #. module: base_product_merge
 #: model:ir.actions.act_window,name:base_product_merge.action_product_merge
-#: model:ir.actions.act_window,name:base_product_merge.action_product_template_merge
-#: model_terms:ir.ui.view,arch_db:base_product_merge.view_base_product_merge_form
 msgid "Merge Products"
 msgstr "Spojih proizvode"
 
@@ -135,11 +133,14 @@ msgid ""
 "                        redirected to the aggregated product. You can remove\n"
 "                        products from this list to avoid merging them."
 msgstr ""
+"Odabrani proizvodi će biti spojeni. Svi\n"
+"                        dokumenti koji upućuju na neki od tih proizvoda biće\n"
+"                        preusmjereni na objedinjeni proizvod. Proizvode možete ukloniti\n"
+"                        sa ove liste da biste spriječili njihovo spajanje."
 
 #. module: base_product_merge
 #. odoo-python
-#: code:addons/base_product_merge/wizard/base_product_merge.py:0
-#: code:addons/base_product_merge/wizard/base_product_merge.py:0
+#: code:addons/base_product_merge/wizard/base_product_merge.py
 #, python-format
 msgid "You cannot merge product to it self."
 msgstr "Ne možete spojiti proizvod sa samim sobom."

@@ -15,15 +15,13 @@ msgstr ""
 
 #. module: stock_move_auto_assign_auto_release
 #. odoo-python
-#: code:addons/stock_move_auto_assign_auto_release/models/stock_picking.py:0
+#: code:addons/stock_move_auto_assign_auto_release/models/stock_picking.py
 #, python-format
 msgid "Auto release available to promise %(name)s"
 msgstr "Automatsko oslobađanje dostupnih obećanih %(name)s"
 
 #. module: stock_move_auto_assign_auto_release
 #: model:ir.model.fields,field_description:stock_move_auto_assign_auto_release.field_stock_move__is_auto_release_allowed
-#: model:ir.model.fields,field_description:stock_move_auto_assign_auto_release.field_stock_picking__is_auto_release_allowed
-#: model:ir.model.fields,field_description:stock_move_auto_assign_auto_release.field_stock_reservation__is_auto_release_allowed
 msgid "Is Auto Release Allowed"
 msgstr "Je automatsko oslobađanje dozvoljeno"
 
@@ -44,7 +42,7 @@ msgstr "Prijenos"
 
 #. module: stock_move_auto_assign_auto_release
 #. odoo-python
-#: code:addons/stock_move_auto_assign_auto_release/models/stock_move.py:0
+#: code:addons/stock_move_auto_assign_auto_release/models/stock_move.py
 #, python-format
 msgid "Try releasing \"%(product)s\" for quantities added in: %(locations)s"
 msgstr "Pokušaj oslobađanja \"%(product)s\" za količine dodane u: %(locations)s"

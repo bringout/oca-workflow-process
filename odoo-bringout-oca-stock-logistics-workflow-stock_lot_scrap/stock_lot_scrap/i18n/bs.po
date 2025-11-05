@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: stock_lot_scrap
 #. odoo-python
-#: code:addons/stock_lot_scrap/models/stock_scrap.py:0
+#: code:addons/stock_lot_scrap/models/stock_scrap.py
 #, python-format
 msgid "Lot was scrapped by <b>%s</b>."
 msgstr "Lot je otpisan od strane <b>%s</b>."
@@ -23,26 +23,28 @@ msgstr "Lot je otpisan od strane <b>%s</b>."
 #. module: stock_lot_scrap
 #: model:ir.model,name:stock_lot_scrap.model_stock_lot
 msgid "Lot/Serial"
-msgstr "Lot/Serial"
+msgstr "Lot/Serijski"
 
+# taken from hr.po
 #. module: stock_lot_scrap
 #. odoo-python
-#: code:addons/stock_lot_scrap/models/stock_lot.py:0
-#: model:ir.model,name:stock_lot_scrap.model_stock_scrap
+#: code:addons/stock_lot_scrap/models/stock_production_lot.py
 #, python-format
 msgid "Scrap"
 msgstr "Otpis"
 
+# taken from hr.po
 #. module: stock_lot_scrap
 #. odoo-python
-#: code:addons/stock_lot_scrap/models/stock_lot.py:0
+#: code:addons/stock_lot_scrap/models/stock_production_lot.py
 #, python-format
 msgid "This lot doesn't contain any quant in internal location."
 msgstr "Ovaj lot nema nikakve količine na internoj lokaciji"
 
+# taken from hr.po
 #. module: stock_lot_scrap
 #. odoo-python
-#: code:addons/stock_lot_scrap/models/stock_lot.py:0
+#: code:addons/stock_lot_scrap/models/stock_production_lot.py
 #, python-format
 msgid "This will scrap the whole lot. Are you sure you want to continue?"
 msgstr "Ovo će otpisati kompletan lot. Jeste li sigurni da želite nastaviti?"

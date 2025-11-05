@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: stock_picking_commercial_partner
 #: model:ir.model.fields,field_description:stock_picking_commercial_partner.field_stock_picking__commercial_partner_id
-#: model_terms:ir.ui.view,arch_db:stock_picking_commercial_partner.stock_picking_search_view
 msgid "Commercial Entity"
 msgstr "Komercijalni entitet"
 

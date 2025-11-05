@@ -18,6 +18,7 @@ msgstr ""
 msgid "Action"
 msgstr "Akcija"
 
+# taken from hr.po
 #. module: stock_mts_mto_rule
 #: model:ir.model.fields.selection,name:stock_mts_mto_rule.selection__stock_rule__action__split_procurement
 msgid "Choose between MTS and MTO"
@@ -30,26 +31,34 @@ msgid ""
 " created only if the virtual stock is less than 0 else, the product will be "
 "taken from stocks"
 msgstr ""
+"Ako je ovaj novi route odabran na formi proizvoda, narudžbenica će biti "
+"kreirana samo ako je virtualna zaliha manja od 0, inače će se proizvod uzeti"
+" iz zaliha"
 
 #. module: stock_mts_mto_rule
 #. odoo-python
-#: code:addons/stock_mts_mto_rule/models/stock_rule.py:0
+#: code:addons/stock_mts_mto_rule/models/stock_rule.py
 #, python-format
 msgid ""
 "Inconsistency between the source locations of the mts and mto rules linked "
 "to the procurement rule: %s! It should be the same."
 msgstr ""
+"Nekonzistentnost između izvornih lokacija mts i mto pravila povezanih sa "
+"pravilom nabavke: %s! Trebalo bi da bude isto."
 
+# taken from hr.po
 #. module: stock_mts_mto_rule
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_rule__mto_rule_id
 msgid "MTO Rule"
 msgstr "MTO pravilo"
 
+# taken from hr.po
 #. module: stock_mts_mto_rule
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_warehouse__mts_mto_rule_id
 msgid "MTO+MTS rule"
 msgstr "MTO+MTS pravilo"
 
+# taken from hr.po
 #. module: stock_mts_mto_rule
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_rule__mts_rule_id
 msgid "MTS Rule"
@@ -57,36 +66,39 @@ msgstr "MTS pravilo"
 
 #. module: stock_mts_mto_rule
 #. odoo-python
-#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py:0
+#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py
 #, python-format
 msgid "MTS+MTO"
 msgstr "MTS+MTO"
 
 #. module: stock_mts_mto_rule
 #. odoo-python
-#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py:0
-#: model:stock.route,name:stock_mts_mto_rule.route_mto_mts
+#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py
 #, python-format
 msgid "Make To Order + Make To Stock"
 msgstr "Make To Order + Make To Stock"
 
 #. module: stock_mts_mto_rule
 #. odoo-python
-#: code:addons/stock_mts_mto_rule/models/stock_rule.py:0
+#: code:addons/stock_mts_mto_rule/models/stock_rule.py
 #, python-format
 msgid "No MTS or MTO rule configured on procurement rule: %s!"
 msgstr "Nije konfigurisan MTS ili MTO pravilo na pravilu nabavke: %s!"
 
+# taken from hr.po
 #. module: stock_mts_mto_rule
 #: model:ir.model,name:stock_mts_mto_rule.model_stock_rule
+#, fuzzy
 msgid "Stock Rule"
 msgstr "MTS pravilo"
 
+# taken from hr.po
 #. module: stock_mts_mto_rule
 #: model:ir.model.fields,field_description:stock_mts_mto_rule.field_stock_warehouse__mto_mts_management
 msgid "Use MTO+MTS rules"
 msgstr "Koristi MTO+MTS pravila"
 
+# taken from hr.po
 #. module: stock_mts_mto_rule
 #: model:ir.model,name:stock_mts_mto_rule.model_stock_warehouse
 msgid "Warehouse"

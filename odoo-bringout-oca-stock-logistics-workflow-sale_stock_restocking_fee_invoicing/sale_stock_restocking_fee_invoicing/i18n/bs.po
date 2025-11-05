@@ -15,10 +15,6 @@ msgstr ""
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_partner__charge_restocking_fee
-#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_users__charge_restocking_fee
-#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_move__charge_restocking_fee
-#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_return_picking__charge_restocking_fee
-#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_return_picking_line__charge_restocking_fee
 msgid "Charge Restocking Fee"
 msgstr "Naplati naknadu za obnavljanje zaliha"
 
@@ -40,7 +36,8 @@ msgstr "Kontakt"
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_stock_move__charge_restocking_fee
 msgid "If checked your customer will be charged for accepting returned goods."
-msgstr "Ako označite, vašem kupcu će biti naplaćeno za prihvaćanje vraćene robe."
+msgstr ""
+"Ako označite, vašem kupcu će biti naplaćeno za prihvaćanje vraćene robe."
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_stock_move__picking_kind
@@ -49,7 +46,6 @@ msgstr "Označite vrstu izdavanja na osnovu lokacija"
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_return_picking__is_customer_return
-#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_return_picking_line__is_customer_return
 msgid "Is Customer Return"
 msgstr "Povraćaj od kupca"
 
@@ -65,6 +61,9 @@ msgid ""
 "returning goods. In the case where fees are to be applied, the product "
 "specified here is added to the sale order to charge these fees."
 msgstr ""
+"Moguće je specificirati na kupcu da li se moraju naplatiti naknade za "
+"vraćanje robe. U slučaju kada se naknade primjenjuju, ovdje specificiran "
+"proizvod se dodaje u prodajni nalog za naplatu ovih naknada."
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_res_company__restocking_fee_product_id
@@ -74,15 +73,21 @@ msgid ""
 "product specified here is added to the sale order to charge these restocking"
 " fee."
 msgstr ""
+"Moguće je specificirati na kupcu da li se mora naplatiti naknada za "
+"obnavljanje zaliha za vraćanje robe. U slučaju kada se naknade primjenjuju, "
+"ovdje specificiran proizvod se dodaje u prodajni nalog za naplatu ovih "
+"naknada za obnavljanje zaliha."
 
 #. module: sale_stock_restocking_fee_invoicing
 #. odoo-python
-#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py:0
+#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py
 #, python-format
 msgid ""
 "No product configured for restocking fee. Please fix the configuration into "
 "stock settings or contact you administrator."
 msgstr ""
+"Nije konfigurisan proizvod za naknadu obnavljanja zaliha. Molimo ispravite "
+"konfiguraciju u podešavanjima zaliha ili kontaktirajte administratora."
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_move__picking_kind
@@ -96,7 +101,6 @@ msgstr "Proizvod koji predstavlja naknadu za obnavljanje vraćene robe"
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_company__restocking_fee_product_id
-#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_config_settings__restocking_fee_product_id
 msgid "Restocking Fee Product"
 msgstr "Proizvod naknade za obnavljanje zaliha"
 
@@ -107,10 +111,11 @@ msgstr "Naknada za obnavljanje zaliha"
 
 #. module: sale_stock_restocking_fee_invoicing
 #. odoo-python
-#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py:0
+#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py
 #, python-format
 msgid "Restocking fee for %(prod_uom_qty)s %(prod_uom)s %(so_line)s"
-msgstr "Naknada za obnavljanje zaliha za %(prod_uom_qty)s %(prod_uom)s %(so_line)s"
+msgstr ""
+"Naknada za obnavljanje zaliha za %(prod_uom_qty)s %(prod_uom)s %(so_line)s"
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model,name:sale_stock_restocking_fee_invoicing.model_stock_return_picking
@@ -139,12 +144,12 @@ msgstr "Skladišno kretanje"
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_res_partner__charge_restocking_fee
-#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_res_users__charge_restocking_fee
-#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_stock_return_picking_line__charge_restocking_fee
 msgid ""
 "Tick this box if you wish to charge your customer a fee in case of return of"
 " goods"
 msgstr ""
+"Označite ovaj okvir ako želite naplatiti kupcu naknadu u slučaju povraćaja "
+"robe"
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_stock_return_picking__charge_restocking_fee
@@ -152,3 +157,5 @@ msgid ""
 "Tick this box if you wish to charge your customer a fee in case of return of"
 " goods. Default value comes from the customer info."
 msgstr ""
+"Označite ovaj okvir ako želite naplatiti kupcu naknadu u slučaju povraćaja "
+"robe. Zadana vrijednost dolazi iz informacija o kupcu."

@@ -59,6 +59,9 @@ msgid ""
 "Indicate the cateogories of products that can use this reason code when "
 "doing a scrap. If left empy, this reason code can be used with any product."
 msgstr ""
+"Naznačite kategorije proizvoda koje mogu koristiti ovaj kod razloga pri "
+"rashodovanju. Ako ostane prazno, ovaj kod razloga se može koristiti za bilo "
+"koji proizvod."
 
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code____last_update
@@ -77,10 +80,6 @@ msgstr "Zadnje ažurirano"
 
 #. module: scrap_reason_code
 #: model:ir.model,name:scrap_reason_code.model_scrap_reason_code
-#: model:ir.model.fields,field_description:scrap_reason_code.field_stock_move__reason_code_id
-#: model:ir.model.fields,field_description:scrap_reason_code.field_stock_scrap__reason_code_id
-#: model_terms:ir.ui.view,arch_db:scrap_reason_code.stock_reason_code_form
-#: model_terms:ir.ui.view,arch_db:scrap_reason_code.view_scrap_reason_code_form
 msgid "Reason Code"
 msgstr "Kod razloga"
 
@@ -91,13 +90,11 @@ msgstr "Otpis"
 
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__location_id
-#: model:ir.model.fields,field_description:scrap_reason_code.field_stock_scrap__scrap_location_id
 msgid "Scrap Location"
 msgstr "Lokacija otpada"
 
 #. module: scrap_reason_code
 #: model:ir.actions.act_window,name:scrap_reason_code.open_view_scrap_reason_code_form
-#: model:ir.ui.menu,name:scrap_reason_code.menu_view_scrap_reason_code_form
 msgid "Scrap Reason Codes"
 msgstr "Scrap Reason Codes"
 
@@ -108,7 +105,8 @@ msgstr "Skladišno kretanje"
 
 #. module: scrap_reason_code
 #. odoo-python
-#: code:addons/scrap_reason_code/models/stock_scrap.py:0
+#: code:addons/scrap_reason_code/models/stock_scrap.py
 #, python-format
 msgid "The selected reason code is not allowed for this product category."
-msgstr "The selected reason code is not allowed for this kategorija proizvoda."
+msgstr ""
+"The selected reason code is not allowed for this kategorija proizvoda."

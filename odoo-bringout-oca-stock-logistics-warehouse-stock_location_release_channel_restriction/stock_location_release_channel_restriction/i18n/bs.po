@@ -20,6 +20,8 @@ msgid ""
 "movements to restrict the future movements to be in the same release "
 "channel."
 msgstr ""
+"Označite ovo polje ako želite uzeti u obzir sva čekajuća ulazna kretanja "
+"kako biste ograničili buduća kretanja na isti kanal oslobađanja."
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,field_description:stock_location_release_channel_restriction.field_stock_move_line__for_restriction_destination_location_channel_id
@@ -33,11 +35,12 @@ msgstr "For Restriction Incoming Location Channel"
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,help:stock_location_release_channel_restriction.field_stock_location__parent_release_channel_restriction
-#: model:ir.model.fields,help:stock_location_release_channel_restriction.field_stock_location__release_channel_restriction
 msgid ""
 "If 'same' is selected the system will prevent to put items of different "
 "release channels into the same location."
 msgstr ""
+"Ako je odabrano 'same', sistem će spriječiti smještanje stavki različitih "
+"kanala oslobađanja na istu lokaciju."
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,help:stock_location_release_channel_restriction.field_stock_location__specific_release_channel_restriction
@@ -45,6 +48,8 @@ msgid ""
 "If specified the restriction specified will apply to the current location "
 "and all its children"
 msgstr ""
+"Ako je navedeno, ograničenje će se primijeniti na trenutnu lokaciju i sve "
+"njene podlokacije."
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model,name:stock_location_release_channel_restriction.model_stock_location
@@ -53,22 +58,18 @@ msgstr "Lokacije inventure"
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python
-#: code:addons/stock_location_release_channel_restriction/models/stock_location.py:0
-#: model:ir.model.fields.selection,name:stock_location_release_channel_restriction.selection__stock_location__release_channel_restriction__mixed
-#: model:ir.model.fields.selection,name:stock_location_release_channel_restriction.selection__stock_location__specific_release_channel_restriction__mixed
+#: code:addons/stock_location_release_channel_restriction/models/stock_location.py
 #, python-format
 msgid "Movements of different release channels are allowed into the location"
 msgstr "Movements of different release channels are allowed into the location"
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python
-#: code:addons/stock_location_release_channel_restriction/models/stock_location.py:0
-#: model:ir.model.fields.selection,name:stock_location_release_channel_restriction.selection__stock_location__release_channel_restriction__same
-#: model:ir.model.fields.selection,name:stock_location_release_channel_restriction.selection__stock_location__specific_release_channel_restriction__same
+#: code:addons/stock_location_release_channel_restriction/models/stock_location.py
 #, python-format
 msgid ""
 "Only movements of the same release channel are allowed into the location"
-msgstr ""
+msgstr "Na lokaciju su dozvoljena samo kretanja iz istog kanala oslobađanja"
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,field_description:stock_location_release_channel_restriction.field_stock_location__parent_release_channel_restriction
@@ -106,6 +107,8 @@ msgid ""
 "Technical field in order to retrieve the release channel of pending incoming"
 " moves on destination location."
 msgstr ""
+"Tehničko polje za dobijanje kanala oslobađanja čekajućih ulaznih kretanja na"
+" odredišnoj lokaciji."
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,help:stock_location_release_channel_restriction.field_stock_move_line__for_restriction_destination_location_channel_id
@@ -113,17 +116,19 @@ msgid ""
 "Technical field in order to retrieve the release channel of pending moveson "
 "destination location."
 msgstr ""
+"Tehničko polje za dobijanje kanala oslobađanja čekajućih kretanja na "
+"odredišnoj lokaciji."
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python
-#: code:addons/stock_location_release_channel_restriction/models/exception.py:0
+#: code:addons/stock_location_release_channel_restriction/models/exception.py
 #, python-format
 msgid "Undefined"
 msgstr "Nedefinisano"
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python
-#: code:addons/stock_location_release_channel_restriction/models/exception.py:0
+#: code:addons/stock_location_release_channel_restriction/models/exception.py
 #, python-format
 msgid ""
 "You cannot move picking (%(picking_name)s) products to %(location_name)s. "
@@ -131,3 +136,7 @@ msgid ""
 "%(release_channel_name)s release channel and/or pending incoming moves for "
 "%(incoming_channel_names)s"
 msgstr ""
+"Ne možete premjestiti proizvode iz skladišnice (%(picking_name)s) na "
+"%(location_name)s. Ta lokacija već ima čekajuća izlazna kretanja za kanal "
+"oslobađanja %(release_channel_name)s i/ili čekajuća ulazna kretanja za "
+"%(incoming_channel_names)s."

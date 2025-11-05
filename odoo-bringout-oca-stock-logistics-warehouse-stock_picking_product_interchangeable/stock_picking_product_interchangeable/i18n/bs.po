@@ -40,7 +40,6 @@ msgstr "Ako je nešto dostupno"
 
 #. module: stock_picking_product_interchangeable
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_interchangeable.product_normal_form_view
-#: model_terms:ir.ui.view,arch_db:stock_picking_product_interchangeable.product_template_interchangeable_form_view
 msgid "Interchangeable"
 msgstr "Zamjenjivo"
 
@@ -76,7 +75,6 @@ msgstr "Artikal"
 
 #. module: stock_picking_product_interchangeable
 #: model:ir.model.fields,field_description:stock_picking_product_interchangeable.field_product_product__product_tmpl_interchangeable_ids
-#: model:ir.model.fields,field_description:stock_picking_product_interchangeable.field_product_template__product_tmpl_interchangeable_ids
 msgid "Product Tmpl Interchangeable"
 msgstr "Zamjenjivi template proizvoda"
 
@@ -87,7 +85,6 @@ msgstr "Varijanta proizvoda"
 
 #. module: stock_picking_product_interchangeable
 #: model:ir.model.fields,help:stock_picking_product_interchangeable.field_product_product__product_interchangeable_ids
-#: model:ir.model.fields,help:stock_picking_product_interchangeable.field_product_product__product_replaces_ids
 msgid "Products that can be substituted by current product"
 msgstr "Proizvodi koji mogu biti zamijenjeni trenutnim proizvodom"
 
@@ -98,8 +95,6 @@ msgstr "Proizvodi koji mogu zamijeniti trenutni proizvod"
 
 #. module: stock_picking_product_interchangeable
 #: model:ir.model.fields,field_description:stock_picking_product_interchangeable.field_product_product__product_interchangeable_ids
-#: model:ir.model.fields,field_description:stock_picking_product_interchangeable.field_product_product__product_replaced_by_ids
-#: model:ir.model.fields,field_description:stock_picking_product_interchangeable.field_product_product__product_replaces_ids
 msgid "Replaces"
 msgstr "Zamjenjuje"
 

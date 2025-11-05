@@ -40,19 +40,14 @@ msgstr "Prijenos"
 
 #. module: stock_warehouse_relationship
 #: model:ir.model.fields,field_description:stock_warehouse_relationship.field_stock_move__warehouse_id
-#: model:ir.model.fields,field_description:stock_warehouse_relationship.field_stock_move_line__warehouse_id
-#: model:ir.model.fields,field_description:stock_warehouse_relationship.field_stock_picking__warehouse_id
-#: model:ir.model.fields,field_description:stock_warehouse_relationship.field_stock_quant__warehouse_id
-#: model:ir.model.fields,field_description:stock_warehouse_relationship.field_stock_quant_package__warehouse_id
-#: model:ir.model.fields,field_description:stock_warehouse_relationship.field_stock_reservation__warehouse_id
 msgid "Warehouse"
 msgstr "Skladište"
 
 #. module: stock_warehouse_relationship
 #: model:ir.model.fields,help:stock_warehouse_relationship.field_stock_move__warehouse_id
-#: model:ir.model.fields,help:stock_warehouse_relationship.field_stock_move_line__warehouse_id
-#: model:ir.model.fields,help:stock_warehouse_relationship.field_stock_reservation__warehouse_id
 msgid ""
 "the warehouse to consider for the route selection on the next procurement "
 "(if any)."
 msgstr ""
+"skladište koje treba razmotriti za izbor rute na sljedećoj nabavci (ako je "
+"ima)."

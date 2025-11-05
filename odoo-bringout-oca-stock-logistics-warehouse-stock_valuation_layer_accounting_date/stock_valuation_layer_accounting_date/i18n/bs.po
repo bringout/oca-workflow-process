@@ -24,6 +24,8 @@ msgid ""
 "Date of the linked journal entry if applicable, otherwise the create date of"
 " the record (timezone aware)"
 msgstr ""
+"Datum povezanog knjižnog zapisa ako je primjenjivo, inače datum kreiranja "
+"zapisa (svjestan vremenske zone)"
 
 #. module: stock_valuation_layer_accounting_date
 #: model:ir.model,name:stock_valuation_layer_accounting_date.model_stock_quantity_history

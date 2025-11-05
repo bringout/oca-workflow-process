@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__picking_count
-#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
 msgid "# Pickings"
 msgstr "# Picking-ova"
 
@@ -41,17 +40,20 @@ msgstr "Aktivni picking-ovi"
 
 #. module: stock_picking_batch_extended
 #. odoo-python
-#: code:addons/stock_picking_batch_extended/wizard/stock_picking_to_batch.py:0
+#: code:addons/stock_picking_batch_extended/wizard/stock_picking_to_batch.py
 #, python-format
 msgid ""
 "All selected pickings are already in a batch picking or are in a wrong "
 "state."
 msgstr ""
+"Svi odabrani picking-ovi su već u batch picking-u ili su u pogrešnom stanju."
 
 #. module: stock_picking_batch_extended
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_form
 msgid "All undone pickings from this batch will be removed, are you sure?"
-msgstr "Svi nezavršeni picking-ovi iz ove šarže će biti uklonjeni, da li ste sigurni?"
+msgstr ""
+"Svi nezavršeni picking-ovi iz ove šarže će biti uklonjeni, da li ste "
+"sigurni?"
 
 #. module: stock_picking_batch_extended
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.res_config_settings_view_form
@@ -65,7 +67,6 @@ msgstr "Polje grupe kreatora batch picking-a"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model,name:stock_picking_batch_extended.model_stock_picking_batch
-#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__name
 msgid "Batch Transfer"
 msgstr "Skupni prijenos"
 
@@ -159,6 +160,8 @@ msgstr "ID"
 msgid ""
 "If set any, multiple batch picking will be created, one per group field"
 msgstr ""
+"Ako je postavljeno, više batch picking-a će biti kreirano, jedan po grupi "
+"polja"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field____last_update
@@ -197,14 +200,12 @@ msgstr "Naziv batch picking-a"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__notes
-#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_to_batch__notes
-#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_form
 msgid "Notes"
 msgstr "Zabilješke"
 
 #. module: stock_picking_batch_extended
 #. odoo-python
-#: code:addons/stock_picking_batch_extended/models/stock_batch_picking.py:0
+#: code:addons/stock_picking_batch_extended/models/stock_batch_picking.py
 #, python-format
 msgid "Nothing to print."
 msgstr "Nema ništa za štampanje."
@@ -276,7 +277,6 @@ msgstr "Rezerviši sve"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__user_id
-#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_to_batch__user_id
 msgid "Responsible"
 msgstr "Odgovoran"
 
@@ -307,7 +307,6 @@ msgstr "Koristi OCA pristup za validaciju picking batch-a"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_res_company__use_oca_batch_validation
-#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__use_oca_batch_validation
 msgid "Use Oca Batch Validation"
 msgstr "Koristi OCA batch validaciju"
 
@@ -323,7 +322,6 @@ msgstr "Skladište"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_product_product__description_warehouse
-#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.product_normal_form_view
 msgid "Warehouse Description"
 msgstr "Opis skladišta"
 

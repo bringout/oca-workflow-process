@@ -25,7 +25,6 @@ msgstr "Cost in Company Currency"
 
 #. module: stock_landed_costs_currency
 #: model:ir.model.fields,field_description:stock_landed_costs_currency.field_stock_landed_cost__currency_id
-#: model:ir.model.fields,field_description:stock_landed_costs_currency.field_stock_landed_cost_lines__currency_id
 msgid "Currency"
 msgstr "Valuta"
 

@@ -35,7 +35,7 @@ msgstr "Varijanta proizvoda"
 
 #. module: stock_picking_quick
 #. odoo-python
-#: code:addons/stock_picking_quick/models/stock_picking.py:0
+#: code:addons/stock_picking_quick/models/stock_picking.py
 #, python-format
 msgid "Product Variants"
 msgstr "Varijante proizvoda"

@@ -20,11 +20,12 @@ msgstr "Has Restriction Violation"
 
 #. module: stock_location_product_restriction
 #: model:ir.model.fields,help:stock_location_product_restriction.field_stock_location__parent_product_restriction
-#: model:ir.model.fields,help:stock_location_product_restriction.field_stock_location__product_restriction
 msgid ""
 "If 'Same product' is selected the system will prevent to put items of "
 "different products into the same location."
 msgstr ""
+"Ako je odabrano 'Isti proizvod', sistem će spriječiti smještanje stavki "
+"različitih proizvoda na istu lokaciju."
 
 #. module: stock_location_product_restriction
 #: model:ir.model.fields,help:stock_location_product_restriction.field_stock_location__specific_product_restriction
@@ -32,6 +33,8 @@ msgid ""
 "If specified the restriction specified will apply to the current location "
 "and all its children"
 msgstr ""
+"Ako je navedeno, ograničenje će se primijeniti na trenutnu lokaciju i sve "
+"njene podlokacije."
 
 #. module: stock_location_product_restriction
 #: model:ir.model,name:stock_location_product_restriction.model_stock_location
@@ -70,21 +73,25 @@ msgstr "Specific Product Restriction"
 
 #. module: stock_location_product_restriction
 #. odoo-python
-#: code:addons/stock_location_product_restriction/models/stock_quant.py:0
+#: code:addons/stock_location_product_restriction/models/stock_quant.py
 #, python-format
 msgid ""
 "The location %(location)s can only contain items of the same product. You "
 "plan to put different products into this location. (%(products)s)"
 msgstr ""
+"Lokacija %(location)s može sadržavati samo stavke istog proizvoda. Planirate"
+" staviti različite proizvode na ovu lokaciju. (%(products)s)"
 
 #. module: stock_location_product_restriction
 #. odoo-python
-#: code:addons/stock_location_product_restriction/models/stock_location.py:0
+#: code:addons/stock_location_product_restriction/models/stock_location.py
 #, python-format
 msgid ""
 "This location should only contain items of the same product but it contains "
 "items of products %(products)s"
 msgstr ""
+"Ova lokacija treba da sadrži stavke istog proizvoda, ali sadrži stavke "
+"proizvoda %(products)s"
 
 #. module: stock_location_product_restriction
 #: model_terms:ir.ui.view,arch_db:stock_location_product_restriction.stock_location_search_view
@@ -93,10 +100,13 @@ msgstr "With restriction violation"
 
 #. module: stock_location_product_restriction
 #. odoo-python
-#: code:addons/stock_location_product_restriction/models/stock_quant.py:0
+#: code:addons/stock_location_product_restriction/models/stock_quant.py
 #, python-format
 msgid ""
 "You plan to add the product %(product)s into the location %(location)s but "
 "the location must only contain items of same product and already contains "
 "items of other product(s) (%(existing_products)s)."
 msgstr ""
+"Planirate dodati proizvod %(product)s na lokaciju %(location)s, ali lokacija"
+" smije sadržavati samo stavke istog proizvoda, a već sadrži stavke drugih "
+"proizvoda (%(existing_products)s)."

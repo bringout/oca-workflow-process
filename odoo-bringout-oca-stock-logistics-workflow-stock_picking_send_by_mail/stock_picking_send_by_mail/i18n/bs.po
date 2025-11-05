@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: stock_picking_send_by_mail
 #. odoo-python
-#: code:addons/stock_picking_send_by_mail/models/stock_picking.py:0
+#: code:addons/stock_picking_send_by_mail/models/stock_picking.py
 #, python-format
 msgid "Compose Email"
 msgstr "Kreiranje email-a"

@@ -21,7 +21,9 @@ msgstr "<span attrs=\"{'invisible': [('nothing_todo', '=', True)]}\">ili</span>"
 #. module: stock_picking_group_by_partner_by_carrier
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.report_delivery_document
 msgid "All ordered items have been delivered."
-msgstr "Tehničko polje koje predstavlja maksimalnu težinu za move koji je prihvatljiv za ovu alokaciju picking-a"
+msgstr ""
+"Tehničko polje koje predstavlja maksimalnu težinu za move koji je "
+"prihvatljiv za ovu alokaciju picking-a"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
@@ -75,7 +77,6 @@ msgstr "Prikazani naziv"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_res_partner__disable_picking_grouping
-#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_res_users__disable_picking_grouping
 msgid "Do not group deliveries"
 msgstr "Ne grupiraj isporuke"
 
@@ -100,6 +101,8 @@ msgid ""
 "Group pickings for the same partner and carrier. Pickings with shipping "
 "policy set to 'When all products are ready' are never grouped."
 msgstr ""
+"Grupišite skladišnice za istog partnera i prevoznika. Skladišnice s "
+"politikom isporuke 'Kada su svi proizvodi spremni' se nikada ne grupišu."
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_warehouse__group_shippings
@@ -112,10 +115,12 @@ msgid ""
 "Group shippings for the same partner and carrier. Shippings with shipping "
 "policy set to 'When all products are ready' are never grouped."
 msgstr ""
+"Grupišite isporuke za istog partnera i prevoznika. Isporuke s politikom "
+"'Kada su svi proizvodi spremni' se nikada ne grupišu."
 
 #. module: stock_picking_group_by_partner_by_carrier
 #. odoo-python
-#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py:0
+#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py
 #, python-format
 msgid "Grouped pickings"
 msgstr "Grouped pickings"
@@ -152,21 +157,21 @@ msgstr "Spoji transfere"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #. odoo-python
-#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py:0
+#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py
 #, python-format
 msgid "Merged procurement"
 msgstr "Merged procurement"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #. odoo-python
-#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py:0
+#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py
 #, python-format
 msgid "Merged procurement for partners: %(partners_name)s"
 msgstr "Merged procurement for partners: %(partners_name)s"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #. odoo-python
-#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py:0
+#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py
 #, python-format
 msgid "No picking can be merged!"
 msgstr "No picking can be merged!"
@@ -197,10 +202,11 @@ msgid ""
 "Pickings should match these parameters: picking type is groupable, state not"
 " cancelled or done, not printed."
 msgstr ""
+"Skladišnice treba da ispunjavaju ove parametre: tip skladišnice je moguće "
+"grupisati, stanje nije otkazano niti završeno i nije odštampano."
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model,name:stock_picking_group_by_partner_by_carrier.model_procurement_group
-#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking__group_id
 msgid "Procurement Group"
 msgstr "Grupa naručivanja"
 
@@ -211,7 +217,6 @@ msgstr "Ostalo za isporuku:"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_procurement_group__sale_ids
-#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking__sale_ids
 msgid "Sale"
 msgstr "Prodaja"
 
@@ -266,6 +271,8 @@ msgid ""
 "Technical field. Indicates the transfer is canceled because it was left "
 "empty after a manual merge."
 msgstr ""
+"Tehničko polje. Označava da je transfer otkazan jer je ostao prazan nakon "
+"ručnog spajanja."
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model,name:stock_picking_group_by_partner_by_carrier.model_stock_picking

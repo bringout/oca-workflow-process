@@ -52,7 +52,7 @@ msgstr "Pending Out Move Line"
 #: model:ir.model.fields,help:stock_location_pending_move.field_stock_location__pending_in_move_line_ids
 msgid ""
 "Technical field: the pending incoming stock move lines for the location"
-msgstr ""
+msgstr "Tehničko polje: čekajuće stavke ulaznih kretanja zaliha za lokaciju"
 
 #. module: stock_location_pending_move
 #: model:ir.model.fields,help:stock_location_pending_move.field_stock_location__pending_in_move_ids
@@ -63,7 +63,7 @@ msgstr "Technical field: the pending incoming stock moves for the location"
 #: model:ir.model.fields,help:stock_location_pending_move.field_stock_location__pending_out_move_line_ids
 msgid ""
 "Technical field: the pending outgoing stock move lines for the location"
-msgstr ""
+msgstr "Tehničko polje: čekajuće stavke izlaznih kretanja zaliha za lokaciju"
 
 #. module: stock_location_pending_move
 #: model:ir.model.fields,help:stock_location_pending_move.field_stock_location__pending_out_move_ids

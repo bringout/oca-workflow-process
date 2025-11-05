@@ -15,28 +15,28 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: stock_request_count_to_zero
-#: model:ir.model.fields,field_description:stock_request_count_to_zero.field_stock_request_count__set_count
+#. module: stock_inventory_count_to_zero
+#: model:ir.model.fields,field_description:stock_inventory_count_to_zero.field_stock_request_count__set_count
 msgid "Count"
 msgstr "Broj stavaka"
 
-#. module: stock_request_count_to_zero
-#: code:addons/stock_request_count_to_zero/models/stock_quant.py:0
+#. module: stock_inventory_count_to_zero
+#: code:addons/stock_inventory_count_to_zero/models/stock_quant.py
 #, python-format
 msgid "Quantities Already Set"
-msgstr "Količine već postavljene"
+msgstr "Količine već podešene"
 
-#. module: stock_request_count_to_zero
-#: model:ir.model,name:stock_request_count_to_zero.model_stock_quant
+#. module: stock_inventory_count_to_zero
+#: model:ir.model,name:stock_inventory_count_to_zero.model_stock_quant
 msgid "Quants"
 msgstr "Količine"
 
-#. module: stock_request_count_to_zero
-#: model:ir.model.fields.selection,name:stock_request_count_to_zero.selection__stock_request_count__set_count__zero
+#. module: stock_inventory_count_to_zero
+#: model:ir.model.fields.selection,name:stock_inventory_count_to_zero.selection__stock_request_count__set_count__zero
 msgid "Set to zero"
-msgstr "Postavi na nulu"
+msgstr "Postaviti na nulu"
 
-#. module: stock_request_count_to_zero
-#: model:ir.model,name:stock_request_count_to_zero.model_stock_request_count
+#. module: stock_inventory_count_to_zero
+#: model:ir.model,name:stock_inventory_count_to_zero.model_stock_request_count
 msgid "Stock Request an Inventory Count"
-msgstr "Zahtijeva zalihe brojanje inventara"
+msgstr "Zahtjevaj inventurno brojanje"

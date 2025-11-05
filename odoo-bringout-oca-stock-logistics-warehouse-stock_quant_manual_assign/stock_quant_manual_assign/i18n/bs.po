@@ -28,31 +28,33 @@ msgstr "Stavke ručno dodijeljenih količina"
 msgid "Auto-fill Quantity Done"
 msgstr "Automatski popuni završenu količinu"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model_terms:ir.ui.view,arch_db:stock_quant_manual_assign.assign_manual_quants_form_view
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model_terms:ir.ui.view,arch_db:stock_quant_manual_assign.assign_manual_quants_form_view
 msgid "Confirm"
 msgstr "Potvrdi"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__create_uid
-#: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__create_date
-#: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__display_name
-#: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
@@ -62,24 +64,25 @@ msgstr "Prikaži naziv"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants____last_update
-#: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__write_uid
-#: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__write_date
-#: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines__location_id
 msgid "Location"
@@ -100,9 +103,9 @@ msgstr "Ručne količine"
 msgid "Manual assignment"
 msgstr "Ručno dodjeljivanje"
 
+# taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__move_id
-#: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines__assign_wizard
 msgid "Move"
 msgstr "Kretanje"
 
@@ -143,7 +146,7 @@ msgstr "Kvant"
 
 #. module: stock_quant_manual_assign
 #. odoo-python
-#: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py:0
+#: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py
 #, python-format
 msgid "Quantity is higher than the needed one"
 msgstr "Količina je veća od potrebne"
@@ -174,16 +177,21 @@ msgid ""
 "Select this in case done quantity of the stock move line should be auto-"
 "filled when quants are manually assigned."
 msgstr ""
+"Izaberite ovo u slučaju da završena količina linije premještanja zaliha "
+"treba biti automatski popunjena kada se kvantumi ručno dodijele."
 
 #. module: stock_quant_manual_assign
 #. odoo-python
-#: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py:0
+#: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py
 #, python-format
 msgid ""
 "Selected line quantity is higher than the available one. Maybe an operation "
 "with this product has been done meanwhile or you have manually increased the"
 " suggested value."
 msgstr ""
+"Količina izabrane linije je veća od dostupne. Možda je operacija sa ovim "
+"proizvodom urađena u međuvremenu ili ste ručno povećali predloženu "
+"vrijednost."
 
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,help:stock_quant_manual_assign.field_assign_manual_quants_lines__package_id

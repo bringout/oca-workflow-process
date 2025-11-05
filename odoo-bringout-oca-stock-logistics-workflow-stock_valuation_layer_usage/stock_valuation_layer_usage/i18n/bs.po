@@ -90,13 +90,11 @@ msgstr "Količina"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model,name:stock_valuation_layer_usage.model_stock_move
-#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_move_id
 msgid "Stock Move"
 msgstr "Skladišno kretanje"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model,name:stock_valuation_layer_usage.model_stock_valuation_layer
-#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_valuation_layer_id
 msgid "Stock Valuation Layer"
 msgstr "Sloj vrednovanja zaliha"
 
@@ -112,7 +110,6 @@ msgstr "Analiza upotrebe sloja vrednovanja zaliha"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.actions.act_window,name:stock_valuation_layer_usage.stock_valuation_layer_usage_action
-#: model:ir.ui.menu,name:stock_valuation_layer_usage.stock_valuation_layer_usage_menu
 msgid "Stock Valuation Layer Usages"
 msgstr "Upotrebe sloja vrednovanja zaliha"
 
@@ -133,11 +130,12 @@ msgstr "Uzeta vrijednost"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer__incoming_usage_ids
-#: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer__usage_ids
 msgid ""
 "Trace on what stock moves has the stock valuation been used in, including "
 "the quantities taken."
 msgstr ""
+"Prati na kojim potezima zaliha je vrednovanje zaliha korišteno, uključujući "
+"uzete količine."
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_move__layer_usage_ids
@@ -145,6 +143,8 @@ msgid ""
 "Trace what valuation layers have been used by this move, including the "
 "quantities taken."
 msgstr ""
+"Prati koji slojevi vrednovanja su korišteni ovim potezom, uključujući uzete "
+"količine."
 
 #. module: stock_valuation_layer_usage
 #: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_form
@@ -168,7 +168,6 @@ msgstr "Upotreba sloja vrednovanja"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer_usage__dest_stock_valuation_layer_id
-#: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_valuation_layer_id
 msgid "Valuation Layer that was used"
 msgstr "Sloj vrednovanja koji je korišten"
 
@@ -189,7 +188,7 @@ msgstr "Vrijednost"
 
 #. module: stock_valuation_layer_usage
 #. odoo-python
-#: code:addons/stock_valuation_layer_usage/models/stock_valuation_layer_usage.py:0
+#: code:addons/stock_valuation_layer_usage/models/stock_valuation_layer_usage.py
 #, python-format
 msgid "You can't user same layer as origin and destination"
 msgstr "Ne možete koristiti isti sloj kao izvor i odredište"

@@ -41,6 +41,10 @@ msgid ""
 "Bin: locations without children that are part of a zone * Stock: internal "
 "locations whose parent is a view * Other: any other location"
 msgstr ""
+"Grupirati lokacije prema njihovim tipovima: * Zona: lokacije koje su "
+"označene kao zone * Područje: lokacije sa pod-lokacijama koje su dio zone * "
+"Spremište: lokacije bez pod-lokacija koje su dio zone * Zaliha: interne "
+"lokacije čiji je roditelj pregled * Ostalo: sve ostale lokacije"
 
 #. module: stock_location_zone
 #: model:ir.model,name:stock_location_zone.model_stock_location
@@ -59,7 +63,6 @@ msgstr "Location Area"
 
 #. module: stock_location_zone
 #: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__location_kind
-#: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
 msgid "Location Kind"
 msgstr "Location Kind"
 

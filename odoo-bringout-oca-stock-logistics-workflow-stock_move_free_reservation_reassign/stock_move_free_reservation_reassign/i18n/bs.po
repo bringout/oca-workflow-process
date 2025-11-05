@@ -19,6 +19,8 @@ msgid ""
 "Automatically reassign stock move after free reservation due to inventory "
 "adjustment"
 msgstr ""
+"Automatski re-alociraj stock potez nakon besplatne rezervacije usled "
+"inventurnog prilagođavanja"
 
 #. module: stock_move_free_reservation_reassign
 #: model:ir.model,name:stock_move_free_reservation_reassign.model_res_config_settings
@@ -41,3 +43,5 @@ msgid ""
 "Try to automatically reassign stock moves after a free reservation\n"
 "                due to an inventory adjustment."
 msgstr ""
+"Pokušaj automatske re-alokacije stock poteza nakon besplatne rezervacije\n"
+"                usled inventurnog prilagođavanja."

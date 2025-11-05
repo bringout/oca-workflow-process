@@ -19,6 +19,8 @@ msgid ""
 "All the stock moves having a chained destination move sharing the same "
 "picking as the actual move's destination move"
 msgstr ""
+"Svi stock move-ovi koji imaju vezani odredišni potez koji dijeli istu "
+"picking kao stvarni odredišni potez"
 
 #. module: stock_move_common_dest
 #: model:ir.model.fields,field_description:stock_move_common_dest.field_stock_move__common_dest_move_ids

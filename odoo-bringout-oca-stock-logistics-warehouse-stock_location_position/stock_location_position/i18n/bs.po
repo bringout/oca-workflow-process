@@ -69,6 +69,8 @@ msgid ""
 "Optional (X) coordinate of the bin if the location is split in several "
 "parts. (e.g. drawer storage)"
 msgstr ""
+"Opcionalna (X) koordinata pretinca ako je lokacija podijeljena na više "
+"dijelova (npr. ladice)."
 
 #. module: stock_location_position
 #: model:ir.model.fields,help:stock_location_position.field_stock_location__posy
@@ -76,6 +78,8 @@ msgid ""
 "Optional (Y) coordinate of the bin if the location is split in several "
 "parts. (e.g. drawer storage)"
 msgstr ""
+"Opcionalna (Y) koordinata pretinca ako je lokacija podijeljena na više "
+"dijelova (npr. ladice)."
 
 #. module: stock_location_position
 #: model:ir.model.fields,help:stock_location_position.field_stock_location__posz
@@ -83,6 +87,8 @@ msgid ""
 "Optional (Z) coordinate of the bin if the location is split in several "
 "parts. (e.g. storage tray)"
 msgstr ""
+"Opcionalna (Z) koordinata pretinca ako je lokacija podijeljena na više "
+"dijelova (npr. pladanj za skladištenje)."
 
 #. module: stock_location_position
 #: model_terms:ir.ui.view,arch_db:stock_location_position.stock_location_form_inherit

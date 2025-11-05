@@ -20,14 +20,14 @@ msgstr "Otkaži"
 
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/exceptions.py:0
+#: code:addons/stock_split_picking/exceptions.py
 #, python-format
 msgid "Cannot split off all moves from picking %(name)s"
 msgstr "Nije moguće odvojiti sve poteze iz paketiranja %(name)s"
 
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/exceptions.py:0
+#: code:addons/stock_split_picking/exceptions.py
 #, python-format
 msgid "Cannot split picking %(name)s in state %(state)s"
 msgstr "Nije moguće podjela paketiranja %(name)s u stanju %(state)s"
@@ -77,9 +77,10 @@ msgstr "Zadnji ažurirao"
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/models/stock_picking.py:0
+#: code:addons/stock_split_picking/models/stock_picking.py
 #, python-format
 msgid "Mark as todo this picking please."
 msgstr "Ovu otpremnicu označi za napraviti."
@@ -109,9 +110,9 @@ msgstr "Skladišnice"
 msgid "Select move lines to split off"
 msgstr "Izaberi linije poteza za odvajanje"
 
+# taken from hr.po
 #. module: stock_split_picking
 #: model_terms:ir.ui.view,arch_db:stock_split_picking.view_picking_form
-#: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
 msgid "Split"
 msgstr "Razdijeli"
 
@@ -127,11 +128,12 @@ msgstr "Podijeli paketiranja"
 
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/models/stock_picking.py:0
+#: code:addons/stock_split_picking/models/stock_picking.py
 #, python-format
 msgid "The backorder %s has been created."
 msgstr "Narudžba u čekanju %s je kreirana."
 
+# taken from hr.po
 #. module: stock_split_picking
 #: model:ir.model,name:stock_split_picking.model_stock_picking
 msgid "Transfer"
@@ -142,13 +144,16 @@ msgstr "Prenos"
 msgid "Unit of Measure"
 msgstr "Jedinica mjere"
 
+# taken from hr.po
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/models/stock_picking.py:0
+#: code:addons/stock_split_picking/models/stock_picking.py
 #, python-format
 msgid ""
 "You must enter done quantity in order to split your picking in several ones."
 msgstr ""
+"Morate upisati isporučenu količinu kako bi razdijelili otpremu na više "
+"dokumenata."
 
 #. module: stock_split_picking
 #: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking

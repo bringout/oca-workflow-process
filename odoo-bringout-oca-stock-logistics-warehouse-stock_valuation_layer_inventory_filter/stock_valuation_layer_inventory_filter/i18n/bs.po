@@ -25,7 +25,6 @@ msgstr "Skladište"
 
 #. module: stock_valuation_layer_inventory_filter
 #: model:ir.model.fields,field_description:stock_valuation_layer_inventory_filter.field_stock_valuation_layer__reference
-#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_inventory_filter.view_inventory_valuation_search
 msgid "Reference"
 msgstr "Referenca"
 

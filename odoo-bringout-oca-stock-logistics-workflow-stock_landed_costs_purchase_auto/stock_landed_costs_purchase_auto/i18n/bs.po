@@ -20,7 +20,6 @@ msgstr "Landed Cost Number"
 
 #. module: stock_landed_costs_purchase_auto
 #: model:ir.model.fields,field_description:stock_landed_costs_purchase_auto.field_purchase_order__landed_cost_ids
-#: model_terms:ir.ui.view,arch_db:stock_landed_costs_purchase_auto.purchase_order_form
 msgid "Landed Costs"
 msgstr "Zavisni troškovi"
 

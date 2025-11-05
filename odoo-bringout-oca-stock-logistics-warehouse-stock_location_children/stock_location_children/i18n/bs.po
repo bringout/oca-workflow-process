@@ -20,7 +20,6 @@ msgstr "All the children (multi-level) stock location of this location"
 
 #. module: stock_location_children
 #: model:ir.model.fields,field_description:stock_location_children.field_stock_location__children_ids
-#: model_terms:ir.ui.view,arch_db:stock_location_children.stock_location_form_view
 msgid "Children"
 msgstr "Podređeni"
 

@@ -20,7 +20,7 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 
 #. module: stock_move_line_change_lot
 #. odoo-python
-#: code:addons/stock_move_line_change_lot/models/stock_move_line.py:0
+#: code:addons/stock_move_line_change_lot/models/stock_move_line.py
 #, python-format
 msgid "You cannot change to a lot of a different product"
 msgstr "Ne možete promeniti na lot drugog proizvoda"

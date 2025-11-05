@@ -15,8 +15,6 @@ msgstr ""
 
 #. module: stock_picking_batch_extended_account_sale_type
 #: model:ir.model.fields,field_description:stock_picking_batch_extended_account_sale_type.field_res_partner__batch_picking_auto_invoice
-#: model:ir.model.fields,field_description:stock_picking_batch_extended_account_sale_type.field_res_users__batch_picking_auto_invoice
-#: model:ir.model.fields,field_description:stock_picking_batch_extended_account_sale_type.field_sale_order_type__batch_picking_auto_invoice
 msgid "Batch Picking Auto Invoice"
 msgstr "Batch picking automatska faktura"
 

@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: account_move_line_product
 #: model_terms:ir.ui.view,arch_db:account_move_line_product.view_account_move_line_filter
 msgid "Product"

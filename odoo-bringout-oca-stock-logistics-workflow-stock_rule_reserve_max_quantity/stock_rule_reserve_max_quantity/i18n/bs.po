@@ -20,6 +20,9 @@ msgid ""
 "moves that have this rule linked, when the quantity available exceeds the "
 "quantity demanded"
 msgstr ""
+"Ako je označeno, sistem će rezervirati maksimalnu dostupnu količinu za "
+"poteze koji imaju vezano ovo pravilo, kada dostupna količina premašuje "
+"zatraženu količinu"
 
 #. module: stock_rule_reserve_max_quantity
 #: model:ir.model.fields,field_description:stock_rule_reserve_max_quantity.field_stock_rule__reserve_max_quantity

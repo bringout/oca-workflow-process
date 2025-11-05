@@ -22,6 +22,11 @@ msgid ""
 "current stock) to gather products. If we want to chain moves and have this "
 "one to wait for the previous, this second option should be chosen."
 msgstr ""
+"Podrazumijevano, sistem će uzeti zalihe sa izvorne lokacije i pasivno čekati"
+" dostupnost. Druga mogućnost omogućava da direktno kreirate nabavku na "
+"izvornoj lokaciji (i time zanemarite trenutne zalihe) radi prikupljanja "
+"proizvoda. Ako želimo povezati kretanja i da ovo čeka prethodno, treba "
+"odabrati drugu opciju."
 
 #. module: stock_picking_procure_method
 #: model:ir.model.fields,field_description:stock_picking_procure_method.field_stock_picking__procure_method

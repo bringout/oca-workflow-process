@@ -15,26 +15,28 @@ msgstr ""
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/stock_warehouse.py:0
+#: code:addons/stock_customer_deposit/models/stock_warehouse.py
 #, python-format
 msgid "%(name)s (copy)(%(id)s)"
 msgstr "%(name)s (kopija) (%(id)s)"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/stock_warehouse.py:0
+#: code:addons/stock_customer_deposit/models/stock_warehouse.py
 #, python-format
 msgid "%s Sequence Customer Deposit"
 msgstr "%s Sekvenca depozita kupca"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/sale_order.py:0
+#: code:addons/stock_customer_deposit/models/sale_order.py
 #, python-format
 msgid ""
 "All lines coming from orders marked as 'Customer depot' must have Customer "
 "deposit route."
 msgstr ""
+"Sve linije koje dolaze iz narudžbi označenih kao 'Depozit kupca' moraju "
+"imati rutu depozita kupca."
 
 #. module: stock_customer_deposit
 #: model:ir.model.fields,field_description:stock_customer_deposit.field_stock_picking_type__assign_owner
@@ -48,17 +50,13 @@ msgstr "Kontakt"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/stock_warehouse.py:0
-#: code:addons/stock_customer_deposit/models/stock_warehouse.py:0
-#: model:ir.model.fields,field_description:stock_customer_deposit.field_sale_order__customer_deposit
+#: code:addons/stock_customer_deposit/models/stock_warehouse.py
 #, python-format
 msgid "Customer Deposit"
 msgstr "Depozit kupca"
 
 #. module: stock_customer_deposit
 #: model:ir.model.fields,field_description:stock_customer_deposit.field_res_partner__customer_deposit_count
-#: model:ir.model.fields,field_description:stock_customer_deposit.field_res_users__customer_deposit_count
-#: model:ir.model.fields,field_description:stock_customer_deposit.field_sale_order__customer_deposit_count
 msgid "Customer Deposit Count"
 msgstr "Broj depozita kupca"
 
@@ -74,12 +72,7 @@ msgstr "Tip depozita kupca"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/res_partner.py:0
-#: code:addons/stock_customer_deposit/models/sale_order.py:0
-#: code:addons/stock_customer_deposit/models/sale_order_line.py:0
-#: model_terms:ir.ui.view,arch_db:stock_customer_deposit.view_order_form_inherit_customer_deposit
-#: model_terms:ir.ui.view,arch_db:stock_customer_deposit.view_sales_order_filter_inherit_stock_customer_deposit
-#: model_terms:ir.ui.view,arch_db:stock_customer_deposit.view_warehouse_inherit
+#: code:addons/stock_customer_deposit/models/res_partner.py
 #, python-format
 msgid "Customer Deposits"
 msgstr "Depoziti kupaca"
@@ -91,13 +84,11 @@ msgstr "Dozvoljena količina depozita"
 
 #. module: stock_customer_deposit
 #: model:ir.model.fields,field_description:stock_customer_deposit.field_sale_order_line__deposit_available_qty
-#: model_terms:ir.ui.view,arch_db:stock_customer_deposit.view_order_form_inherit_customer_deposit
 msgid "Deposit Available Qty"
 msgstr "Dostupna količina depozita"
 
 #. module: stock_customer_deposit
 #: model_terms:ir.ui.view,arch_db:stock_customer_deposit.view_order_form_inherit_customer_deposit
-#: model_terms:ir.ui.view,arch_db:stock_customer_deposit.view_partner_form_inherit_customer_deposit
 msgid "Deposits"
 msgstr "Depoziti"
 
@@ -105,7 +96,7 @@ msgstr "Depoziti"
 #: model:ir.model.fields,help:stock_customer_deposit.field_stock_picking_type__assign_owner
 msgid ""
 "If checked, the owner of the picking will be the partner of the picking."
-msgstr ""
+msgstr "Ako je označeno, vlasnik pobranja će biti partner pobranja."
 
 #. module: stock_customer_deposit
 #: model:ir.model,name:stock_customer_deposit.model_stock_picking_type
@@ -169,7 +160,6 @@ msgstr "Prijenos"
 
 #. module: stock_customer_deposit
 #: model:ir.model.fields,field_description:stock_customer_deposit.field_sale_order__can_customer_deposit
-#: model:ir.model.fields,field_description:stock_customer_deposit.field_stock_warehouse__use_customer_deposits
 msgid "Use Customer Deposits"
 msgstr "Koristi depozite kupaca"
 
@@ -180,18 +170,22 @@ msgstr "Skladište"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/sale_order.py:0
+#: code:addons/stock_customer_deposit/models/sale_order.py
 #, python-format
 msgid ""
 "You cannot select Customer Deposit route in an order line if you do not mark"
 " the order as a customer depot."
 msgstr ""
+"Ne možete odabrati rutu depozita kupca u liniji narudžbe ako ne označite "
+"narudžbu kao depozit kupca."
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/sale_order.py:0
+#: code:addons/stock_customer_deposit/models/sale_order.py
 #, python-format
 msgid ""
 "You're trying to sell more than what's available in the customer's deposit for '%(product)s'.\n"
 "You can either adjust the quantity to fit what's available or create a new order to increase the deposit before proceeding."
 msgstr ""
+"Pokušavate prodati više od onoga što je dostupno u depozitu kupca za '%(product)s'.\n"
+"Možete ili prilagoditi količinu da odgovara dostupnom ili kreirati novu narudžbu da povećate depozit prije nastavka."

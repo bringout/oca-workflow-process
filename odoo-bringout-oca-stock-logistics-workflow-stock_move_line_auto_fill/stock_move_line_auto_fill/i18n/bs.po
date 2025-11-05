@@ -20,7 +20,6 @@ msgstr "Akcija Pack Op Automatsko popunjavanje dozvoljeno"
 
 #. module: stock_move_line_auto_fill
 #: model:ir.model.fields,field_description:stock_move_line_auto_fill.field_stock_picking__auto_fill_operation
-#: model:ir.model.fields,field_description:stock_move_line_auto_fill.field_stock_picking_type__auto_fill_operation
 msgid "Auto fill operations"
 msgstr "Automatsko popunjavanje operacija"
 
@@ -46,12 +45,14 @@ msgstr "Izbegni automatsko dodjeljivanje lotova"
 
 #. module: stock_move_line_auto_fill
 #. odoo-python
-#: code:addons/stock_move_line_auto_fill/models/stock_picking.py:0
+#: code:addons/stock_move_line_auto_fill/models/stock_picking.py
 #, python-format
 msgid ""
 "Filling the operations automatically is not possible, perhaps the pickings "
 "aren't in the right state (Partially available or available)."
 msgstr ""
+"Automatsko popunjavanje operacija nije moguće, možda picking-ovi nisu u "
+"pravom stanju (djelomično dostupni ili dostupni)."
 
 #. module: stock_move_line_auto_fill
 #: model:ir.model,name:stock_move_line_auto_fill.model_stock_picking_type
@@ -69,15 +70,18 @@ msgid ""
 "This button will automatically fill all operations that have no tracking set"
 " on the product, no processed qty and no selected package."
 msgstr ""
+"Ovo dugme će automatski popuniti sve operacije koje nemaju praćenje "
+"postavljeno na proizvodu, nema obrađene količine i nema odabranih paketa."
 
 #. module: stock_move_line_auto_fill
 #: model:ir.model.fields,help:stock_move_line_auto_fill.field_stock_picking__auto_fill_operation
-#: model:ir.model.fields,help:stock_move_line_auto_fill.field_stock_picking_type__auto_fill_operation
 msgid ""
 "To auto fill done quantity in picking document.\n"
 "- If checked, auto fill done quantity automatically\n"
 "- If unchecked, show button AutoFill for user to do the auto fill manually"
 msgstr ""
+"[PREVOD POTREBAN: To auto fill done quantity in picking document.\n"
+"- If checked...]"
 
 #. module: stock_move_line_auto_fill
 #: model:ir.model,name:stock_move_line_auto_fill.model_stock_picking

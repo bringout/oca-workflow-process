@@ -15,8 +15,7 @@ msgstr ""
 
 #. module: stock_inventory_lockdown
 #. odoo-python
-#: code:addons/stock_inventory_lockdown/models/stock_location.py:0
-#: code:addons/stock_inventory_lockdown/models/stock_location.py:0
+#: code:addons/stock_inventory_lockdown/models/stock_location.py
 #, python-format
 msgid "An inventory is being conducted at this location"
 msgstr "Inventar se provodi na ovoj lokaciji"
@@ -33,13 +32,16 @@ msgstr "Lokacije inventure"
 
 #. module: stock_inventory_lockdown
 #. odoo-python
-#: code:addons/stock_inventory_lockdown/models/stock_move_line.py:0
+#: code:addons/stock_inventory_lockdown/models/stock_move_line.py
 #, python-format
 msgid ""
 "Inventory adjustment underway at the following location(s):\n"
 "- %(locations)s\n"
 " Moving products to or from these locations is not allowed until the inventory adjustment is complete."
 msgstr ""
+"Prilagodba inventara u toku na sljedećim lokacijama:\n"
+"- %(locations)s\n"
+" Premještanje proizvoda na ili sa ovih lokacija nije dozvoljeno dok se prilagodba inventara ne završi."
 
 #. module: stock_inventory_lockdown
 #: model:ir.model,name:stock_inventory_lockdown.model_stock_move_line

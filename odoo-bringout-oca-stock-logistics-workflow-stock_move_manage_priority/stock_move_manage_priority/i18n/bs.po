@@ -35,7 +35,6 @@ msgstr "Je prioritet editabilan"
 
 #. module: stock_move_manage_priority
 #: model:ir.model.fields,field_description:stock_move_manage_priority.field_res_company__stock_move_manage_priority
-#: model:ir.model.fields,field_description:stock_move_manage_priority.field_res_config_settings__stock_move_manage_priority
 msgid "Manage Move Priority"
 msgstr "Upravljaj prioritetom move-a"
 

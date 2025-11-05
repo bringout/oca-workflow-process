@@ -40,7 +40,6 @@ msgstr "Blokiraj nove serijske brojevi/lotove"
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_stock_lot__locked
-#: model_terms:ir.ui.view,arch_db:stock_lock_lot.search_product_lot_filter
 msgid "Blocked"
 msgstr "Blokirano"
 
@@ -64,6 +63,8 @@ msgstr "Ima poruku"
 msgid ""
 "If checked, future Serial Numbers/lots will be created blocked by default"
 msgstr ""
+"Ako je označeno, budući serijski brojevi/lotovi će biti kreirani blokirani "
+"po defaultu"
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,help:stock_lock_lot.field_stock_lot__message_needaction
@@ -130,6 +131,7 @@ msgstr "Broj poruka koje zahtijevaju aktivnost"
 msgid "Number of messages with delivery error"
 msgstr "Broj poruka sa greškama pri isporuci"
 
+# taken from hr.po
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_stock_lot__product_id
 msgid "Product"
@@ -147,24 +149,24 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 
 #. module: stock_lock_lot
 #: model:mail.message.subtype,description:stock_lock_lot.mt_lock_lot
-#: model:mail.message.subtype,name:stock_lock_lot.mt_lock_lot
 msgid "Serial Number/lot blocked"
 msgstr "Serijski broj/lot blokiran"
 
 #. module: stock_lock_lot
 #: model:mail.message.subtype,description:stock_lock_lot.mt_unlock_lot
-#: model:mail.message.subtype,name:stock_lock_lot.mt_unlock_lot
 msgid "Serial Number/lot unblocked"
 msgstr "Serijski broj/lot odblokiran"
 
 #. module: stock_lock_lot
 #. odoo-python
-#: code:addons/stock_lock_lot/models/stock_move_line.py:0
+#: code:addons/stock_lock_lot/models/stock_move_line.py
 #, python-format
 msgid ""
 "The following lots/serial number is blocked and cannot be moved:\n"
 "%s"
 msgstr ""
+"Sljedeći lot/serijski broj je blokiran i ne može se premjestiti:\n"
+"%s"
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_stock_lot__website_message_ids
@@ -178,17 +180,18 @@ msgstr "Povijest komunikacije Web stranice"
 
 #. module: stock_lock_lot
 #. odoo-python
-#: code:addons/stock_lock_lot/models/product_category.py:0
-#: code:addons/stock_lock_lot/models/stock_lot.py:0
+#: code:addons/stock_lock_lot/models/product_category.py
 #, python-format
 msgid "You are not allowed to block/unblock Serial Numbers/Lots"
 msgstr "Nemate dozvolu za blokiranje/odblokiranje serijskih brojeva/lotova"
 
 #. module: stock_lock_lot
 #. odoo-python
-#: code:addons/stock_lock_lot/models/stock_lot.py:0
+#: code:addons/stock_lock_lot/models/stock_lot.py
 #, python-format
 msgid ""
 "You are not allowed to block/unblock, there are reserved quantities for "
 "these Serial Numbers/Lots"
 msgstr ""
+"Nemate dozvolu za blokiranje/odblokiranje, postoje rezervisane količine za "
+"ove serijske brojeve/lotove"

@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: stock_procurement_customer
 #: model:ir.model.fields,field_description:stock_procurement_customer.field_procurement_group__customer_id
-#: model:ir.model.fields,field_description:stock_procurement_customer.field_stock_picking__customer_id
 msgid "Customer"
 msgstr "Kupac"
 
@@ -43,7 +42,7 @@ msgstr "Skladišno kretanje"
 #: model:ir.model.fields,help:stock_procurement_customer.field_stock_picking__customer_id_visible
 msgid ""
 "Technical field in order to say if the customer field should be visible."
-msgstr ""
+msgstr "Tehničko polje da se kaže da li polje kupca treba biti vidljivo."
 
 #. module: stock_procurement_customer
 #: model:ir.model,name:stock_procurement_customer.model_stock_picking

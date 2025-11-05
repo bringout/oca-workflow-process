@@ -86,7 +86,9 @@ msgstr "Jedinice mjere"
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,help:stock_quant_package_dimension.field_stock_quant_package__length_uom_id
 msgid "UoM for pack length, height, width (based on lenght UoM)"
-msgstr "Mjerna jedinica za dužinu, visinu, širinu pakovanja (na osnovu mjerne jedinice dužine)"
+msgstr ""
+"Mjerna jedinica za dužinu, visinu, širinu pakovanja (na osnovu mjerne "
+"jedinice dužine)"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,field_description:stock_quant_package_dimension.field_stock_quant_package__volume_uom_name

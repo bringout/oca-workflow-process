@@ -50,7 +50,6 @@ msgstr "Označite vrstu izdavanja na osnovu lokacija"
 
 #. module: stock_picking_kind
 #: model:ir.model.fields,field_description:stock_picking_kind.field_stock_picking__picking_kind
-#: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
 msgid "Picking Kind"
 msgstr "Vrsta izdavanja"
 

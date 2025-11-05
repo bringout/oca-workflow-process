@@ -17,7 +17,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_validate_confirm.stock_picking_batch_confirm_view_form
 msgid ""
 "<i>* You have not enough permissions to validate this batch as it is</i>"
-msgstr ""
+msgstr "<i>* Nemate dovoljno dozvola da validirate ovu šaržu kako jeste</i>"
 
 #. module: stock_picking_batch_validate_confirm
 #: model:ir.model.fields,field_description:stock_picking_batch_validate_confirm.field_stock_picking_batch_confirm__batch_id
@@ -26,7 +26,7 @@ msgstr "Količina"
 
 #. module: stock_picking_batch_validate_confirm
 #. odoo-python
-#: code:addons/stock_picking_batch_validate_confirm/models/stock_picking_batch.py:0
+#: code:addons/stock_picking_batch_validate_confirm/models/stock_picking_batch.py
 #, python-format
 msgid "Batch Confirm"
 msgstr "Potvrdi šaržu"
@@ -87,6 +87,8 @@ msgid ""
 "There are <i>pending origin moves</i> yet. By clickcing on <i>validate</i>, "
 "batch will be validated"
 msgstr ""
+"Postoje <i>izvorni move-ovi na čekanju</i> još. Klikom na <i>validiraj</i>, "
+"šarža će biti validovana"
 
 #. module: stock_picking_batch_validate_confirm
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_validate_confirm.stock_picking_batch_confirm_view_form

@@ -38,11 +38,11 @@ msgstr "Prijenos"
 msgid ""
 "When checked, the cancelation of a printed transfer will not be allowed"
 msgstr ""
+"Kada je označeno, otkazivanje štampanog transfera neće biti dozvoljeno"
 
 #. module: stock_picking_restrict_cancel_printed
 #. odoo-python
-#: code:addons/stock_picking_restrict_cancel_printed/models/stock_move.py:0
-#: code:addons/stock_picking_restrict_cancel_printed/models/stock_picking.py:0
+#: code:addons/stock_picking_restrict_cancel_printed/models/stock_move.py
 #, python-format
 msgid "You cannot cancel a transfer that is already printed."
 msgstr "Ne možete otkazati transfer koji je već štampan."

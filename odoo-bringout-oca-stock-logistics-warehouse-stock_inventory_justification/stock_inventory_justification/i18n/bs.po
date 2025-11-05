@@ -45,17 +45,11 @@ msgstr "Opravdanje inventara"
 
 #. module: stock_inventory_justification
 #: model:ir.actions.act_window,name:stock_inventory_justification.stock_inventory_justification_act_window
-#: model:ir.model.fields,help:stock_inventory_justification.field_stock_move__inventory_justification_ids
-#: model:ir.model.fields,help:stock_inventory_justification.field_stock_move_line__inventory_justification_ids
-#: model:ir.model.fields,help:stock_inventory_justification.field_stock_quant__inventory_justification_ids
-#: model:ir.ui.menu,name:stock_inventory_justification.silog_stock_inventory_justification_menu
 msgid "Inventory justifications"
 msgstr "Opravdanja inventara"
 
 #. module: stock_inventory_justification
 #: model:ir.model.fields,field_description:stock_inventory_justification.field_stock_move__inventory_justification_ids
-#: model:ir.model.fields,field_description:stock_inventory_justification.field_stock_move_line__inventory_justification_ids
-#: model:ir.model.fields,field_description:stock_inventory_justification.field_stock_quant__inventory_justification_ids
 msgid "Justifications"
 msgstr "Opravdanja"
 

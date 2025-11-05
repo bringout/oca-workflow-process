@@ -20,6 +20,10 @@ msgid ""
 "specific.\" aria-label=\"Values set here are company-specific.\" "
 "groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za preduzeće.\" aria-label=\"Vrijednosti postavljene ovdje su"
+" specifične za preduzeće.\" groups=\"base.group_multi_company\" "
+"role=\"img\"/>"
 
 #. module: stock_inventory_discrepancy
 #: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
@@ -28,12 +32,11 @@ msgstr "Primijeni"
 
 #. module: stock_inventory_discrepancy
 #: model:ir.model.fields,help:stock_inventory_discrepancy.field_res_company__inventory_discrepancy_enable
-#: model:ir.model.fields,help:stock_inventory_discrepancy.field_res_config_settings__inventory_discrepancy_enable
-#: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.view_stock_config_settings
 msgid ""
 "Block validation of the inventory adjustment if discrepancy exceeds the "
 "threshold."
 msgstr ""
+"Blokiraj validaciju prilagodbe inventara ako neusklađenost prekoračuje prag."
 
 #. module: stock_inventory_discrepancy
 #: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
@@ -107,7 +110,6 @@ msgstr "Neusklađenost inventara"
 
 #. module: stock_inventory_discrepancy
 #: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_res_company__inventory_discrepancy_enable
-#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_res_config_settings__inventory_discrepancy_enable
 msgid "Inventory Discrepancy Control"
 msgstr "Kontrola neusklađenosti inventara"
 
@@ -133,8 +135,6 @@ msgstr "Zadnje ažurirano"
 
 #. module: stock_inventory_discrepancy
 #: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_location__discrepancy_threshold
-#: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_warehouse__discrepancy_threshold
-#: model:ir.model.fields,help:stock_inventory_discrepancy.field_stock_quant__discrepancy_threshold
 msgid "Maximum Discrepancy Rate Threshold"
 msgstr "Prag maksimalne stope neusklađenosti"
 
@@ -144,6 +144,9 @@ msgid ""
 "Maximum Discrepancy Rate allowed for any product when doing an Inventory "
 "Adjustment. Threshold defined in involved Location has preference."
 msgstr ""
+"Maksimalna stopa neusklađenosti dozvoljena za bilo koji proizvod pri "
+"izvršavanju prilagodbe inventara. Prag definiran u uključenoj lokaciji ima "
+"prednost."
 
 #. module: stock_inventory_discrepancy
 #: model:ir.model.fields,help:stock_inventory_discrepancy.field_stock_location__discrepancy_threshold
@@ -152,11 +155,13 @@ msgid ""
 "Adjustment. Thresholds defined in Locations have preference over Warehouse's"
 " ones."
 msgstr ""
+"Maksimalna stopa neusklađenosti dozvoljena za bilo koji proizvod pri "
+"izvršavanju prilagodbe inventara. Pragovi definirani u lokacijama imaju "
+"prednost nad onima u skladištu."
 
 #. module: stock_inventory_discrepancy
 #. odoo-python
-#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
-#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py
 #, python-format
 msgid "Only a stock manager can validate an inventory adjustment."
 msgstr "Samo menadžer skladišta može validirati prilagodbu inventara."
@@ -185,7 +190,7 @@ msgstr "Količine"
 #: model:ir.model.fields,help:stock_inventory_discrepancy.field_stock_quant__discrepancy_percent
 msgid ""
 "The discrepancy expressed in percent with theoretical quantity as basis"
-msgstr ""
+msgstr "Neusklađenost izražena u postotku sa teorijskom količinom kao osnovom"
 
 #. module: stock_inventory_discrepancy
 #: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
@@ -193,10 +198,12 @@ msgid ""
 "The following products have exceeded the discrepancy threshold.\n"
 "                    Are you sure you want to proceed?"
 msgstr ""
+"Sljedeći proizvodi su prekoračili prag neusklađenosti.\n"
+"                    Jeste li sigurni da želite nastaviti?"
 
 #. module: stock_inventory_discrepancy
 #. odoo-python
-#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py
 #, python-format
 msgid "This operator is not supported"
 msgstr "Ovaj operator nije podržan"
@@ -218,11 +225,12 @@ msgstr "Validiraj prilagodbe inventara prekoračenog praga"
 
 #. module: stock_inventory_discrepancy
 #. odoo-python
-#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py
 #, python-format
 msgid "Value should be True or False (not %s)"
 msgstr "Vrijednost treba biti True ili False (ne %s)"
 
+# taken from hr.po
 #. module: stock_inventory_discrepancy
 #: model:ir.model,name:stock_inventory_discrepancy.model_stock_warehouse
 msgid "Warehouse"
@@ -230,12 +238,15 @@ msgstr "Skladište"
 
 #. module: stock_inventory_discrepancy
 #. odoo-python
-#: code:addons/stock_inventory_discrepancy/wizards/confirm_discrepancy_wiz.py:0
+#: code:addons/stock_inventory_discrepancy/wizards/confirm_discrepancy_wiz.py
 #, python-format
 msgid ""
 "You cannot apply inventory adjustments if there are products that exceed the"
 " discrepancy threshold. Only users with rights to apply them can proceed."
 msgstr ""
+"Ne možete primijeniti prilagodbe inventara ako postoje proizvodi koji "
+"prekoračuju prag neusklađenosti. Samo korisnici sa pravima da ih primjenjuju"
+" mogu nastaviti."
 
 #. module: stock_inventory_discrepancy
 #: model_terms:ir.ui.view,arch_db:stock_inventory_discrepancy.confirm_discrepancy_wizard
@@ -244,3 +255,6 @@ msgid ""
 "                    the following products have exceeded the discrepancy threshold.\n"
 "                    Only users with permissions to apply them can proceed."
 msgstr ""
+"Ne možete potvrditi prilagodbu inventara,\n"
+"                    sljedeći proizvodi su prekoračili prag neusklađenosti.\n"
+"                    Samo korisnici sa dozvolama da ih primjenjuju mogu nastaviti."

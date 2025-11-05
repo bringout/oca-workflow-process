@@ -30,18 +30,18 @@ msgstr "Postavke"
 
 #. module: stock_move_line_lock_qty_done
 #: model:ir.model.fields,field_description:stock_move_line_lock_qty_done.field_res_company__lock_qty_done
-#: model:ir.model.fields,field_description:stock_move_line_lock_qty_done.field_res_config_settings__lock_qty_done
 msgid "Limit Updates to Done Quantity After Validation"
 msgstr "Ograniči ažuriranja završene količine nakon validacije"
 
 #. module: stock_move_line_lock_qty_done
 #: model:ir.model.fields,help:stock_move_line_lock_qty_done.field_res_company__lock_qty_done
-#: model:ir.model.fields,help:stock_move_line_lock_qty_done.field_res_config_settings__lock_qty_done
-#: model_terms:ir.ui.view,arch_db:stock_move_line_lock_qty_done.view_stock_config_settings
 msgid ""
 "Only users in the 'Can Edit Done Quantity for Done Stock Moves' group are "
 "allowed to edit the 'done' quantity for validated transfer."
 msgstr ""
+"Samo korisnici u grupi 'Mogu editovati završenu količinu za završene stock "
+"move-ove' imaju dozvolu za editovanje 'završene' količine za validovani "
+"transfer."
 
 #. module: stock_move_line_lock_qty_done
 #: model:ir.model,name:stock_move_line_lock_qty_done.model_stock_move_line
@@ -50,15 +50,17 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 
 #. module: stock_move_line_lock_qty_done
 #. odoo-python
-#: code:addons/stock_move_line_lock_qty_done/models/stock_move_line.py:0
+#: code:addons/stock_move_line_lock_qty_done/models/stock_move_line.py
 #, python-format
 msgid ""
 "This move is locked, you can't edit the done quantity unless you unlock it"
 msgstr ""
+"Ovaj move je zaključan, ne možete editovati završenu količinu osim ako ga ne"
+" otključate"
 
 #. module: stock_move_line_lock_qty_done
 #. odoo-python
-#: code:addons/stock_move_line_lock_qty_done/models/stock_move_line.py:0
+#: code:addons/stock_move_line_lock_qty_done/models/stock_move_line.py
 #, python-format
 msgid "You are not allowed to change the quantity done for done moves"
 msgstr "Nemate dozvolu za promjenu završene količine za završene move-ove"

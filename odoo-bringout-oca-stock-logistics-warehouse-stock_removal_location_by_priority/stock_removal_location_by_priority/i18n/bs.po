@@ -30,9 +30,6 @@ msgstr "Količine"
 
 #. module: stock_removal_location_by_priority
 #: model:ir.model.fields,field_description:stock_removal_location_by_priority.field_res_config_settings__group_removal_priority
-#: model:ir.model.fields,field_description:stock_removal_location_by_priority.field_stock_location__removal_priority
-#: model:ir.model.fields,field_description:stock_removal_location_by_priority.field_stock_quant__removal_priority
-#: model:res.groups,name:stock_removal_location_by_priority.group_removal_priority
 msgid "Removal Priority"
 msgstr "Prioritet uklanjanja"
 
@@ -42,20 +39,23 @@ msgid ""
 "Removal priority that applies when the incoming dates are equal in both "
 "locations."
 msgstr ""
+"Prioritet uklanjanja koji se primjenjuje kada su datumi dolaska jednaki na "
+"obje lokacije."
 
 #. module: stock_removal_location_by_priority
 #. odoo-python
-#: code:addons/stock_removal_location_by_priority/models/stock_quant.py:0
+#: code:addons/stock_removal_location_by_priority/models/stock_quant.py
 #, python-format
 msgid "Removal strategy %s not implemented."
 msgstr "Strategija uklanjanja %s nije implementirana."
 
 #. module: stock_removal_location_by_priority
 #: model:ir.model.fields,help:stock_removal_location_by_priority.field_stock_location__removal_priority
-#: model:ir.model.fields,help:stock_removal_location_by_priority.field_stock_quant__removal_priority
 msgid ""
 "This priority applies when removing stock and incoming dates are equal."
 msgstr ""
+"Ovaj prioritet se primjenjuje pri uklanjanju zaliha kada su datumi dolaska "
+"jednaki."
 
 #. module: stock_removal_location_by_priority
 #: model_terms:ir.ui.view,arch_db:stock_removal_location_by_priority.view_stock_config_settings

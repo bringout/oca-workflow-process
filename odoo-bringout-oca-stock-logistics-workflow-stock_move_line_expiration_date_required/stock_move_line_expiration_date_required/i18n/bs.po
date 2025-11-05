@@ -30,7 +30,7 @@ msgstr "Skladišno kretanje"
 
 #. module: stock_move_line_expiration_date_required
 #. odoo-python
-#: code:addons/stock_move_line_expiration_date_required/models/stock_picking.py:0
+#: code:addons/stock_move_line_expiration_date_required/models/stock_picking.py
 #, python-format
 msgid "The following move lines have no expiration date: %s"
 msgstr "Sljedeće move linije nemaju datum isteka: %s"
@@ -46,3 +46,5 @@ msgid ""
 "You won't be able to confirm the parent picking until all Expiry dates are "
 "set"
 msgstr ""
+"Nećete moći potvrditi roditeljski picking dok se ne postave svi datumi "
+"isteka"

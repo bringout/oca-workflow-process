@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: stock_quant_reservation_info_mrp
 #: model_terms:ir.ui.view,arch_db:stock_quant_reservation_info_mrp.view_stock_move_line_reserved_info_form
-#: model_terms:ir.ui.view,arch_db:stock_quant_reservation_info_mrp.view_stock_move_line_reserved_info_tree
 msgid "Manufacturing Order"
 msgstr "Radni nalog proizvodnje"
 

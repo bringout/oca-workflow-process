@@ -20,8 +20,6 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 
 #. module: stock_picking_progress
 #: model:ir.model.fields,field_description:stock_picking_progress.field_stock_move__progress
-#: model:ir.model.fields,field_description:stock_picking_progress.field_stock_move_line__progress
-#: model:ir.model.fields,field_description:stock_picking_progress.field_stock_picking__progress
 msgid "Progress"
 msgstr "Napredak"
 

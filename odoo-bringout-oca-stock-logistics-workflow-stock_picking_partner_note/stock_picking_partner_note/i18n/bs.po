@@ -24,10 +24,11 @@ msgid ""
 "Add a constraint to check if the picking note is already in use on multiple "
 "partner"
 msgstr ""
+"Dodajte ograničenje da provjerite da li se bilješka skladišnice već koristi "
+"kod više partnera."
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_res_company__check_note_already_in_use
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_res_config_settings__check_note_already_in_use
 msgid "Check picking note already in use"
 msgstr "Check picking note already in use"
 
@@ -48,49 +49,41 @@ msgstr "Kontakt"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__create_uid
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__create_date
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__display_name
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__id
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__id
 msgid "ID"
 msgstr "ID"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note____last_update
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__write_uid
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__write_date
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__name
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -116,21 +109,16 @@ msgstr "Partner Note Type"
 
 #. module: stock_picking_partner_note
 #: model:ir.model,name:stock_picking_partner_note.model_stock_picking_note
-#: model_terms:ir.ui.view,arch_db:stock_picking_partner_note.view_stock_picking_note_form
 msgid "Picking Note"
 msgstr "Izbor Note"
 
 #. module: stock_picking_partner_note
 #: model:ir.model,name:stock_picking_partner_note.model_stock_picking_note_type
-#: model_terms:ir.ui.view,arch_db:stock_picking_partner_note.view_stock_picking_note_type_form
 msgid "Picking Note Type"
 msgstr "Izbor Note Type"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_res_partner__stock_picking_note_ids
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_res_users__stock_picking_note_ids
-#: model:ir.ui.menu,name:stock_picking_partner_note.stock_picking_notes_root
-#: model_terms:ir.ui.view,arch_db:stock_picking_partner_note.view_partner_form_inherit
 msgid "Picking Notes"
 msgstr "Izbor Notes"
 
@@ -141,7 +129,6 @@ msgstr "Vrsta dokumenta"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__sequence
-#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__sequence
 msgid "Sequence"
 msgstr "Sekvenca"
 
@@ -156,6 +143,8 @@ msgid ""
 "That must be activated if you want to prevent the update or deletion of a "
 "note that is already in use by multiple contacts."
 msgstr ""
+"Ovo mora biti aktivirano ako želite spriječiti ažuriranje ili brisanje "
+"bilješke koju već koriste više kontakata."
 
 #. module: stock_picking_partner_note
 #: model:ir.model,name:stock_picking_partner_note.model_stock_picking
@@ -168,12 +157,16 @@ msgid ""
 "Type of note with customer preferences on how his products are prepared for "
 "delivery."
 msgstr ""
+"Tip bilješke s preferencijama kupca o pripremi njegovih proizvoda za "
+"isporuku."
 
 #. module: stock_picking_partner_note
 #. odoo-python
-#: code:addons/stock_picking_partner_note/models/stock_picking_note.py:0
+#: code:addons/stock_picking_partner_note/models/stock_picking_note.py
 #, python-format
 msgid ""
 "You cannot update or delete a note that linked to multiple contacts: "
 "%(partner_ids)s"
 msgstr ""
+"Ne možete ažurirati ili obrisati bilješku koja je povezana s više kontakata:"
+" %(partner_ids)s"

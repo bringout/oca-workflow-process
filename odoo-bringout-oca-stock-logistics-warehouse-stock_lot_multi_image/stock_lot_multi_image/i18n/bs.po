@@ -40,7 +40,6 @@ msgstr "Slika 512"
 
 #. module: stock_lot_multi_image
 #: model:ir.model.fields,field_description:stock_lot_multi_image.field_stock_lot__image_ids
-#: model_terms:ir.ui.view,arch_db:stock_lot_multi_image.view_production_lot_form
 msgid "Images"
 msgstr "Slike"
 

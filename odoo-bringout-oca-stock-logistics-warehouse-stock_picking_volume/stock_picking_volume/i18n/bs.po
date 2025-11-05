@@ -35,12 +35,10 @@ msgstr "Prijenos"
 
 #. module: stock_picking_volume
 #: model:ir.model.fields,field_description:stock_picking_volume.field_stock_move__volume
-#: model:ir.model.fields,field_description:stock_picking_volume.field_stock_picking__volume
 msgid "Volume"
 msgstr "Volumen"
 
 #. module: stock_picking_volume
 #: model:ir.model.fields,field_description:stock_picking_volume.field_stock_move__volume_uom_name
-#: model:ir.model.fields,field_description:stock_picking_volume.field_stock_picking__volume_uom_name
 msgid "Volume unit of measure label"
 msgstr "Oznaka mjerne jedinice zapremine"

@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: stock_owner_restriction
 #: model:ir.model.fields,field_description:stock_owner_restriction.field_stock_picking__owner_restriction
-#: model:ir.model.fields,field_description:stock_owner_restriction.field_stock_picking_type__owner_restriction
 msgid "Owner Restriction"
 msgstr "Ograničavanje vlasnika"
 

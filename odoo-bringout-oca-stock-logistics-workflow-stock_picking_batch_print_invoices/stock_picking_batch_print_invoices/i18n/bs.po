@@ -21,6 +21,10 @@ msgid ""
 "'Invoices and Pickings': Print pickings are in batch and invoices related with pickings are in batch.\n"
 "'Invoices or Pickings': Print invoices related with pickings are in batch but if picking has not invoice, then print picking."
 msgstr ""
+"'Picking-ovi': Štampaj samo picking-ove koji su u šarži.\n"
+"'Fakture': Štampaj samo fakture povezane sa picking-ovima koji su u šarži.\n"
+"'Fakture i picking-ovi': Štampaj picking-ove koji su u šarži i fakture povezane sa picking-ovima koji su u šarži.\n"
+"'Fakture ili picking-ovi': Štampaj fakture povezane sa picking-ovima koji su u šarži, ali ako picking nema fakturu, tada štampaj picking."
 
 #. module: stock_picking_batch_print_invoices
 #: model:ir.model,name:stock_picking_batch_print_invoices.model_stock_picking_batch
@@ -69,7 +73,7 @@ msgstr "Štampaj dokumente iz šarže"
 
 #. module: stock_picking_batch_print_invoices
 #. odoo-python
-#: code:addons/stock_picking_batch_print_invoices/models/stock_picking_type.py:0
+#: code:addons/stock_picking_batch_print_invoices/models/stock_picking_type.py
 #, python-format
 msgid "The number of copies per invoice must be greater or equal to 0"
 msgstr "Broj kopija po fakturi mora biti veći ili jednak 0"

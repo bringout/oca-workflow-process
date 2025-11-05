@@ -33,6 +33,8 @@ msgstr "Sloj vrednovanja zaliha"
 msgid ""
 "This is the sum of the total value's layer and total value of child layers"
 msgstr ""
+"Ovo je zbroj ukupne vrijednosti sloja i ukupne vrijednosti podređenih "
+"slojeva"
 
 #. module: stock_valuation_layer_total_value
 #: model:ir.model.fields,help:stock_valuation_layer_total_value.field_stock_valuation_layer__unit_price_with_extra_cost

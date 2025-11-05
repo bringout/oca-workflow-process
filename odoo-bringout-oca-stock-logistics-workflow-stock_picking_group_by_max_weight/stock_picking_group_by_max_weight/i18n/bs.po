@@ -39,6 +39,8 @@ msgid ""
 "Technical field that represent the maximum weight for a move thatis "
 "acceptable for this picking assignation"
 msgstr ""
+"Tehničko polje koje predstavlja maksimalnu težinu za move koji je "
+"prihvatljiv za ovu alokaciju picking-a"
 
 #. module: stock_picking_group_by_max_weight
 #: model:ir.model,name:stock_picking_group_by_max_weight.model_stock_picking

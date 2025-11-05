@@ -18,11 +18,14 @@ msgstr ""
 msgid "<strong>Seq.</strong>"
 msgstr "<strong>Seq.</strong>"
 
+# taken from hr.po
 #. module: stock_picking_line_sequence
 #: model:ir.model.fields,field_description:stock_picking_line_sequence.field_stock_move__sequence
+#, fuzzy
 msgid "HiddenSequence"
 msgstr "Sekvenca"
 
+# taken from hr.po
 #. module: stock_picking_line_sequence
 #: model:ir.model.fields,field_description:stock_picking_line_sequence.field_stock_picking__max_line_sequence
 msgid "Max sequence in lines"
@@ -33,21 +36,25 @@ msgstr "Makimalni broj redaka"
 msgid "Product Moves (Stock Move Line)"
 msgstr "Skladišna kretanja proizvoda(stavke)"
 
+# taken from hr.po
 #. module: stock_picking_line_sequence
 #: model:ir.model.fields,field_description:stock_picking_line_sequence.field_stock_move__sequence2
 msgid "Sequence"
 msgstr "Sekvenca"
 
+# taken from hr.po
 #. module: stock_picking_line_sequence
 #: model:ir.model.fields,help:stock_picking_line_sequence.field_stock_move__sequence2
 msgid "Shows the sequence in the Stock Move."
 msgstr "Prikazuje sekvencu na skladišnom prenosu."
 
+# taken from hr.po
 #. module: stock_picking_line_sequence
 #: model:ir.model,name:stock_picking_line_sequence.model_stock_move
 msgid "Stock Move"
 msgstr "Skladišni prenos"
 
+# taken from hr.po
 #. module: stock_picking_line_sequence
 #: model:ir.model,name:stock_picking_line_sequence.model_stock_picking
 msgid "Transfer"

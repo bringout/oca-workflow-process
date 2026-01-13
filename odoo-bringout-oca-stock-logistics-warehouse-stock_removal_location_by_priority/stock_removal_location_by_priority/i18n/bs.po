@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_removal_location_by_priority
 #: model:ir.model,name:stock_removal_location_by_priority.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: stock_removal_location_by_priority
 #: model:ir.model,name:stock_removal_location_by_priority.model_stock_location

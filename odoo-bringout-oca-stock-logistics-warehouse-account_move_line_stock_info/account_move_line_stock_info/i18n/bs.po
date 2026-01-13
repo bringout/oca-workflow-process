@@ -36,4 +36,4 @@ msgstr "Stavke dnevnika"
 #. module: account_move_line_stock_info
 #: model:ir.model,name:account_move_line_stock_info.model_stock_move
 msgid "Stock Move"
-msgstr "Skladišno kretanje"
+msgstr "Skladišni prenos"

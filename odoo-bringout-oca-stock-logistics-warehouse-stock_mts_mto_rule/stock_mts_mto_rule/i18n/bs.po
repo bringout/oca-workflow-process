@@ -90,7 +90,7 @@ msgstr "Nije konfigurisan MTS ili MTO pravilo na pravilu nabavke: %s!"
 #: model:ir.model,name:stock_mts_mto_rule.model_stock_rule
 #, fuzzy
 msgid "Stock Rule"
-msgstr "Skladišno pravilo"
+msgstr "MTS pravilo"
 
 # taken from hr.po
 #. module: stock_mts_mto_rule

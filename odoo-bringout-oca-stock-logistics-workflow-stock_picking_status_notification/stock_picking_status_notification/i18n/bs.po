@@ -85,7 +85,7 @@ msgstr "Prikazani naziv"
 #. module: stock_picking_status_notification
 #: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: stock_picking_status_notification
 #: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
@@ -105,17 +105,17 @@ msgstr "ID"
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_status_notification
 #: model_terms:ir.actions.act_window,help:stock_picking_status_notification.action_stock_picking_notification_template

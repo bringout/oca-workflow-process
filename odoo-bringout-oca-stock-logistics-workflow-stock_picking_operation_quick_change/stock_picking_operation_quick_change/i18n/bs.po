@@ -31,7 +31,8 @@ msgstr "Primijeni"
 #. module: stock_picking_operation_quick_change
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr ""
+"označite ovaj box ako želite provjeriti dostupnost odabranih picking-a."
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__change_all
@@ -86,17 +87,17 @@ msgstr "ID"
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__new_location_dest_id
@@ -116,7 +117,7 @@ msgstr "Skladišnice"
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: stock_picking_operation_quick_change
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view

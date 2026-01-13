@@ -31,7 +31,7 @@ msgstr "Id kupca vidljiv"
 #. module: stock_procurement_customer
 #: model:ir.model,name:stock_procurement_customer.model_procurement_group
 msgid "Procurement Group"
-msgstr "Nalog za nabavu"
+msgstr "Grupa naručivanja"
 
 #. module: stock_procurement_customer
 #: model:ir.model,name:stock_procurement_customer.model_stock_move

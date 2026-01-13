@@ -66,7 +66,7 @@ msgstr "Column index for product"
 #. module: stock_picking_import_serial_number
 #: model:ir.model,name:stock_picking_import_serial_number.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__create_uid
@@ -111,17 +111,17 @@ msgstr "Import S/N wizard"
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_import_serial_number
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__overwrite_serial

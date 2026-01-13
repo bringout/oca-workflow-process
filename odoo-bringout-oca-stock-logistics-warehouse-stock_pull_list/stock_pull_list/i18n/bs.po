@@ -142,17 +142,17 @@ msgstr "Dolazna količina"
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__line_ids
@@ -206,12 +206,12 @@ msgstr "Nabavi"
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__procurement_group_ids
 msgid "Procurement Group"
-msgstr "Nalog za nabavu"
+msgstr "Grupa naručivanja"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard_line__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: stock_pull_list
 #. odoo-python

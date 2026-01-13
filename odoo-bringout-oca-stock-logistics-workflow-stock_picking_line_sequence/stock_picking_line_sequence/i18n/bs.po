@@ -52,7 +52,7 @@ msgstr "Prikazuje sekvencu na skladišnom prenosu."
 #. module: stock_picking_line_sequence
 #: model:ir.model,name:stock_picking_line_sequence.model_stock_move
 msgid "Stock Move"
-msgstr "Skladišno kretanje"
+msgstr "Skladišni prenos"
 
 # taken from hr.po
 #. module: stock_picking_line_sequence

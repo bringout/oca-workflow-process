@@ -56,17 +56,17 @@ msgstr "Opravdanja"
 #. module: stock_inventory_justification
 #: model:ir.model.fields,field_description:stock_inventory_justification.field_stock_inventory_justification____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_inventory_justification
 #: model:ir.model.fields,field_description:stock_inventory_justification.field_stock_inventory_justification__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_inventory_justification
 #: model:ir.model.fields,field_description:stock_inventory_justification.field_stock_inventory_justification__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_inventory_justification
 #: model:ir.model.fields,field_description:stock_inventory_justification.field_stock_inventory_justification__name

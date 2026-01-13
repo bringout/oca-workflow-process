@@ -70,7 +70,7 @@ msgstr "Planiranje potražnje"
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 # taken from hr.po
 #. module: stock_demand_estimate
@@ -107,7 +107,7 @@ msgstr "Od (izračunato)"
 #. module: stock_demand_estimate
 #: model_terms:ir.ui.view,arch_db:stock_demand_estimate.stock_demand_estimate_view_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__id
@@ -118,19 +118,19 @@ msgstr "ID"
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: stock_demand_estimate
 #: model:ir.model.fields,field_description:stock_demand_estimate.field_stock_demand_estimate__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: stock_demand_estimate

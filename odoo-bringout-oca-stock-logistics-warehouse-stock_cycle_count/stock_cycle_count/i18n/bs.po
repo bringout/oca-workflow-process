@@ -75,7 +75,7 @@ msgstr "Statistike preciznosti"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna radnja"
+msgstr "Potrebna akcija"
 
 # taken from hr.po
 #. module: stock_cycle_count
@@ -113,7 +113,7 @@ msgstr "Primjeni ovo pravilo u:"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__responsible_id
 msgid "Assigned to"
-msgstr "Dodijeljeno"
+msgstr "Dodjeljeno"
 
 #. module: stock_cycle_count
 #: model_terms:ir.ui.view,arch_db:stock_cycle_count.stock_cycle_count_search_view
@@ -145,7 +145,7 @@ msgstr "Otkaži"
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__cancelled
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr "Otkazan"
 
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_res_company
@@ -166,7 +166,7 @@ msgstr "Izračunaj pravila cikličnog brojenja"
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 # taken from hr.po
 #. module: stock_cycle_count
@@ -352,13 +352,13 @@ msgstr "Onemogući nulte potvrde"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 # taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields.selection,name:stock_cycle_count.selection__stock_cycle_count__state__done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Izvršeno"
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -400,14 +400,14 @@ msgstr "Izvršavanje"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 # taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_partner_ids
 #, fuzzy
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci"
 
 # taken from hr.po
 #. module: stock_cycle_count
@@ -430,14 +430,14 @@ msgstr "ID"
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__message_needaction
 #, fuzzy
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr "Ako je označeno nove poruke će zahtjevati vašu pažnju."
 
 # taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__message_has_error
 #, fuzzy
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr "Ako je označeno nove poruke će zahtjevati vašu pažnju."
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_res_company__auto_start_inventory_from_cycle_count
@@ -519,25 +519,25 @@ msgstr "Pridružene prilagodbe inventara"
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_is_follower
 #, fuzzy
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr "Pratioci"
 
 # taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: stock_cycle_count
@@ -569,7 +569,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: stock_cycle_count
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__message_ids
 msgid "Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke"
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -754,7 +754,7 @@ msgstr "Pravila cikličnog brojenja skladišta"
 #. module: stock_cycle_count
 #: model:ir.model,name:stock_cycle_count.model_stock_move
 msgid "Stock Move"
-msgstr "Skladišno kretanje"
+msgstr "Skladišni prenos"
 
 #. module: stock_cycle_count
 #. odoo-python
@@ -828,7 +828,7 @@ msgstr "Skladišta gdje se primjenjuje"
 #: model:ir.model.fields,field_description:stock_cycle_count.field_stock_cycle_count__website_message_ids
 #, fuzzy
 msgid "Website Messages"
-msgstr "Nepročitane poruke"
+msgstr "Poruke"
 
 #. module: stock_cycle_count
 #: model:ir.model.fields,help:stock_cycle_count.field_stock_cycle_count__website_message_ids

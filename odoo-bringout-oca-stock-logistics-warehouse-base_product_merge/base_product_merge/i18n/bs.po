@@ -58,17 +58,17 @@ msgstr "ID"
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__merge_method
@@ -98,7 +98,7 @@ msgstr "ORM"
 #. module: base_product_merge
 #: model:ir.model.fields.selection,name:base_product_merge.selection__base_product_merge__ptype__product_product
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__product_tmpl_ids

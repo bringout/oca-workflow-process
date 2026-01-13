@@ -56,17 +56,17 @@ msgstr "ID"
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category__name

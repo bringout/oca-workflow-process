@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__create_uid
@@ -66,22 +66,22 @@ msgstr "Dolazna upotreba vrednovanja"
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: stock_valuation_layer_usage
 #: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_usage_tree

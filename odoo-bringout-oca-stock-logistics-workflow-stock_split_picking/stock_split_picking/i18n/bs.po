@@ -65,17 +65,17 @@ msgstr "ID"
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: stock_split_picking

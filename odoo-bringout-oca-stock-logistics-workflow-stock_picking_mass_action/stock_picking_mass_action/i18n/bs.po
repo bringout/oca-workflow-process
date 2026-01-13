@@ -46,7 +46,7 @@ msgstr "Kreirano"
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__id
@@ -64,19 +64,19 @@ msgstr "Odmah prenesi?"
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_mass_action
 #: model:ir.actions.act_window,name:stock_picking_mass_action.action_confirm

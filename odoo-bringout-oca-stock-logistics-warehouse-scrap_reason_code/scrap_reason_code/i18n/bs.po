@@ -66,17 +66,17 @@ msgstr ""
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: scrap_reason_code
 #: model:ir.model,name:scrap_reason_code.model_scrap_reason_code

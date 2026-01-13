@@ -39,7 +39,7 @@ msgstr ""
 #. module: stock_move_actual_date
 #: model:ir.model.fields,field_description:stock_move_actual_date.field_stock_actual_date_mixin__is_editable_actual_date
 msgid "Is Editable"
-msgstr "Može se uređivati"
+msgstr "Je editable"
 
 #. module: stock_move_actual_date
 #: model:ir.model,name:stock_move_actual_date.model_account_move

@@ -40,7 +40,7 @@ msgstr "Kompanije"
 #. module: stock_picking_partner_note
 #: model:ir.model,name:stock_picking_partner_note.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: stock_picking_partner_note
 #: model:ir.model,name:stock_picking_partner_note.model_res_partner
@@ -70,17 +70,17 @@ msgstr "ID"
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__name

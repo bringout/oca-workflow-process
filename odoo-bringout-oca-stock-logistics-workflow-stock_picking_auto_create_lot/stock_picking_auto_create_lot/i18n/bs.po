@@ -26,7 +26,7 @@ msgstr "Vrsta dokumenta"
 #. module: stock_picking_auto_create_lot
 #: model:ir.model,name:stock_picking_auto_create_lot.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: stock_picking_auto_create_lot
 #: model:ir.model,name:stock_picking_auto_create_lot.model_product_category

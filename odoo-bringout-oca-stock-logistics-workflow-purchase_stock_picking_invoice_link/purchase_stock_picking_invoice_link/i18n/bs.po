@@ -17,10 +17,10 @@ msgstr ""
 #. module: purchase_stock_picking_invoice_link
 #: model:ir.model,name:purchase_stock_picking_invoice_link.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka nabave"
 
 # taken from hr.po
 #. module: purchase_stock_picking_invoice_link
 #: model:ir.model,name:purchase_stock_picking_invoice_link.model_stock_move
 msgid "Stock Move"
-msgstr "Skladišno kretanje"
+msgstr "Skladišni prenos"

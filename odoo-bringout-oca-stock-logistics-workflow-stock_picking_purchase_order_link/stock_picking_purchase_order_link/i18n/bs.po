@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_picking_purchase_order_link
 #: model_terms:ir.ui.view,arch_db:stock_picking_purchase_order_link.view_picking_form
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: stock_picking_purchase_order_link
 #: model:ir.model,name:stock_picking_purchase_order_link.model_stock_picking

@@ -16,4 +16,4 @@ msgstr ""
 #. module: stock_override_procurement
 #: model:ir.model,name:stock_override_procurement.model_procurement_group
 msgid "Procurement Group"
-msgstr "Nalog za nabavu"
+msgstr "Grupa naručivanja"

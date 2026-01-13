@@ -343,12 +343,12 @@ msgstr "Prikaži obriši serijski"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__is_done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 # taken from hr.po
 #. module: stock_reserve
@@ -487,19 +487,19 @@ msgstr "Komplet"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_reserve
 #: model:ir.model.fields,help:stock_reserve.field_stock_reservation__location_dest_id
@@ -690,7 +690,7 @@ msgstr "Procesiraj na ovaj datum da budeš na vrijeme"
 #. module: stock_reserve
 #: model:ir.model.fields,field_description:stock_reserve.field_stock_reservation__group_id
 msgid "Procurement Group"
-msgstr "Nalog za nabavu"
+msgstr "Grupa naručivanja"
 
 # taken from hr.po
 #. module: stock_reserve

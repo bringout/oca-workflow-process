@@ -64,17 +64,17 @@ msgstr "ID"
 #. module: stock_picking_batch_validate_confirm
 #: model:ir.model.fields,field_description:stock_picking_batch_validate_confirm.field_stock_picking_batch_confirm____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_picking_batch_validate_confirm
 #: model:ir.model.fields,field_description:stock_picking_batch_validate_confirm.field_stock_picking_batch_confirm__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_batch_validate_confirm
 #: model:ir.model.fields,field_description:stock_picking_batch_validate_confirm.field_stock_picking_batch_confirm__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_batch_validate_confirm
 #: model:ir.model.fields,field_description:stock_picking_batch_validate_confirm.field_stock_picking_batch_confirm__move_ids

@@ -71,7 +71,7 @@ msgstr "Tanjir"
 #. module: stock_picking_product_interchangeable
 #: model:ir.model,name:stock_picking_product_interchangeable.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: stock_picking_product_interchangeable
 #: model:ir.model.fields,field_description:stock_picking_product_interchangeable.field_product_product__product_tmpl_interchangeable_ids

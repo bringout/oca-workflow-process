@@ -93,7 +93,7 @@ msgstr "Kompanije"
 #. module: stock_picking_batch_extended
 #: model:ir.model,name:stock_picking_batch_extended.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_to_batch__batch_by_group
@@ -166,17 +166,17 @@ msgstr ""
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_batch__active_picking_ids
@@ -248,7 +248,7 @@ msgstr "Štampaj picking-ove"
 #. module: stock_picking_batch_extended
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model,name:stock_picking_batch_extended.model_product_product

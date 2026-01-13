@@ -16,7 +16,7 @@ msgstr ""
 #. module: product_route_profile
 #: model:ir.model.fields,field_description:product_route_profile.field_route_profile__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: product_route_profile
 #: model:ir.model.fields,field_description:product_route_profile.field_route_profile__create_uid
@@ -60,17 +60,17 @@ msgstr ""
 #. module: product_route_profile
 #: model:ir.model.fields,field_description:product_route_profile.field_route_profile____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: product_route_profile
 #: model:ir.model.fields,field_description:product_route_profile.field_route_profile__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: product_route_profile
 #: model:ir.model.fields,field_description:product_route_profile.field_route_profile__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: product_route_profile
 #: model:ir.model.fields,field_description:product_route_profile.field_route_profile__name
@@ -85,7 +85,7 @@ msgstr "Prioritetni profil rute"
 #. module: product_route_profile
 #: model:ir.model,name:product_route_profile.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: product_route_profile
 #: model:ir.model,name:product_route_profile.model_route_profile

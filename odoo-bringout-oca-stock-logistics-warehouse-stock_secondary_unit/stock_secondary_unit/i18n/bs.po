@@ -26,12 +26,12 @@ msgstr "Zahtjevajte"
 #. module: stock_secondary_unit
 #: model:ir.model.fields,field_description:stock_secondary_unit.field_stock_move_line__qty_done
 msgid "Done"
-msgstr "Dovršeno"
+msgstr "Gotovo"
 
 #. module: stock_secondary_unit
 #: model:ir.model,name:stock_secondary_unit.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: stock_secondary_unit
 #: model:ir.model,name:stock_secondary_unit.model_stock_move_line

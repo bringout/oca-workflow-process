@@ -52,7 +52,7 @@ msgstr "Kreirano"
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__field_id
@@ -97,17 +97,17 @@ msgstr ""
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnja izmjena"
 
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnje ažurirao"
 
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__picking_to_batch_id

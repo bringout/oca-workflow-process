@@ -51,7 +51,7 @@ msgstr ""
 #. module: stock_auto_move
 #: model:ir.model,name:stock_auto_move.model_stock_move
 msgid "Stock Move"
-msgstr "Skladišno kretanje"
+msgstr "Skladišni prenos"
 
 #. module: stock_auto_move
 #: model:ir.model,name:stock_auto_move.model_stock_rule

@@ -31,12 +31,12 @@ msgstr "Nabavke"
 #. module: stock_landed_costs_purchase_auto
 #: model:ir.model,name:stock_landed_costs_purchase_auto.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: stock_landed_costs_purchase_auto
 #: model:ir.model,name:stock_landed_costs_purchase_auto.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: stock_landed_costs_purchase_auto
 #: model:ir.model,name:stock_landed_costs_purchase_auto.model_stock_landed_cost

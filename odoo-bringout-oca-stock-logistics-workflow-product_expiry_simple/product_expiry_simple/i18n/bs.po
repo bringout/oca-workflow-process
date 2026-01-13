@@ -59,7 +59,7 @@ msgstr "Jedan ili više proizvoda ima lotove kojima je <b>istekao rok</b>"
 #. module: product_expiry_simple
 #: model:ir.model,name:product_expiry_simple.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: product_expiry_simple
 #. odoo-python

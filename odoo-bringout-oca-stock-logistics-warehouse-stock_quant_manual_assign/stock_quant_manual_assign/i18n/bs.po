@@ -56,7 +56,7 @@ msgstr "Kreirano"
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__id
@@ -68,19 +68,19 @@ msgstr "ID"
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: stock_quant_manual_assign

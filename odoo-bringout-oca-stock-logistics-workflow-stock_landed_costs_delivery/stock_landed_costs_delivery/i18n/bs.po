@@ -21,7 +21,7 @@ msgstr "Allow create landed cost lines"
 #. module: stock_landed_costs_delivery
 #: model:ir.model,name:stock_landed_costs_delivery.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: stock_landed_costs_delivery
 #: model:ir.model,name:stock_landed_costs_delivery.model_delivery_carrier

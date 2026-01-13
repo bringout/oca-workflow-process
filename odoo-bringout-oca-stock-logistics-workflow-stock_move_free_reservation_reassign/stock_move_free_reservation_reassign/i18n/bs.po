@@ -25,7 +25,7 @@ msgstr ""
 #. module: stock_move_free_reservation_reassign
 #: model:ir.model,name:stock_move_free_reservation_reassign.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: stock_move_free_reservation_reassign
 #: model:ir.model,name:stock_move_free_reservation_reassign.model_stock_move_line

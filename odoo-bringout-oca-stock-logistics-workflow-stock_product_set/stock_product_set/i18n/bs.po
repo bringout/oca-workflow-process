@@ -56,17 +56,17 @@ msgstr "ID"
 #. module: stock_product_set
 #: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: stock_product_set
 #: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: stock_product_set
 #: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: stock_product_set
 #: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard__picking_id

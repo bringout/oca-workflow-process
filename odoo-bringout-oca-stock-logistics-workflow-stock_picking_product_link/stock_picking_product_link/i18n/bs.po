@@ -28,7 +28,7 @@ msgstr "Template proizvoda"
 #: code:addons/stock_picking_product_link/models/stock_picking.py
 #, python-format
 msgid "Products"
-msgstr "Artikli"
+msgstr "Proizvodi"
 
 #. module: stock_picking_product_link
 #: model_terms:ir.ui.view,arch_db:stock_picking_product_link.view_picking_form

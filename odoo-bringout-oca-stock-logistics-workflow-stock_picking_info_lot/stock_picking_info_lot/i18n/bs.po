@@ -43,7 +43,7 @@ msgstr "Opcionalno"
 #. module: stock_picking_info_lot
 #: model:ir.model,name:stock_picking_info_lot.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: stock_picking_info_lot
 #: model:ir.model,name:stock_picking_info_lot.model_stock_move_line

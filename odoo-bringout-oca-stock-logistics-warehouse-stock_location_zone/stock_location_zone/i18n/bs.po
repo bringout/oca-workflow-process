@@ -31,7 +31,7 @@ msgstr "Spremište"
 #. module: stock_location_zone
 #: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: stock_location_zone
 #: model:ir.model.fields,help:stock_location_zone.field_stock_location__location_kind

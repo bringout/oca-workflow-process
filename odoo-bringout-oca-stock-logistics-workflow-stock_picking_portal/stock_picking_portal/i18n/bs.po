@@ -164,7 +164,7 @@ msgstr "Zatvori"
 #. module: stock_picking_portal
 #: model:ir.model,name:stock_picking_portal.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__create_uid
@@ -253,17 +253,17 @@ msgstr "Podaci o potpisu nisu važeći."
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.stock_operation_document

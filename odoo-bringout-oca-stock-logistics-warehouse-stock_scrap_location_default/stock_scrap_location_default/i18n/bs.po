@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: stock_scrap_location_default
 #: model:ir.model,name:stock_scrap_location_default.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: stock_scrap_location_default
 #: model:ir.model,name:stock_scrap_location_default.model_stock_scrap

@@ -41,7 +41,7 @@ msgstr "Referenca prijevoznika"
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_picking_type__count_picking_grn
@@ -121,7 +121,7 @@ msgstr "Tip GRN-a"
 #. module: stock_grn
 #: model_terms:ir.ui.view,arch_db:stock_grn.view_grn_search
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: stock_grn
 #: model_terms:ir.ui.view,arch_db:stock_grn.stock_picking_type_kanban
@@ -141,17 +141,17 @@ msgstr "Dolazeće isporuke"
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: stock_grn
 #: model:ir.model.fields,field_description:stock_grn.field_stock_grn__name

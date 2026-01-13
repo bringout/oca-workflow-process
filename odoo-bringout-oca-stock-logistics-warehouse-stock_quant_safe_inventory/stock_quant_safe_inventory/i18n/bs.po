@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: stock_quant_safe_inventory
 #: model:ir.model,name:stock_quant_safe_inventory.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: stock_quant_safe_inventory
 #: model:ir.model.fields,help:stock_quant_safe_inventory.field_res_company__stock_quant_no_inventory_if_being_picked

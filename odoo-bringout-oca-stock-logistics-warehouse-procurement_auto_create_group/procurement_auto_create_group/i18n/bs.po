@@ -32,7 +32,7 @@ msgstr "Nema definiranog brojevnog kruga za grupe nabave"
 #: model:ir.model,name:procurement_auto_create_group.model_procurement_group
 #, fuzzy
 msgid "Procurement Group"
-msgstr "Pavilo nabave"
+msgstr "Nalog za nabavu"
 
 #. module: procurement_auto_create_group
 #: model:ir.model,name:procurement_auto_create_group.model_stock_rule

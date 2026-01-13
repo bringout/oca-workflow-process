@@ -96,17 +96,17 @@ msgstr "Ignoriraj izuzetke"
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_picking__main_exception_id

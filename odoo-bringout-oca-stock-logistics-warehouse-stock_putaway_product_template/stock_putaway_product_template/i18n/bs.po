@@ -21,7 +21,7 @@ msgstr "Lokacije inventure"
 #. module: stock_putaway_product_template
 #: model:ir.model,name:stock_putaway_product_template.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: stock_putaway_product_template
 #: model:ir.model.fields,field_description:stock_putaway_product_template.field_stock_putaway_rule__product_tmpl_id

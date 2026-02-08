@@ -80,8 +80,6 @@ msgid ""
 "- If checked, auto fill done quantity automatically\n"
 "- If unchecked, show button AutoFill for user to do the auto fill manually"
 msgstr ""
-"[PREVOD POTREBAN: To auto fill done quantity in picking document.\n"
-"- If checked...]"
 
 #. module: stock_move_line_auto_fill
 #: model:ir.model,name:stock_move_line_auto_fill.model_stock_picking

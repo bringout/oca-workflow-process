@@ -56,7 +56,7 @@ msgstr "Kreirano"
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__id
@@ -68,7 +68,7 @@ msgstr "ID"
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: stock_quant_manual_assign
@@ -107,7 +107,7 @@ msgstr "Ručno dodjeljivanje"
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants__move_id
 msgid "Move"
-msgstr "Kretanje"
+msgstr "Knjiženje"
 
 #. module: stock_quant_manual_assign
 #: model:ir.model.fields,field_description:stock_quant_manual_assign.field_assign_manual_quants_lines__on_hand
@@ -146,7 +146,7 @@ msgstr "Kvant"
 
 #. module: stock_quant_manual_assign
 #. odoo-python
-#: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py
+#: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py:0
 #, python-format
 msgid "Quantity is higher than the needed one"
 msgstr "Količina je veća od potrebne"
@@ -182,7 +182,7 @@ msgstr ""
 
 #. module: stock_quant_manual_assign
 #. odoo-python
-#: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py
+#: code:addons/stock_quant_manual_assign/wizard/assign_manual_quants.py:0
 #, python-format
 msgid ""
 "Selected line quantity is higher than the available one. Maybe an operation "

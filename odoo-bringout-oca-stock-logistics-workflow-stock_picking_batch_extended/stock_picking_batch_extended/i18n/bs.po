@@ -40,7 +40,7 @@ msgstr "Aktivni picking-ovi"
 
 #. module: stock_picking_batch_extended
 #. odoo-python
-#: code:addons/stock_picking_batch_extended/wizard/stock_picking_to_batch.py
+#: code:addons/stock_picking_batch_extended/wizard/stock_picking_to_batch.py:0
 #, python-format
 msgid ""
 "All selected pickings are already in a batch picking or are in a wrong "
@@ -78,7 +78,7 @@ msgstr "Stavke skupnog prijenosa"
 #. module: stock_picking_batch_extended
 #: model:ir.actions.report,name:stock_picking_batch_extended.action_report_batch_picking
 msgid "Batch picking"
-msgstr "Batch picking"
+msgstr ""
 
 #. module: stock_picking_batch_extended
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
@@ -128,7 +128,7 @@ msgstr "Zadati picker"
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__field_id
@@ -166,7 +166,7 @@ msgstr ""
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__write_uid
@@ -191,7 +191,7 @@ msgstr "Moje šarže"
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_to_batch__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_to_batch__name
@@ -205,7 +205,7 @@ msgstr "Zabilješke"
 
 #. module: stock_picking_batch_extended
 #. odoo-python
-#: code:addons/stock_picking_batch_extended/models/stock_batch_picking.py
+#: code:addons/stock_picking_batch_extended/models/stock_batch_picking.py:0
 #, python-format
 msgid "Nothing to print."
 msgstr "Nema ništa za štampanje."
@@ -248,7 +248,7 @@ msgstr "Štampaj picking-ove"
 #. module: stock_picking_batch_extended
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model,name:stock_picking_batch_extended.model_product_product
@@ -288,7 +288,7 @@ msgstr "Zakazani datum"
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: stock_picking_batch_extended
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.product_normal_form_view

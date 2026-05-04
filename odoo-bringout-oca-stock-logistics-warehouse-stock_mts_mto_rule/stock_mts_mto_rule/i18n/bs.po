@@ -37,7 +37,7 @@ msgstr ""
 
 #. module: stock_mts_mto_rule
 #. odoo-python
-#: code:addons/stock_mts_mto_rule/models/stock_rule.py
+#: code:addons/stock_mts_mto_rule/models/stock_rule.py:0
 #, python-format
 msgid ""
 "Inconsistency between the source locations of the mts and mto rules linked "
@@ -66,21 +66,21 @@ msgstr "MTS pravilo"
 
 #. module: stock_mts_mto_rule
 #. odoo-python
-#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py
+#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py:0
 #, python-format
 msgid "MTS+MTO"
-msgstr "MTS+MTO"
+msgstr ""
 
 #. module: stock_mts_mto_rule
 #. odoo-python
-#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py
+#: code:addons/stock_mts_mto_rule/models/stock_warehouse.py:0
 #, python-format
 msgid "Make To Order + Make To Stock"
-msgstr "Make To Order + Make To Stock"
+msgstr ""
 
 #. module: stock_mts_mto_rule
 #. odoo-python
-#: code:addons/stock_mts_mto_rule/models/stock_rule.py
+#: code:addons/stock_mts_mto_rule/models/stock_rule.py:0
 #, python-format
 msgid "No MTS or MTO rule configured on procurement rule: %s!"
 msgstr "Nije konfigurisan MTS ili MTO pravilo na pravilu nabavke: %s!"

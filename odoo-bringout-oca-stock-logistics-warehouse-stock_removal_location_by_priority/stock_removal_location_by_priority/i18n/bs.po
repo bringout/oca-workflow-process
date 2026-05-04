@@ -44,7 +44,7 @@ msgstr ""
 
 #. module: stock_removal_location_by_priority
 #. odoo-python
-#: code:addons/stock_removal_location_by_priority/models/stock_quant.py
+#: code:addons/stock_removal_location_by_priority/models/stock_quant.py:0
 #, python-format
 msgid "Removal strategy %s not implemented."
 msgstr "Strategija uklanjanja %s nije implementirana."

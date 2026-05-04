@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_location_product_restriction
 #: model:ir.model.fields,field_description:stock_location_product_restriction.field_stock_location__has_restriction_violation
 msgid "Has Restriction Violation"
-msgstr "Has Restriction Violation"
+msgstr ""
 
 #. module: stock_location_product_restriction
 #: model:ir.model.fields,help:stock_location_product_restriction.field_stock_location__parent_product_restriction
@@ -44,12 +44,12 @@ msgstr "Lokacije inventure"
 #. module: stock_location_product_restriction
 #: model:ir.model.fields,field_description:stock_location_product_restriction.field_stock_location__parent_product_restriction
 msgid "Parent Location Product Restriction"
-msgstr "Parent Location Product Restriction"
+msgstr ""
 
 #. module: stock_location_product_restriction
 #: model:ir.model.fields,field_description:stock_location_product_restriction.field_stock_location__product_restriction
 msgid "Product Restriction"
-msgstr "Product Restriction"
+msgstr ""
 
 #. module: stock_location_product_restriction
 #: model:ir.model,name:stock_location_product_restriction.model_stock_quant
@@ -59,21 +59,21 @@ msgstr "Količine"
 #. module: stock_location_product_restriction
 #: model:ir.model.fields,field_description:stock_location_product_restriction.field_stock_location__restriction_violation_message
 msgid "Restriction Violation Message"
-msgstr "Restriction Violation Message"
+msgstr ""
 
 #. module: stock_location_product_restriction
 #: model_terms:ir.ui.view,arch_db:stock_location_product_restriction.stock_location_form_view
 msgid "Restrictions"
-msgstr "Restrictions"
+msgstr ""
 
 #. module: stock_location_product_restriction
 #: model:ir.model.fields,field_description:stock_location_product_restriction.field_stock_location__specific_product_restriction
 msgid "Specific Product Restriction"
-msgstr "Specific Product Restriction"
+msgstr ""
 
 #. module: stock_location_product_restriction
 #. odoo-python
-#: code:addons/stock_location_product_restriction/models/stock_quant.py
+#: code:addons/stock_location_product_restriction/models/stock_quant.py:0
 #, python-format
 msgid ""
 "The location %(location)s can only contain items of the same product. You "
@@ -84,7 +84,7 @@ msgstr ""
 
 #. module: stock_location_product_restriction
 #. odoo-python
-#: code:addons/stock_location_product_restriction/models/stock_location.py
+#: code:addons/stock_location_product_restriction/models/stock_location.py:0
 #, python-format
 msgid ""
 "This location should only contain items of the same product but it contains "
@@ -96,11 +96,11 @@ msgstr ""
 #. module: stock_location_product_restriction
 #: model_terms:ir.ui.view,arch_db:stock_location_product_restriction.stock_location_search_view
 msgid "With restriction violation"
-msgstr "With restriction violation"
+msgstr ""
 
 #. module: stock_location_product_restriction
 #. odoo-python
-#: code:addons/stock_location_product_restriction/models/stock_quant.py
+#: code:addons/stock_location_product_restriction/models/stock_quant.py:0
 #, python-format
 msgid ""
 "You plan to add the product %(product)s into the location %(location)s but "

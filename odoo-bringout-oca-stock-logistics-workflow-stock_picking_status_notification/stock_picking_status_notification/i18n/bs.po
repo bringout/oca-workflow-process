@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__allow_notify_draft
@@ -80,7 +80,7 @@ msgstr ""
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_picking_status_notification
 #: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
@@ -90,7 +90,7 @@ msgstr "Gotovo"
 #. module: stock_picking_status_notification
 #: model_terms:ir.ui.view,arch_db:stock_picking_status_notification.stock_picking_notification_template_view_form
 msgid "Draft"
-msgstr "U pripremi"
+msgstr "Nacrt"
 
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__filename
@@ -105,7 +105,7 @@ msgstr "ID"
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_picking_status_notification
 #: model:ir.model.fields,field_description:stock_picking_status_notification.field_stock_picking_notification_template__write_uid
@@ -168,7 +168,7 @@ msgstr "Obavještenja preuzimanja"
 
 #. module: stock_picking_status_notification
 #. odoo-python
-#: code:addons/stock_picking_status_notification/models/stock_picking_notification_template.py
+#: code:addons/stock_picking_status_notification/models/stock_picking_notification_template.py:0
 #, python-format
 msgid "Picking changed status to '%(state)s'."
 msgstr "Preuzimanje je promijenilo status na '%(state)s'."

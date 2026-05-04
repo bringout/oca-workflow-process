@@ -39,7 +39,7 @@ msgstr "Vrsta dokumenta"
 
 #. module: stock_picking_grn_mandatory
 #. odoo-python
-#: code:addons/stock_picking_grn_mandatory/models/stock_picking.py
+#: code:addons/stock_picking_grn_mandatory/models/stock_picking.py:0
 #, python-format
 msgid "The picking must be linked to a Goods Received Note"
 msgstr "Picking mora biti povezan sa nalogom za primku robe"

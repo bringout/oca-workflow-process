@@ -16,4 +16,4 @@ msgstr ""
 #. module: stock_customer_deposit_sale_margin
 #: model:ir.model,name:stock_customer_deposit_sale_margin.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

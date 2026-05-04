@@ -44,4 +44,4 @@ msgstr "Količina proizvoda po ambalaži (Mixin)"
 #. module: stock_packaging_calculator_packaging_level
 #: model:ir.model,name:stock_packaging_calculator_packaging_level.model_product_product
 msgid "Product Variant"
-msgstr "Product Variant"
+msgstr ""

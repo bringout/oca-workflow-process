@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: product_cost_price_avco_sync
 #. odoo-python
-#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py
+#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py:0
 #, python-format
 msgid ""
 "More than one stock move line to assign the new stock valuation layer "
@@ -41,7 +41,7 @@ msgstr "Sloj vrednovanja zaliha"
 
 #. module: product_cost_price_avco_sync
 #. odoo-python
-#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py
+#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py:0
 #, python-format
 msgid ""
 "The AVCO sync can't be completed, as there's some endless dependency in the "

@@ -27,7 +27,7 @@ msgstr "Isporuka"
 #. module: stock_picking_invoice_link
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoice_link.view_picking_form
 msgid "Invoice"
-msgstr "Račun"
+msgstr "Faktura"
 
 # taken from hr.po
 #. module: stock_picking_invoice_link
@@ -45,23 +45,23 @@ msgstr "Stavke računa"
 #. module: stock_picking_invoice_link
 #: model:ir.model.fields,field_description:stock_picking_invoice_link.field_stock_picking__invoice_ids
 msgid "Invoices"
-msgstr "Računi"
+msgstr "Fakture"
 
 #. module: stock_picking_invoice_link
 #: model:ir.model,name:stock_picking_invoice_link.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: stock_picking_invoice_link
 #: model:ir.model,name:stock_picking_invoice_link.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka dnevnika"
+msgstr "Stavka žurnala"
 
 #. module: stock_picking_invoice_link
 #: model:ir.model.fields,field_description:stock_picking_invoice_link.field_stock_picking__invoice_count
 msgid "Number of Invoices"
-msgstr "Number of Invoices"
+msgstr ""
 
 #. module: stock_picking_invoice_link
 #: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_bank_statement_line__picking_count
@@ -102,7 +102,7 @@ msgstr ""
 #. module: stock_picking_invoice_link
 #: model:ir.model,name:stock_picking_invoice_link.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavke prodajnog naloga"
+msgstr "Stavka narudžbe"
 
 # taken from hr.po
 #. module: stock_picking_invoice_link
@@ -119,7 +119,7 @@ msgstr "Prijenos"
 # taken from hr.po
 #. module: stock_picking_invoice_link
 #. odoo-python
-#: code:addons/stock_picking_invoice_link/models/stock_move.py
+#: code:addons/stock_picking_invoice_link/models/stock_move.py:0
 #, python-format
 msgid "You can not modify an invoiced stock move"
 msgstr "Nije moguće mijenjati skladišno kretanje iz kojeg je napravljen račun"

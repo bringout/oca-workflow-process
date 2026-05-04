@@ -21,7 +21,7 @@ msgstr "Grupiši po"
 #. module: product_packaging_usability
 #: model_terms:ir.ui.view,arch_db:product_packaging_usability.product_packaging_usability_search
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: product_packaging_usability
 #: model:ir.model,name:product_packaging_usability.model_product_packaging

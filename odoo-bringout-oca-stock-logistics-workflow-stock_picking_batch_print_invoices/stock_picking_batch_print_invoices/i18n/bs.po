@@ -73,7 +73,7 @@ msgstr "Štampaj dokumente iz šarže"
 
 #. module: stock_picking_batch_print_invoices
 #. odoo-python
-#: code:addons/stock_picking_batch_print_invoices/models/stock_picking_type.py
+#: code:addons/stock_picking_batch_print_invoices/models/stock_picking_type.py:0
 #, python-format
 msgid "The number of copies per invoice must be greater or equal to 0"
 msgstr "Broj kopija po fakturi mora biti veći ili jednak 0"

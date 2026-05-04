@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__location_dest_id
 msgid "Actual destination location"
-msgstr "Actual destination location"
+msgstr ""
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__allowed_product_ids
@@ -31,13 +31,12 @@ msgstr "Primijeni"
 #. module: stock_picking_operation_quick_change
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
 msgid "Cancel"
-msgstr ""
-"označite ovaj box ako želite provjeriti dostupnost odabranih picking-a."
+msgstr "Otkaži"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__change_all
 msgid "Change All"
-msgstr "Change All"
+msgstr ""
 
 #. module: stock_picking_operation_quick_change
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.view_picking_form
@@ -47,7 +46,7 @@ msgstr "Promijeni lokaciju"
 #. module: stock_picking_operation_quick_change
 #: model:ir.actions.act_window,name:stock_picking_operation_quick_change.action_stock_picking_operation_change_location
 msgid "Change Operation Destination Location"
-msgstr "Change Operation Destination Location"
+msgstr ""
 
 #. module: stock_picking_operation_quick_change
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
@@ -62,7 +61,6 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__change_all
 msgid "Check if you want change all operations without filter by old location"
 msgstr ""
-"Check if you want change all operations without filter by old location"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__create_uid
@@ -77,7 +75,7 @@ msgstr "Kreirano"
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__id
@@ -87,7 +85,7 @@ msgstr "ID"
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__write_uid
@@ -102,12 +100,12 @@ msgstr "Zadnje ažurirano"
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__new_location_dest_id
 msgid "New destination location"
-msgstr "New destination location"
+msgstr ""
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__old_location_dest_id
 msgid "Old destination location"
-msgstr "Old destination location"
+msgstr ""
 
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__picking_id
@@ -117,7 +115,7 @@ msgstr "Skladišnice"
 #. module: stock_picking_operation_quick_change
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: stock_picking_operation_quick_change
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
@@ -131,7 +129,7 @@ msgstr "Zalihe Izbor Operation Wizard"
 
 #. module: stock_picking_operation_quick_change
 #. odoo-python
-#: code:addons/stock_picking_operation_quick_change/wizards/stock_picking_wizard.py
+#: code:addons/stock_picking_operation_quick_change/wizards/stock_picking_wizard.py:0
 #, python-format
 msgid ""
 "You can not change operations destination location if picking state is not "

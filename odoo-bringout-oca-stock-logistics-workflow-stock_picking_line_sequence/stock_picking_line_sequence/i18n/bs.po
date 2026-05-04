@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_picking_line_sequence
 #: model_terms:ir.ui.view,arch_db:stock_picking_line_sequence.report_delivery_document
 msgid "<strong>Seq.</strong>"
-msgstr "<strong>Seq.</strong>"
+msgstr ""
 
 # taken from hr.po
 #. module: stock_picking_line_sequence
@@ -40,7 +40,7 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 #. module: stock_picking_line_sequence
 #: model:ir.model.fields,field_description:stock_picking_line_sequence.field_stock_move__sequence2
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 # taken from hr.po
 #. module: stock_picking_line_sequence

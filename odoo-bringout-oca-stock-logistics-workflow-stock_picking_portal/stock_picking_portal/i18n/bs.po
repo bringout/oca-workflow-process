@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.portal_my_stock_operations
 msgid "&amp;nbsp;"
-msgstr "&amp;nbsp;"
+msgstr ""
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.stock_operation_portal_template
@@ -58,7 +58,7 @@ msgstr "<i class=\"fa fa-print\"/> Štampaj"
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.portal_my_stock_operations
 msgid "<span class=\"d-none d-md-inline\">Document #</span>"
-msgstr "<span class=\"d-none d-md-inline\">Document #</span>"
+msgstr ""
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.stock_operation_document
@@ -151,10 +151,10 @@ msgstr "Upozorenje pristupa"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "All"
-msgstr "Sve"
+msgstr "Svi"
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.picking_link_wizard_view_form
@@ -183,7 +183,7 @@ msgstr "URL portala kupca"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Delivery"
 msgstr "Isporuka"
@@ -196,12 +196,12 @@ msgstr "Isporuka address"
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.portal_my_stock_operations
 msgid "Document date"
-msgstr "Document date"
+msgstr ""
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.stock_operation_portal_template
@@ -211,7 +211,7 @@ msgstr "Preuzimanje"
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.picking_link_wizard_view_form
 msgid "Generate picking Link"
-msgstr "Generate picking Link"
+msgstr ""
 
 #. module: stock_picking_portal
 #: model:ir.actions.act_window,name:stock_picking_portal.action_stock_picking_generate_link
@@ -238,14 +238,14 @@ msgstr ""
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Invalid Stock Operation."
 msgstr "Invalid Zalihe Operation."
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Invalid signature data."
 msgstr "Podaci o potpisu nisu važeći."
@@ -253,7 +253,7 @@ msgstr "Podaci o potpisu nisu važeći."
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__write_uid
@@ -272,7 +272,7 @@ msgstr "Lot/Serijski broj"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Order Date"
 msgstr "Datum naloga"
@@ -304,14 +304,14 @@ msgstr "Ispis"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Receipt"
 msgstr "Račun"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Reference"
 msgstr "Referenca"
@@ -324,21 +324,21 @@ msgstr "Sigurnosni token"
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.res_config_settings_view_inherit
 msgid "Select operation types..."
-msgstr "Select operation types..."
+msgstr ""
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.res_config_settings_view_inherit
 msgid "Select which stock operation types should be visible to portal users."
-msgstr "Select which stock operation types should be visible to portal users."
+msgstr ""
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.stock_operation_portal_template
 msgid "Sign now"
-msgstr "Sign now"
+msgstr ""
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Signature is missing."
 msgstr "Nedostaje potpis."
@@ -365,21 +365,21 @@ msgstr "Potpisano"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "State"
 msgstr "Status"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Stock Operation signed by %s"
 msgstr "Zalihe Operation signed by %s"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "Stock Operation viewed by customer %s"
 msgstr "Zalihe Operation viewed by customer %s"
@@ -411,7 +411,7 @@ msgstr "Vidljivo na portalu"
 
 #. module: stock_picking_portal
 #. odoo-python
-#: code:addons/stock_picking_portal/controllers/portal.py
+#: code:addons/stock_picking_portal/controllers/portal.py:0
 #, python-format
 msgid "You don't have the access rights to Stock Operations."
 msgstr "Nemate dozvolu pristupa skladišnim operacijama."

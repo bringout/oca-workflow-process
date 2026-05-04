@@ -35,7 +35,7 @@ msgstr "Rezervirani premiještaji"
 
 #. module: stock_quant_reservation_info
 #. odoo-python
-#: code:addons/stock_quant_reservation_info/models/stock_quant.py
+#: code:addons/stock_quant_reservation_info/models/stock_quant.py:0
 #, python-format
 msgid "Reserved Moves for: %(product_name)s"
 msgstr "Rezervirani premiještaji za: %(product_name)s"

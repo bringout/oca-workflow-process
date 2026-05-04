@@ -21,7 +21,7 @@ msgstr "Lokacije inventure"
 #. module: stock_vlm_mgmt_kardex
 #: model:ir.model.fields.selection,name:stock_vlm_mgmt_kardex.selection__stock_location__vlm_vendor__kardex
 msgid "Kardex"
-msgstr "Kardex"
+msgstr ""
 
 #. module: stock_vlm_mgmt_kardex
 #: model:ir.model.fields,field_description:stock_vlm_mgmt_kardex.field_stock_location__vlm_vendor

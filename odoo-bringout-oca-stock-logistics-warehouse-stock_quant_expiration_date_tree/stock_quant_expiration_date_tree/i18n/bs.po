@@ -29,8 +29,6 @@ msgid ""
 "Date to determine the expired lots and serial numbers using the filter "
 "\"Expiration Alerts\"."
 msgstr ""
-"Date to determine the expired lots and serial numbers using the filter "
-"\"Expiration Alerts\"."
 
 #. module: stock_quant_expiration_date_tree
 #: model:ir.model.fields,field_description:stock_quant_expiration_date_tree.field_stock_quant__expiration_date

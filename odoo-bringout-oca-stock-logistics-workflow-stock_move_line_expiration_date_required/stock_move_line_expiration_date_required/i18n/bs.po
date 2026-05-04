@@ -30,7 +30,7 @@ msgstr "Skladišno kretanje"
 
 #. module: stock_move_line_expiration_date_required
 #. odoo-python
-#: code:addons/stock_move_line_expiration_date_required/models/stock_picking.py
+#: code:addons/stock_move_line_expiration_date_required/models/stock_picking.py:0
 #, python-format
 msgid "The following move lines have no expiration date: %s"
 msgstr "Sljedeće move linije nemaju datum isteka: %s"

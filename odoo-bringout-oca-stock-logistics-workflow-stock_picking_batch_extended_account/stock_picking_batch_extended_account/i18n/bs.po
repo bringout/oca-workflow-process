@@ -35,7 +35,7 @@ msgstr "Ne"
 
 #. module: stock_picking_batch_extended_account
 #. odoo-python
-#: code:addons/stock_picking_batch_extended_account/models/stock_batch_picking.py
+#: code:addons/stock_picking_batch_extended_account/models/stock_batch_picking.py:0
 #, python-format
 msgid "Nothing to print."
 msgstr "Nema ništa za štampanje."

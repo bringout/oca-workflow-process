@@ -17,7 +17,7 @@ msgstr ""
 #. module: stock_picking_sale_order_link
 #: model_terms:ir.ui.view,arch_db:stock_picking_sale_order_link.view_picking_form
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 # taken from hr.po
 #. module: stock_picking_sale_order_link

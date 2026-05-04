@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: stock_restrict_lot
 #. odoo-python
-#: code:addons/stock_restrict_lot/models/stock_move.py
+#: code:addons/stock_restrict_lot/models/stock_move.py:0
 #, python-format
 msgid ""
 "Inconsistencies between reserved quant and lot restriction on stock move"
@@ -54,7 +54,7 @@ msgstr "Skladišno pravilo"
 
 #. module: stock_restrict_lot
 #. odoo-python
-#: code:addons/stock_restrict_lot/models/stock_move.py
+#: code:addons/stock_restrict_lot/models/stock_move.py:0
 #, python-format
 msgid ""
 "The lot(s) %(move_line_lot)s being moved is inconsistent with the "
@@ -71,7 +71,7 @@ msgstr "Prijenos"
 
 #. module: stock_restrict_lot
 #. odoo-python
-#: code:addons/stock_restrict_lot/models/stock_move.py
+#: code:addons/stock_restrict_lot/models/stock_move.py:0
 #, python-format
 msgid ""
 "You can't modify the Lot/Serial number because at least one move in the "

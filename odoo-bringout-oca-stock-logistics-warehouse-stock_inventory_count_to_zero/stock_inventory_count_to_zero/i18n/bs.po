@@ -21,7 +21,7 @@ msgid "Count"
 msgstr "Broj stavaka"
 
 #. module: stock_inventory_count_to_zero
-#: code:addons/stock_inventory_count_to_zero/models/stock_quant.py
+#: code:addons/stock_inventory_count_to_zero/models/stock_quant.py:0
 #, python-format
 msgid "Quantities Already Set"
 msgstr "Količine već podešene"

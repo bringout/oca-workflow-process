@@ -91,7 +91,7 @@ msgstr "Postotak neusklađenosti (%)"
 #. module: stock_inventory_discrepancy
 #: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_confirm_discrepancy_wiz__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_inventory_discrepancy
 #: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_stock_quant__has_over_discrepancy
@@ -121,7 +121,7 @@ msgstr "Lokacije inventure"
 #. module: stock_inventory_discrepancy
 #: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_confirm_discrepancy_wiz____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_inventory_discrepancy
 #: model:ir.model.fields,field_description:stock_inventory_discrepancy.field_confirm_discrepancy_wiz__write_uid
@@ -161,7 +161,7 @@ msgstr ""
 
 #. module: stock_inventory_discrepancy
 #. odoo-python
-#: code:addons/stock_inventory_discrepancy/models/stock_quant.py
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
 #, python-format
 msgid "Only a stock manager can validate an inventory adjustment."
 msgstr "Samo menadžer skladišta može validirati prilagodbu inventara."
@@ -203,7 +203,7 @@ msgstr ""
 
 #. module: stock_inventory_discrepancy
 #. odoo-python
-#: code:addons/stock_inventory_discrepancy/models/stock_quant.py
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
 #, python-format
 msgid "This operator is not supported"
 msgstr "Ovaj operator nije podržan"
@@ -225,7 +225,7 @@ msgstr "Validiraj prilagodbe inventara prekoračenog praga"
 
 #. module: stock_inventory_discrepancy
 #. odoo-python
-#: code:addons/stock_inventory_discrepancy/models/stock_quant.py
+#: code:addons/stock_inventory_discrepancy/models/stock_quant.py:0
 #, python-format
 msgid "Value should be True or False (not %s)"
 msgstr "Vrijednost treba biti True ili False (ne %s)"
@@ -238,7 +238,7 @@ msgstr "Skladište"
 
 #. module: stock_inventory_discrepancy
 #. odoo-python
-#: code:addons/stock_inventory_discrepancy/wizards/confirm_discrepancy_wiz.py
+#: code:addons/stock_inventory_discrepancy/wizards/confirm_discrepancy_wiz.py:0
 #, python-format
 msgid ""
 "You cannot apply inventory adjustments if there are products that exceed the"

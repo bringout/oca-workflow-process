@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: stock_picking_to_batch_group_fields
-#: code:addons/stock_picking_to_batch_group_fields/wizard/stock_picking_to_batch.py
+#: code:addons/stock_picking_to_batch_group_fields/wizard/stock_picking_to_batch.py:0
 #, python-format
 msgid ""
 "All selected pickings are already in a batch picking or are in a wrong "
@@ -102,7 +102,7 @@ msgstr "Zadnja izmjena"
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__write_date
@@ -117,4 +117,4 @@ msgstr "Picking u šaržu"
 #. module: stock_picking_to_batch_group_fields
 #: model:ir.model.fields,field_description:stock_picking_to_batch_group_fields.field_stock_picking_batch_creator_group_field__sequence
 msgid "Sequence"
-msgstr "Preostala odsustva"
+msgstr "Redoslijed"

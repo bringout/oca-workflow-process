@@ -57,7 +57,7 @@ msgstr "Otkaži"
 
 #. module: stock_pull_list
 #. odoo-python
-#: code:addons/stock_pull_list/models/stock_picking.py
+#: code:addons/stock_pull_list/models/stock_picking.py:0
 #, python-format
 msgid "Choose transfers with same source location"
 msgstr "Izaberi transfere sa istom izvornom lokacijom"
@@ -95,7 +95,7 @@ msgstr "Odredišna lokacija"
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__exclude_reserved
@@ -119,7 +119,7 @@ msgstr "Generiraj pull listu"
 
 #. module: stock_pull_list
 #. odoo-python
-#: code:addons/stock_pull_list/wizards/stock_pull_list_wizard.py
+#: code:addons/stock_pull_list/wizards/stock_pull_list_wizard.py:0
 #, python-format
 msgid "Generated Procurement Groups"
 msgstr "Generirane grupe nabavke"
@@ -142,7 +142,7 @@ msgstr "Dolazna količina"
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard__write_uid
@@ -181,7 +181,7 @@ msgstr "Potrebe"
 
 #. module: stock_pull_list
 #. odoo-python
-#: code:addons/stock_pull_list/models/stock_picking.py
+#: code:addons/stock_pull_list/models/stock_picking.py:0
 #, python-format
 msgid ""
 "Operation type of %(name)s transfer does not allow pull list server action."
@@ -211,11 +211,11 @@ msgstr "Grupa naručivanja"
 #. module: stock_pull_list
 #: model:ir.model.fields,field_description:stock_pull_list.field_stock_pull_list_wizard_line__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: stock_pull_list
 #. odoo-python
-#: code:addons/stock_pull_list/wizards/stock_pull_list_wizard.py
+#: code:addons/stock_pull_list/wizards/stock_pull_list_wizard.py:0
 #, python-format
 msgid "Pull List"
 msgstr "Pull lista"

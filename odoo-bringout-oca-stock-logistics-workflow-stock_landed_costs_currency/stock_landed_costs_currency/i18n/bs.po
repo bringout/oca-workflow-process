@@ -21,7 +21,7 @@ msgstr "Trošak"
 #. module: stock_landed_costs_currency
 #: model:ir.model.fields,field_description:stock_landed_costs_currency.field_stock_landed_cost_lines__price_unit
 msgid "Cost in Company Currency"
-msgstr "Cost in Company Currency"
+msgstr ""
 
 #. module: stock_landed_costs_currency
 #: model:ir.model.fields,field_description:stock_landed_costs_currency.field_stock_landed_cost__currency_id

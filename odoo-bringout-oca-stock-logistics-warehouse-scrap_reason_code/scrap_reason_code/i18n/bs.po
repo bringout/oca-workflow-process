@@ -16,12 +16,12 @@ msgstr ""
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__product_category_ids
 msgid "Allowed Product Categories"
-msgstr "Allowed Product Categories"
+msgstr ""
 
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_stock_scrap__allowed_reason_code_ids
 msgid "Allowed Reason Code"
-msgstr "Allowed Reason Code"
+msgstr ""
 
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__name
@@ -46,7 +46,7 @@ msgstr "Opis"
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__id
@@ -66,7 +66,7 @@ msgstr ""
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: scrap_reason_code
 #: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__write_uid
@@ -96,7 +96,7 @@ msgstr "Lokacija otpada"
 #. module: scrap_reason_code
 #: model:ir.actions.act_window,name:scrap_reason_code.open_view_scrap_reason_code_form
 msgid "Scrap Reason Codes"
-msgstr "Scrap Reason Codes"
+msgstr ""
 
 #. module: scrap_reason_code
 #: model:ir.model,name:scrap_reason_code.model_stock_move
@@ -105,7 +105,7 @@ msgstr "Skladišno kretanje"
 
 #. module: scrap_reason_code
 #. odoo-python
-#: code:addons/scrap_reason_code/models/stock_scrap.py
+#: code:addons/scrap_reason_code/models/stock_scrap.py:0
 #, python-format
 msgid "The selected reason code is not allowed for this product category."
 msgstr ""

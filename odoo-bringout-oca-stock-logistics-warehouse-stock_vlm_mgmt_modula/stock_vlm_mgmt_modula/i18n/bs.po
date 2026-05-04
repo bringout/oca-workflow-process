@@ -21,7 +21,7 @@ msgstr "Lokacije inventure"
 #. module: stock_vlm_mgmt_modula
 #: model:ir.model.fields.selection,name:stock_vlm_mgmt_modula.selection__stock_location__vlm_vendor__modula
 msgid "Modula"
-msgstr "Modula"
+msgstr ""
 
 #. module: stock_vlm_mgmt_modula
 #: model:ir.model.fields,field_description:stock_vlm_mgmt_modula.field_stock_location__vlm_vendor

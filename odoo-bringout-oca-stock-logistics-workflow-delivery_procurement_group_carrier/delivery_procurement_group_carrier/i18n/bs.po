@@ -31,12 +31,12 @@ msgstr "Prikupljanje proizvoda povrata"
 #. module: delivery_procurement_group_carrier
 #: model:ir.model,name:delivery_procurement_group_carrier.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: delivery_procurement_group_carrier
 #: model:ir.model,name:delivery_procurement_group_carrier.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: delivery_procurement_group_carrier
 #: model:ir.model,name:delivery_procurement_group_carrier.model_stock_move

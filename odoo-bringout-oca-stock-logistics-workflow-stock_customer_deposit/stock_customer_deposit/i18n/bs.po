@@ -15,21 +15,21 @@ msgstr ""
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/stock_warehouse.py
+#: code:addons/stock_customer_deposit/models/stock_warehouse.py:0
 #, python-format
 msgid "%(name)s (copy)(%(id)s)"
 msgstr "%(name)s (kopija) (%(id)s)"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/stock_warehouse.py
+#: code:addons/stock_customer_deposit/models/stock_warehouse.py:0
 #, python-format
 msgid "%s Sequence Customer Deposit"
 msgstr "%s Sekvenca depozita kupca"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/sale_order.py
+#: code:addons/stock_customer_deposit/models/sale_order.py:0
 #, python-format
 msgid ""
 "All lines coming from orders marked as 'Customer depot' must have Customer "
@@ -50,7 +50,7 @@ msgstr "Kontakt"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/stock_warehouse.py
+#: code:addons/stock_customer_deposit/models/stock_warehouse.py:0
 #, python-format
 msgid "Customer Deposit"
 msgstr "Depozit kupca"
@@ -72,7 +72,7 @@ msgstr "Tip depozita kupca"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/res_partner.py
+#: code:addons/stock_customer_deposit/models/res_partner.py:0
 #, python-format
 msgid "Customer Deposits"
 msgstr "Depoziti kupaca"
@@ -136,12 +136,12 @@ msgstr "Smjer"
 #. module: stock_customer_deposit
 #: model:ir.model,name:stock_customer_deposit.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: stock_customer_deposit
 #: model:ir.model,name:stock_customer_deposit.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: stock_customer_deposit
 #: model:ir.model,name:stock_customer_deposit.model_stock_move
@@ -170,7 +170,7 @@ msgstr "Skladište"
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/sale_order.py
+#: code:addons/stock_customer_deposit/models/sale_order.py:0
 #, python-format
 msgid ""
 "You cannot select Customer Deposit route in an order line if you do not mark"
@@ -181,7 +181,7 @@ msgstr ""
 
 #. module: stock_customer_deposit
 #. odoo-python
-#: code:addons/stock_customer_deposit/models/sale_order.py
+#: code:addons/stock_customer_deposit/models/sale_order.py:0
 #, python-format
 msgid ""
 "You're trying to sell more than what's available in the customer's deposit for '%(product)s'.\n"

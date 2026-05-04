@@ -21,32 +21,32 @@ msgstr "Lokacije inventure"
 #. module: stock_location_pending_move
 #: model:ir.model.fields,field_description:stock_location_pending_move.field_stock_location__pending_in_move_ids
 msgid "Pending In Move"
-msgstr "Pending In Move"
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model:ir.model.fields,field_description:stock_location_pending_move.field_stock_location__pending_in_move_line_ids
 msgid "Pending In Move Line"
-msgstr "Pending In Move Line"
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model_terms:ir.ui.view,arch_db:stock_location_pending_move.stock_location_form_view
 msgid "Pending Moves"
-msgstr "Pending Moves"
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model_terms:ir.ui.view,arch_db:stock_location_pending_move.stock_location_form_view
 msgid "Pending Operations"
-msgstr "Pending Operations"
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model:ir.model.fields,field_description:stock_location_pending_move.field_stock_location__pending_out_move_ids
 msgid "Pending Out Move"
-msgstr "Pending Out Move"
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model:ir.model.fields,field_description:stock_location_pending_move.field_stock_location__pending_out_move_line_ids
 msgid "Pending Out Move Line"
-msgstr "Pending Out Move Line"
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model:ir.model.fields,help:stock_location_pending_move.field_stock_location__pending_in_move_line_ids
@@ -57,7 +57,7 @@ msgstr "Tehničko polje: čekajuće stavke ulaznih kretanja zaliha za lokaciju"
 #. module: stock_location_pending_move
 #: model:ir.model.fields,help:stock_location_pending_move.field_stock_location__pending_in_move_ids
 msgid "Technical field: the pending incoming stock moves for the location"
-msgstr "Technical field: the pending incoming stock moves for the location"
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model:ir.model.fields,help:stock_location_pending_move.field_stock_location__pending_out_move_line_ids
@@ -68,14 +68,14 @@ msgstr "Tehničko polje: čekajuće stavke izlaznih kretanja zaliha za lokaciju"
 #. module: stock_location_pending_move
 #: model:ir.model.fields,help:stock_location_pending_move.field_stock_location__pending_out_move_ids
 msgid "Technical field: the pending outgoing stock moves for the location"
-msgstr "Technical field: the pending outgoing stock moves for the location"
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model_terms:ir.ui.view,arch_db:stock_location_pending_move.stock_location_form_view
 msgid "These are the pending stock moves."
-msgstr "These are the pending stock moves."
+msgstr ""
 
 #. module: stock_location_pending_move
 #: model_terms:ir.ui.view,arch_db:stock_location_pending_move.stock_location_form_view
 msgid "These are the pending stock operations."
-msgstr "These are the pending stock operations."
+msgstr ""

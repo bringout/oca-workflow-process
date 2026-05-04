@@ -80,7 +80,7 @@ msgstr ""
 
 #. module: sale_stock_restocking_fee_invoicing
 #. odoo-python
-#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py
+#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py:0
 #, python-format
 msgid ""
 "No product configured for restocking fee. Please fix the configuration into "
@@ -111,7 +111,7 @@ msgstr "Naknada za obnavljanje zaliha"
 
 #. module: sale_stock_restocking_fee_invoicing
 #. odoo-python
-#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py
+#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py:0
 #, python-format
 msgid "Restocking fee for %(prod_uom_qty)s %(prod_uom)s %(so_line)s"
 msgstr ""
@@ -130,12 +130,12 @@ msgstr "Stavka povrata"
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model,name:sale_stock_restocking_fee_invoicing.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model,name:sale_stock_restocking_fee_invoicing.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model,name:sale_stock_restocking_fee_invoicing.model_stock_move

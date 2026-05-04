@@ -16,12 +16,12 @@ msgstr ""
 #. module: stock_location_children
 #: model:ir.model.fields,help:stock_location_children.field_stock_location__children_ids
 msgid "All the children (multi-level) stock location of this location"
-msgstr "All the children (multi-level) stock location of this location"
+msgstr ""
 
 #. module: stock_location_children
 #: model:ir.model.fields,field_description:stock_location_children.field_stock_location__children_ids
 msgid "Children"
-msgstr "Podređeni"
+msgstr "Dijete"
 
 #. module: stock_location_children
 #: model:ir.model,name:stock_location_children.model_stock_location
@@ -31,4 +31,4 @@ msgstr "Lokacije inventure"
 #. module: stock_location_children
 #: model_terms:ir.ui.view,arch_db:stock_location_children.stock_location_form_view
 msgid "These are the children locations of the current one."
-msgstr "These are the children locations of the current one."
+msgstr ""

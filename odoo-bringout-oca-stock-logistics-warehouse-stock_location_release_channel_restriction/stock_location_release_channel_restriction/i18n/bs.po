@@ -26,12 +26,12 @@ msgstr ""
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,field_description:stock_location_release_channel_restriction.field_stock_move_line__for_restriction_destination_location_channel_id
 msgid "For Restriction Destination Location Channel"
-msgstr "For Restriction Destination Location Channel"
+msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,field_description:stock_location_release_channel_restriction.field_stock_move_line__for_restriction_incoming_location_channel_ids
 msgid "For Restriction Incoming Location Channel"
-msgstr "For Restriction Incoming Location Channel"
+msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,help:stock_location_release_channel_restriction.field_stock_location__parent_release_channel_restriction
@@ -58,14 +58,14 @@ msgstr "Lokacije inventure"
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python
-#: code:addons/stock_location_release_channel_restriction/models/stock_location.py
+#: code:addons/stock_location_release_channel_restriction/models/stock_location.py:0
 #, python-format
 msgid "Movements of different release channels are allowed into the location"
-msgstr "Movements of different release channels are allowed into the location"
+msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python
-#: code:addons/stock_location_release_channel_restriction/models/stock_location.py
+#: code:addons/stock_location_release_channel_restriction/models/stock_location.py:0
 #, python-format
 msgid ""
 "Only movements of the same release channel are allowed into the location"
@@ -74,7 +74,7 @@ msgstr "Na lokaciju su dozvoljena samo kretanja iz istog kanala oslobađanja"
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,field_description:stock_location_release_channel_restriction.field_stock_location__parent_release_channel_restriction
 msgid "Parent Location Release Channel Restriction"
-msgstr "Parent Location Release Channel Restriction"
+msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model,name:stock_location_release_channel_restriction.model_stock_move_line
@@ -84,22 +84,22 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,field_description:stock_location_release_channel_restriction.field_stock_location__release_channel_restriction
 msgid "Release Channel Restriction"
-msgstr "Release Channel Restriction"
+msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,field_description:stock_location_release_channel_restriction.field_stock_location__release_channel_restriction_in_move
 msgid "Release Channel Restriction For Incoming Moves"
-msgstr "Release Channel Restriction For Incoming Moves"
+msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #: model_terms:ir.ui.view,arch_db:stock_location_release_channel_restriction.stock_location_form_view
 msgid "Release Channel Restrictions"
-msgstr "Release Channel Restrictions"
+msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,field_description:stock_location_release_channel_restriction.field_stock_location__specific_release_channel_restriction
 msgid "Specific Release Channel Restriction"
-msgstr "Specific Release Channel Restriction"
+msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #: model:ir.model.fields,help:stock_location_release_channel_restriction.field_stock_move_line__for_restriction_incoming_location_channel_ids
@@ -121,14 +121,14 @@ msgstr ""
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python
-#: code:addons/stock_location_release_channel_restriction/models/exception.py
+#: code:addons/stock_location_release_channel_restriction/models/exception.py:0
 #, python-format
 msgid "Undefined"
 msgstr "Nedefinisano"
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python
-#: code:addons/stock_location_release_channel_restriction/models/exception.py
+#: code:addons/stock_location_release_channel_restriction/models/exception.py:0
 #, python-format
 msgid ""
 "You cannot move picking (%(picking_name)s) products to %(location_name)s. "

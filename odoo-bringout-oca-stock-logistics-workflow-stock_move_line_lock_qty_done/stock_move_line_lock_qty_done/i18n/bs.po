@@ -50,7 +50,7 @@ msgstr "Skladišna kretanja proizvoda(stavke)"
 
 #. module: stock_move_line_lock_qty_done
 #. odoo-python
-#: code:addons/stock_move_line_lock_qty_done/models/stock_move_line.py
+#: code:addons/stock_move_line_lock_qty_done/models/stock_move_line.py:0
 #, python-format
 msgid ""
 "This move is locked, you can't edit the done quantity unless you unlock it"
@@ -60,7 +60,7 @@ msgstr ""
 
 #. module: stock_move_line_lock_qty_done
 #. odoo-python
-#: code:addons/stock_move_line_lock_qty_done/models/stock_move_line.py
+#: code:addons/stock_move_line_lock_qty_done/models/stock_move_line.py:0
 #, python-format
 msgid "You are not allowed to change the quantity done for done moves"
 msgstr "Nemate dozvolu za promjenu završene količine za završene move-ove"

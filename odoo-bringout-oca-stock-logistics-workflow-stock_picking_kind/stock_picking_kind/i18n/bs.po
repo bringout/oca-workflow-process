@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_picking_kind
 #: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
 msgid "Customer Deliveries"
-msgstr "Customer Deliveries"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__customer_out
@@ -26,22 +26,22 @@ msgstr "Customer Isporuka"
 #. module: stock_picking_kind
 #: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__customer_return
 msgid "Customer Return"
-msgstr "Customer Return"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
 msgid "Customer Returns"
-msgstr "Customer Returns"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__drop_shipping
 msgid "Drop Shipping"
-msgstr "Drop Shipping"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__drop_shipping_return
 msgid "Drop Shipping Return"
-msgstr "Drop Shipping Return"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model:ir.model.fields,help:stock_picking_kind.field_stock_picking__picking_kind
@@ -56,22 +56,22 @@ msgstr "Vrsta izdavanja"
 #. module: stock_picking_kind
 #: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__supplier_in
 msgid "Supplier Reception"
-msgstr "Supplier Reception"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
 msgid "Supplier Receptions"
-msgstr "Supplier Receptions"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__supplier_return
 msgid "Supplier Return"
-msgstr "Supplier Return"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
 msgid "Supplier Returns"
-msgstr "Supplier Returns"
+msgstr ""
 
 #. module: stock_picking_kind
 #: model:ir.model,name:stock_picking_kind.model_stock_picking

@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_production_lot_active
 #: model:ir.model.fields,field_description:stock_production_lot_active.field_stock_lot__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: stock_production_lot_active
 #: model_terms:ir.ui.view,arch_db:stock_production_lot_active.stock_production_lot_form_view

@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/models/stock_location.py
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
 #, python-format
 msgid "%(user)s has requested a release of the trays from Odoo"
 msgstr "%(user)s je zatražio otpuštanje pladnjeva iz Odoo"
@@ -26,13 +26,11 @@ msgid ""
 "&amp;nbsp;\n"
 "                        <i class=\"fa fa-info-circle\"/>&amp;nbsp;"
 msgstr ""
-"&amp;nbsp;\n"
-"                        <i class=\"fa fa-info-circle\"/>&amp;nbsp;"
 
 #. module: stock_vlm_mgmt
 #: model_terms:ir.ui.view,arch_db:stock_vlm_mgmt.vlm_task_action_form_view
 msgid "<i class=\"fa fa-exclamation-triangle\"/>&amp;nbsp;"
-msgstr "<i class=\"fa fa-exclamation-triangle\"/>&amp;nbsp;"
+msgstr ""
 
 #. module: stock_vlm_mgmt
 #: model_terms:ir.ui.view,arch_db:stock_vlm_mgmt.vlm_task_action_form_view
@@ -56,7 +54,7 @@ msgstr "Akcije za izvršavanje na iznimkama VLM zadataka"
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_location_vlm_tray_type__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: stock_vlm_mgmt
 #: model_terms:ir.actions.act_window,help:stock_vlm_mgmt.action_stock_location_tray_type
@@ -154,7 +152,7 @@ msgstr "Detalji"
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_location_vlm_tray__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_vlm_mgmt
 #: model_terms:ir.ui.view,arch_db:stock_vlm_mgmt.view_vlm_task_tree
@@ -179,7 +177,7 @@ msgstr "Uredi"
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields.selection,name:stock_vlm_mgmt.selection__stock_location__vlm_removal_strategy__fifo
 msgid "FIFO"
-msgstr "FIFO"
+msgstr ""
 
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields.selection,name:stock_vlm_mgmt.selection__stock_vlm_task__task_type__get
@@ -249,12 +247,12 @@ msgstr "Je VLM"
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields.selection,name:stock_vlm_mgmt.selection__stock_location__vlm_removal_strategy__lifo
 msgid "LIFO"
-msgstr "LIFO"
+msgstr ""
 
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_location_vlm_tray____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_location_vlm_tray__write_uid
@@ -304,7 +302,7 @@ msgstr "Stavka prijenosa"
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_location_vlm_tray__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_vlm_task_action__next_vlm_task_id
@@ -318,14 +316,14 @@ msgstr "Sljedeći 🠺"
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/models/stock_location.py
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
 #, python-format
 msgid "No implemented request connector for this vendor!"
 msgstr "Nema implementirani konektor zahtjeva za ovog dobavljača!"
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py
+#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py:0
 #, python-format
 msgid ""
 "No quantity was processed. Do you want to put the goods in another position?"
@@ -356,7 +354,7 @@ msgstr "Izvršavaj VLM zadatke"
 
 #. module: stock_vlm_mgmt
 #. odoo-javascript
-#: code:addons/stock_vlm_mgmt/static/src/js/vlm_request_button/vlm_request_views.xml
+#: code:addons/stock_vlm_mgmt/static/src/js/vlm_request_button/vlm_request_views.xml:0
 #, python-format
 msgid "Perform tasks"
 msgstr "Izvršavaj zadatke"
@@ -364,12 +362,12 @@ msgstr "Izvršavaj zadatke"
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_quant_vlm__pos_x
 msgid "Pos X"
-msgstr "Pos X"
+msgstr ""
 
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_quant_vlm__pos_y
 msgid "Pos Y"
-msgstr "Pos Y"
+msgstr ""
 
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_vlm_task_action__previous_vlm_task_id
@@ -379,7 +377,7 @@ msgstr "Prethodni VLM zadatak"
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields,field_description:stock_vlm_mgmt.field_stock_quant_vlm__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: stock_vlm_mgmt
 #: model:ir.model,name:stock_vlm_mgmt.model_stock_move_line
@@ -413,7 +411,7 @@ msgstr "Količina u čekanju"
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py
+#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py:0
 #, python-format
 msgid ""
 "Quantity mismatch! The quantity reported by the VLM is greater than original"
@@ -502,11 +500,11 @@ msgstr "Tip zadatka"
 #. module: stock_vlm_mgmt
 #: model:ir.model.fields.selection,name:stock_vlm_mgmt.selection__stock_location__vlm_vendor__test
 msgid "Test"
-msgstr "Test"
+msgstr ""
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/models/stock_location.py
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
 #, python-format
 msgid ""
 "The command response has been lost for unknown reasons. Did you perform the "
@@ -519,28 +517,28 @@ msgstr ""
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/models/stock_location.py
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
 #, python-format
 msgid "The connection was refused by the VLM and couldn't be stablished."
 msgstr "Veza je odbačena od VLM-a i nije mogla biti uspostavljena."
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py
+#: code:addons/stock_vlm_mgmt/wizards/stock_vlm_task_action.py:0
 #, python-format
 msgid "The quantity reported is greater than the one set in the task!"
 msgstr "Prijavljena količina je veća od one postavljene u zadatku!"
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/models/stock_location.py
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
 #, python-format
 msgid "The task couldn't be performed due to a timeout in the request"
 msgstr "Zadatak nije mogao biti izvršen zbog isteka vremena zahtjeva"
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/models/stock_location.py
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
 #, python-format
 msgid ""
 "The task couldn't be performed. Try again or check  the vertical lift module"
@@ -551,7 +549,7 @@ msgstr ""
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/models/stock_location.py
+#: code:addons/stock_vlm_mgmt/models/stock_location.py:0
 #, python-format
 msgid "The task was cancelled by the VLM"
 msgstr "Zadatak je otkazan od VLM-a"
@@ -603,7 +601,7 @@ msgstr "Pomoćnici za poziciju pladnja"
 
 #. module: stock_vlm_mgmt
 #. odoo-javascript
-#: code:addons/stock_vlm_mgmt/static/src/js/location_tray_matrix/stock_location_tray.esm.js
+#: code:addons/stock_vlm_mgmt/static/src/js/location_tray_matrix/stock_location_tray.esm.js:0
 #, python-format
 msgid "Tray storage layout"
 msgstr "Raspored skladištenja pladnja"
@@ -810,7 +808,7 @@ msgstr "Širina pladnja u mm"
 
 #. module: stock_vlm_mgmt
 #. odoo-python
-#: code:addons/stock_vlm_mgmt/models/stock_quant.py
+#: code:addons/stock_vlm_mgmt/models/stock_quant.py:0
 #, python-format
 msgid "You can't change the product"
 msgstr "Ne možete promijeniti proizvod"
@@ -818,7 +816,7 @@ msgstr "Ne možete promijeniti proizvod"
 #. module: stock_vlm_mgmt
 #: model_terms:ir.ui.view,arch_db:stock_vlm_mgmt.view_stock_location_tray_type_form
 msgid "mm /"
-msgstr "mm /"
+msgstr ""
 
 #. module: stock_vlm_mgmt
 #: model_terms:ir.ui.view,arch_db:stock_vlm_mgmt.view_stock_location_tray_type_form

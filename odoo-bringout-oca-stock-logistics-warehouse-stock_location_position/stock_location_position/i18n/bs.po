@@ -16,42 +16,42 @@ msgstr ""
 #. module: stock_location_position
 #: model:ir.model.fields,field_description:stock_location_position.field_stock_location__posx
 msgid "Box (X)"
-msgstr "Box (X)"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model.fields,field_description:stock_location_position.field_stock_location__posy
 msgid "Box (Y)"
-msgstr "Box (Y)"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model.fields,field_description:stock_location_position.field_stock_location__posz
 msgid "Box (Z)"
-msgstr "Box (Z)"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model.fields,field_description:stock_location_position.field_stock_location__corridor
 msgid "Corridor"
-msgstr "Corridor"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model.fields,help:stock_location_position.field_stock_location__level
 msgid "Define as the floor of the house"
-msgstr "Define as the floor of the house"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model.fields,help:stock_location_position.field_stock_location__rack
 msgid "Define as the house number within the street"
-msgstr "Define as the house number within the street"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model.fields,help:stock_location_position.field_stock_location__row
 msgid "Define as the side within the street"
-msgstr "Define as the side within the street"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model.fields,help:stock_location_position.field_stock_location__corridor
 msgid "Define as the street"
-msgstr "Define as the street"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model,name:stock_location_position.model_stock_location
@@ -98,7 +98,7 @@ msgstr "Pozicija"
 #. module: stock_location_position
 #: model:ir.model.fields,field_description:stock_location_position.field_stock_location__rack
 msgid "Rack"
-msgstr "Rack"
+msgstr ""
 
 #. module: stock_location_position
 #: model:ir.model.fields,field_description:stock_location_position.field_stock_location__row

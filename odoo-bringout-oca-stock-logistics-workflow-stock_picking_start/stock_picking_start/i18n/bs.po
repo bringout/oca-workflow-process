@@ -85,7 +85,7 @@ msgstr "Započeto"
 
 #. module: stock_picking_start
 #. odoo-python
-#: code:addons/stock_picking_start/models/stock_picking.py
+#: code:addons/stock_picking_start/models/stock_picking.py:0
 #, python-format
 msgid ""
 "The 'started' status of the following picking(s) can't be cancelled:\n"
@@ -96,7 +96,7 @@ msgstr ""
 
 #. module: stock_picking_start
 #. odoo-python
-#: code:addons/stock_picking_start/models/stock_picking.py
+#: code:addons/stock_picking_start/models/stock_picking.py:0
 #, python-format
 msgid ""
 "The following picking(s) can't be started:\n"

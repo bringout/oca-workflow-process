@@ -20,14 +20,14 @@ msgstr "Otkaži"
 
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/exceptions.py
+#: code:addons/stock_split_picking/exceptions.py:0
 #, python-format
 msgid "Cannot split off all moves from picking %(name)s"
 msgstr "Nije moguće odvojiti sve poteze iz paketiranja %(name)s"
 
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/exceptions.py
+#: code:addons/stock_split_picking/exceptions.py:0
 #, python-format
 msgid "Cannot split picking %(name)s in state %(state)s"
 msgstr "Nije moguće podjela paketiranja %(name)s u stanju %(state)s"
@@ -50,7 +50,7 @@ msgstr "Datum"
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_split_picking
 #: model:ir.model.fields.selection,name:stock_split_picking.selection__stock_split_picking__mode__done
@@ -65,7 +65,7 @@ msgstr "ID"
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__write_uid
@@ -80,7 +80,7 @@ msgstr "Zadnje ažurirano"
 # taken from hr.po
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/models/stock_picking.py
+#: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
 msgid "Mark as todo this picking please."
 msgstr "Ovu otpremnicu označi za napraviti."
@@ -93,7 +93,7 @@ msgstr "Mod"
 #. module: stock_split_picking
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__move_ids
 msgid "Move"
-msgstr "Kretanje"
+msgstr "Knjiženje"
 
 #. module: stock_split_picking
 #: model:ir.model.fields.selection,name:stock_split_picking.selection__stock_split_picking__mode__move
@@ -128,7 +128,7 @@ msgstr "Podijeli paketiranja"
 
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/models/stock_picking.py
+#: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
 msgid "The backorder %s has been created."
 msgstr "Narudžba u čekanju %s je kreirana."
@@ -147,7 +147,7 @@ msgstr "Jedinica mjere"
 # taken from hr.po
 #. module: stock_split_picking
 #. odoo-python
-#: code:addons/stock_split_picking/models/stock_picking.py
+#: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
 msgid ""
 "You must enter done quantity in order to split your picking in several ones."

@@ -61,7 +61,7 @@ msgstr "Količina potražnje mora biti pozitivna"
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_exception
 #: model:ir.model,name:stock_exception.model_exception_rule
@@ -96,7 +96,7 @@ msgstr "Ignoriraj izuzetke"
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm__write_uid

@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_move_packaging_qty
 #: model_terms:ir.ui.view,arch_db:stock_move_packaging_qty.view_stock_move_operations
 msgid "<span> / </span>"
-msgstr "<span> / </span>"
+msgstr ""
 
 #. module: stock_move_packaging_qty
 #: model:ir.model.fields,help:stock_move_packaging_qty.field_stock_move__product_packaging_qty
@@ -85,7 +85,7 @@ msgstr "Skladišno kretanje"
 
 #. module: stock_move_packaging_qty
 #. odoo-python
-#: code:addons/stock_move_packaging_qty/models/stock_move.py
+#: code:addons/stock_move_packaging_qty/models/stock_move.py:0
 #, python-format
 msgid ""
 "There are %d move lines involved. Please set their product packaging done "

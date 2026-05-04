@@ -37,12 +37,12 @@ msgstr ""
 #. module: stock_location_fill_state
 #: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__being_emptied
 msgid "Being Emptied"
-msgstr "Being Emptied"
+msgstr ""
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__being_filled
 msgid "Being Filled"
-msgstr "Being Filled"
+msgstr ""
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields,help:stock_location_fill_state.field_stock_location__exclude_from_fill_state_computation
@@ -61,17 +61,17 @@ msgstr "Prazno"
 #. module: stock_location_fill_state
 #: model:ir.model.fields,field_description:stock_location_fill_state.field_stock_location__exclude_from_fill_state_computation
 msgid "Exclude From Fill State Computation"
-msgstr "Exclude From Fill State Computation"
+msgstr ""
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields,field_description:stock_location_fill_state.field_stock_location__fill_state
 msgid "Fill State"
-msgstr "Fill State"
+msgstr ""
 
 #. module: stock_location_fill_state
 #: model:ir.model.fields.selection,name:stock_location_fill_state.selection__stock_location__fill_state__filled
 msgid "Filled"
-msgstr "Filled"
+msgstr ""
 
 #. module: stock_location_fill_state
 #: model:ir.model,name:stock_location_fill_state.model_stock_location

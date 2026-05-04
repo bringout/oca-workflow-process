@@ -47,7 +47,7 @@ msgstr ""
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py
+#: code:addons/stock_location_package_restriction/models/stock_location.py:0
 #, python-format
 msgid ""
 "A package is mandatory on the location {location}.\n"
@@ -58,7 +58,7 @@ msgstr ""
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py
+#: code:addons/stock_location_package_restriction/models/stock_location.py:0
 #, python-format
 msgid ""
 "A package is not allowed on the location {location}.You cannot move the "
@@ -70,7 +70,7 @@ msgstr ""
 #. module: stock_location_package_restriction
 #: model:ir.model.fields,field_description:stock_location_package_restriction.field_stock_location__has_package_restriction_violation
 msgid "Has Package Restriction Violation"
-msgstr "Has Package Restriction Violation"
+msgstr ""
 
 #. module: stock_location_package_restriction
 #: model:ir.model,name:stock_location_package_restriction.model_stock_location
@@ -79,25 +79,25 @@ msgstr "Lokacije inventure"
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py
+#: code:addons/stock_location_package_restriction/models/stock_location.py:0
 #, python-format
 msgid "Only one package is allowed on the location {location}."
-msgstr "Only one package is allowed on the location {location}."
+msgstr ""
 
 #. module: stock_location_package_restriction
 #: model:ir.model.fields,field_description:stock_location_package_restriction.field_stock_location__package_restriction
 msgid "Package Restriction"
-msgstr "Package Restriction"
+msgstr ""
 
 #. module: stock_location_package_restriction
 #: model:ir.model.fields,field_description:stock_location_package_restriction.field_stock_location__package_restriction_violation_message
 msgid "Package Restriction Violation Message"
-msgstr "Package Restriction Violation Message"
+msgstr ""
 
 #. module: stock_location_package_restriction
 #: model_terms:ir.ui.view,arch_db:stock_location_package_restriction.stock_location_form_view
 msgid "Restrictions"
-msgstr "Restrictions"
+msgstr ""
 
 #. module: stock_location_package_restriction
 #: model:ir.model,name:stock_location_package_restriction.model_stock_move
@@ -106,7 +106,7 @@ msgstr "Skladišno kretanje"
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py
+#: code:addons/stock_location_package_restriction/models/stock_location.py:0
 #, python-format
 msgid ""
 "This location should only contain a single package but it contains the "
@@ -117,7 +117,7 @@ msgstr ""
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py
+#: code:addons/stock_location_package_restriction/models/stock_location.py:0
 #, python-format
 msgid ""
 "This location should only contain items in a package but it contains the "
@@ -128,7 +128,7 @@ msgstr ""
 
 #. module: stock_location_package_restriction
 #. odoo-python
-#: code:addons/stock_location_package_restriction/models/stock_location.py
+#: code:addons/stock_location_package_restriction/models/stock_location.py:0
 #, python-format
 msgid ""
 "This location should only contain items without package but it contains the "
@@ -140,4 +140,4 @@ msgstr ""
 #. module: stock_location_package_restriction
 #: model_terms:ir.ui.view,arch_db:stock_location_package_restriction.stock_location_search_view
 msgid "With package restriction violation"
-msgstr "With package restriction violation"
+msgstr ""

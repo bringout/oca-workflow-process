@@ -16,7 +16,7 @@ msgstr ""
 #. module: stock_location_lockdown
 #: model:ir.model.fields,field_description:stock_location_lockdown.field_stock_location__block_stock_entrance
 msgid "Block Stock Entrance"
-msgstr "Block Stock Entrance"
+msgstr ""
 
 #. module: stock_location_lockdown
 #: model:ir.model,name:stock_location_lockdown.model_stock_location
@@ -25,7 +25,7 @@ msgstr "Lokacije inventure"
 
 #. module: stock_location_lockdown
 #. odoo-python
-#: code:addons/stock_location_lockdown/models/stock_location.py
+#: code:addons/stock_location_lockdown/models/stock_location.py:0
 #, python-format
 msgid ""
 "It is impossible to prohibit this location from                    receiving"
@@ -40,7 +40,7 @@ msgstr "Količine"
 
 #. module: stock_location_lockdown
 #. odoo-python
-#: code:addons/stock_location_lockdown/models/stock_quant.py
+#: code:addons/stock_location_lockdown/models/stock_quant.py:0
 #, python-format
 msgid ""
 "The location %(location)s is blocked and can not be used for moving the "

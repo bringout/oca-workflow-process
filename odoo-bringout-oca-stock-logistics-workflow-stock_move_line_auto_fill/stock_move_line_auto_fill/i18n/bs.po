@@ -45,7 +45,7 @@ msgstr "Izbegni automatsko dodjeljivanje lotova"
 
 #. module: stock_move_line_auto_fill
 #. odoo-python
-#: code:addons/stock_move_line_auto_fill/models/stock_picking.py
+#: code:addons/stock_move_line_auto_fill/models/stock_picking.py:0
 #, python-format
 msgid ""
 "Filling the operations automatically is not possible, perhaps the pickings "

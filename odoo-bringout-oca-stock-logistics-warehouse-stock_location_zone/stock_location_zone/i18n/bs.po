@@ -21,7 +21,7 @@ msgstr "Područje"
 #. module: stock_location_zone
 #: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
 msgid "Area location"
-msgstr "Area location"
+msgstr ""
 
 #. module: stock_location_zone
 #: model:ir.model.fields.selection,name:stock_location_zone.selection__stock_location__location_kind__bin
@@ -54,22 +54,22 @@ msgstr "Lokacije inventure"
 #. module: stock_location_zone
 #: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__is_zone
 msgid "Is a Zone Location?"
-msgstr "Is a Zone Location?"
+msgstr ""
 
 #. module: stock_location_zone
 #: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__area_location_id
 msgid "Location Area"
-msgstr "Location Area"
+msgstr ""
 
 #. module: stock_location_zone
 #: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__location_kind
 msgid "Location Kind"
-msgstr "Location Kind"
+msgstr ""
 
 #. module: stock_location_zone
 #: model:ir.model.fields,field_description:stock_location_zone.field_stock_location__zone_location_id
 msgid "Location Zone"
-msgstr "Location Zone"
+msgstr ""
 
 #. module: stock_location_zone
 #: model:ir.model.fields.selection,name:stock_location_zone.selection__stock_location__location_kind__stock
@@ -94,4 +94,4 @@ msgstr "Zona"
 #. module: stock_location_zone
 #: model_terms:ir.ui.view,arch_db:stock_location_zone.view_location_search
 msgid "Zone location"
-msgstr "Zone location"
+msgstr ""

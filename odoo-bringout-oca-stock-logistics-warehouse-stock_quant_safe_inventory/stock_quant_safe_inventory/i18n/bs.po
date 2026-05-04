@@ -46,7 +46,7 @@ msgstr "Skladišni kvantum bez inventara ako se preuzima"
 
 #. module: stock_quant_safe_inventory
 #. odoo-python
-#: code:addons/stock_quant_safe_inventory/models/stock_quant.py
+#: code:addons/stock_quant_safe_inventory/models/stock_quant.py:0
 #, python-format
 msgid ""
 "You cannot update the quantity of a quant that is currently being picked.\n"

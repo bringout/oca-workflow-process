@@ -73,7 +73,7 @@ msgstr "Odbačeni izbori"
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_res_partner__disable_picking_grouping
@@ -83,12 +83,12 @@ msgstr "Ne grupiraj isporuke"
 #. module: stock_picking_group_by_partner_by_carrier
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
 msgid "For customer:"
-msgstr "For customer:"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
 msgid "Forecasted grouping"
-msgstr "Forecasted grouping"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_type__group_pickings
@@ -120,10 +120,10 @@ msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #. odoo-python
-#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py
+#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py:0
 #, python-format
 msgid "Grouped pickings"
-msgstr "Grouped pickings"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__id
@@ -133,7 +133,7 @@ msgstr "ID"
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__write_uid
@@ -148,7 +148,7 @@ msgstr "Zadnje ažurirano"
 #. module: stock_picking_group_by_partner_by_carrier
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
 msgid "Mass Action for the selected stock picking"
-msgstr "Mass Action for the selected stock picking"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.actions.act_window,name:stock_picking_group_by_partner_by_carrier.act_window_merge_transfers
@@ -157,24 +157,24 @@ msgstr "Spoji transfere"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #. odoo-python
-#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py
+#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py:0
 #, python-format
 msgid "Merged procurement"
-msgstr "Merged procurement"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #. odoo-python
-#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py
+#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py:0
 #, python-format
 msgid "Merged procurement for partners: %(partners_name)s"
-msgstr "Merged procurement for partners: %(partners_name)s"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #. odoo-python
-#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py
+#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py:0
 #, python-format
 msgid "No picking can be merged!"
-msgstr "No picking can be merged!"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__nothing_todo
@@ -223,12 +223,12 @@ msgstr "Prodaja"
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model,name:stock_picking_group_by_partner_by_carrier.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model,name:stock_picking_group_by_partner_by_carrier.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__selected_picking_ids
@@ -238,17 +238,17 @@ msgstr "Selected Izbors"
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__show_discarded_detail
 msgid "Show Discarded Detail"
-msgstr "Show Discarded Detail"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
 msgid "Some pickings you've selected are discarded"
-msgstr "Some pickings you've selected are discarded"
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
 msgid "Sorry, nothing to be done here."
-msgstr "Sorry, nothing to be done here."
+msgstr ""
 
 #. module: stock_picking_group_by_partner_by_carrier
 #: model:ir.model,name:stock_picking_group_by_partner_by_carrier.model_stock_move

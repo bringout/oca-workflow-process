@@ -21,4 +21,4 @@ msgstr "Smjer"
 #. module: stock_customer_deposit_elaboration
 #: model:ir.model,name:stock_customer_deposit_elaboration.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

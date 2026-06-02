@@ -164,7 +164,7 @@ msgstr "Zatvori"
 #. module: stock_picking_portal
 #: model:ir.model,name:stock_picking_portal.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__create_uid
@@ -196,7 +196,7 @@ msgstr "Isporuka address"
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.portal_my_stock_operations
@@ -253,17 +253,17 @@ msgstr "Podaci o potpisu nisu važeći."
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: stock_picking_portal
 #: model:ir.model.fields,field_description:stock_picking_portal.field_picking_link_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: stock_picking_portal
 #: model_terms:ir.ui.view,arch_db:stock_picking_portal.stock_operation_document

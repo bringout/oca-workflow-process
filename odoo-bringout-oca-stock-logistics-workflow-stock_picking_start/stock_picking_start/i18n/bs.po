@@ -66,7 +66,7 @@ msgstr "Kompanije"
 #. module: stock_picking_start
 #: model:ir.model,name:stock_picking_start.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: stock_picking_start
 #: model:ir.model.fields,field_description:stock_picking_start.field_stock_picking__user_id

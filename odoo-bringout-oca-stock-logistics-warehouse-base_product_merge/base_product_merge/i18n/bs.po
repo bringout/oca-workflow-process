@@ -16,7 +16,7 @@ msgstr ""
 #. module: base_product_merge
 #: model_terms:ir.ui.view,arch_db:base_product_merge.view_base_product_merge_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__create_uid
@@ -41,7 +41,7 @@ msgstr "Odredišni šablon proizvoda"
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: base_product_merge
 #. odoo-python
@@ -58,17 +58,17 @@ msgstr "ID"
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: base_product_merge
 #: model:ir.model.fields,field_description:base_product_merge.field_base_product_merge__merge_method

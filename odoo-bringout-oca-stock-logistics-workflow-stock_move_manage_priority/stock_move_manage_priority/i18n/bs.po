@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: stock_move_manage_priority
 #: model:ir.model,name:stock_move_manage_priority.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: stock_move_manage_priority
 #: model_terms:ir.ui.view,arch_db:stock_move_manage_priority.res_config_settings_view_form

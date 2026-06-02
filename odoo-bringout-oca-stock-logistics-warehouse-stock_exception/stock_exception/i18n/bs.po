@@ -61,7 +61,7 @@ msgstr "Količina potražnje mora biti pozitivna"
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: stock_exception
 #: model:ir.model,name:stock_exception.model_exception_rule
@@ -96,17 +96,17 @@ msgstr "Ignoriraj izuzetke"
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_exception_confirm__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: stock_exception
 #: model:ir.model.fields,field_description:stock_exception.field_stock_picking__main_exception_id

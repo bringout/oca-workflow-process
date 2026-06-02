@@ -40,7 +40,7 @@ msgstr "Kompanije"
 #. module: stock_picking_partner_note
 #: model:ir.model,name:stock_picking_partner_note.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: stock_picking_partner_note
 #: model:ir.model,name:stock_picking_partner_note.model_res_partner
@@ -60,7 +60,7 @@ msgstr "Kreirano"
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__id
@@ -70,17 +70,17 @@ msgstr "ID"
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__name
@@ -100,7 +100,7 @@ msgstr ""
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking__note
 msgid "Notes"
-msgstr "Zabilješke"
+msgstr "Napomene"
 
 #. module: stock_picking_partner_note
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_type__partner_note_type_ids

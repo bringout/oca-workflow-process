@@ -124,7 +124,7 @@ msgstr ""
 #: code:addons/stock_location_release_channel_restriction/models/exception.py:0
 #, python-format
 msgid "Undefined"
-msgstr "Nedefinisano"
+msgstr "Nedefinirano"
 
 #. module: stock_location_release_channel_restriction
 #. odoo-python

@@ -26,7 +26,7 @@ msgstr "Kompanije"
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model,name:sale_stock_restocking_fee_invoicing.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: sale_stock_restocking_fee_invoicing
 #: model:ir.model,name:sale_stock_restocking_fee_invoicing.model_res_partner

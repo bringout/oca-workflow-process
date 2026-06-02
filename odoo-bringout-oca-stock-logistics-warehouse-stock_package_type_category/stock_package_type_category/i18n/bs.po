@@ -46,7 +46,7 @@ msgstr "Stolovi"
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category__id
@@ -56,17 +56,17 @@ msgstr "ID"
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: stock_package_type_category
 #: model:ir.model.fields,field_description:stock_package_type_category.field_stock_package_type_category__name
